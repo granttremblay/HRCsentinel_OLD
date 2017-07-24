@@ -1,24 +1,26 @@
 #!/bin/sh
 
-source /proj/sot/ska/bin/ska_envs.sh
+# deleted this from Ralph's code source /proj/sot/ska/bin/ska_envs.sh
 
-cd /data/barney/kraft/hrc/
+eval `/home/grant/Ska/sot/ska/bin/flt_envs -shell sh -ska`
+
+cd /home/grant/HRCOps/Data/SentinelData
 
 TODAY=`date +"%Y%m%d"`
 
 echo ${TODAY}
 echo
 
-rm out.mail
-touch out.mail
+#rm out.mail
+#touch out.mail
 
-DATEDIR="/data/barney/kraft/hrctrend/${TODAY}"
+DATEDIR="/home/grant/HRCOps/Data/SentinelData/${TODAY}"
 
 if [ ! -d ${DATEDIR} ]
 then
 
   echo "Making directory ${DATEDIR}"
-  mkdir "/data/barney/kraft/hrctrend/${TODAY}"
+  mkdir "/home/grant/HRCOps/Data/SentinelData/${TODAY}"
 
 fi
 
@@ -31,9 +33,7 @@ do
 
   python hrctrend.py ${MSID}
 
-  cp ./${MSID}.png "/data/barney/kraft/hrctrend/${TODAY}/"
-
-  uuencode ${MSID}.png ${MSID}.png >> out.mail
+  cp ./${MSID}.png "/home/grant/HRCOps/Data/SentinelData/${TODAY}/"
 
 done
 
@@ -43,9 +43,9 @@ echo
 
 # uuencode ${MSID}.png ${MSID}.png | mail -s "${TODAY} ${MSID}" rkraft@cfa.harvard.edu
 
-pwd
-echo "Creating email"
-python imageattach.py -f rkraft@cfa.harvard.edu -t hrcdude@cfa.harvard.edu -s "${TODAY} Daily Trend Plots" *.png
-echo
+#pwd
+#echo "Creating email"
+#python imageattach.py -f rkraft@cfa.harvard.edu -t hrcdude@cfa.harvard.edu -s "${TODAY} Daily Trend Plots" *.png
+#echo
 
 echo "Successfully Completed"
