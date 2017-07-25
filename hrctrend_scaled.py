@@ -3,8 +3,17 @@
 """Plot one MSID, with scale setting options on the command line.
 """
 
+import os
 import sys
 import argparse
+
+import matplotlib.pyplot as plt
+
+import Chandra.Time
+from Ska.engarchive import fetch
+
+import numpy as np
+import re
 
 
 # Arguments affect imports, so process them early
@@ -44,21 +53,11 @@ interactive_plot = argdata.interact
 plot_dest = argdata.plotfile
 
 
-import matplotlib
 
-if not interactive_plot:
-    matplotlib.use ('agg')
-
-import matplotlib.pyplot as plt
-import sys
-import Chandra.Time
-from Ska.engarchive import fetch
-import numpy as np
-import re
 
 
 def pruneLower (sorted_vals, median, fout, slop):
-    """Determine limit to exclude outliers from the low data range.  
+    """Determine limit to exclude outliers from the low data range.
     Data well outside the percentile defined by fout are excluded.
     """
     n = len (sorted_vals)
@@ -80,14 +79,14 @@ def pruneLower (sorted_vals, median, fout, slop):
 
 
 def pruneUpper (sorted_vals, median, fout, slop):
-    """Determine limit to exclude outliers from the upper data range.  
+    """Determine limit to exclude outliers from the upper data range.
     Data well outside the percentile defined by fout are excluded.
     """
     n = len (sorted_vals)
     # Maximum number of outliers - might be zero
     nomax = int (fout * n)
     # Maximum upper threshold
-    ilo = n - 1 - nomax 
+    ilo = n - 1 - nomax
     cutval = median + (sorted_vals [ilo] - median) * slop
     if sorted_vals [n - 1] <= cutval:
         return sorted_vals [n - 1]
@@ -159,27 +158,30 @@ def setLimits (vals, lower, upper, slop, expand):
 ############################################################
 # For Chandra.Time formats see
 # http://cxc.cfa.harvard.edu/mta/ASPECT/tool_doc/eng_archive/fetch_tutorial.html#date-and-time-formats
-tend = Chandra.Time.DateTime (endTime).secs
-tstart = tend - days * 24.0 * 3600.0
 
-plt.figure (1)
+if __name__=='__main__':
 
-dat = fetch.MSID (msid, tstart, tend)
-dat.plot ('-r', alpha = 0.4)
-plt.title (msid)
-if lower or upper:
-    # If either limit is to be set pyplot autoscaling is turned off
-    vals = dat.raw_vals if dat.state_codes else dat.vals
-    setLimits (vals, lower, upper, slop, expand)
+    tend = Chandra.Time.DateTime (endTime).secs
+    tstart = tend - days * 24.0 * 3600.0
 
-if plot_dest:
-    outfile = plot_dest
-else:
-    outfile = msid + '.png'
+    plt.figure (1)
 
-if interactive_plot:
-    plt.show ()
-else:
-    plt.savefig (outfile)
+    dat = fetch.MSID (msid, tstart, tend)
+    dat.plot ('-r', alpha = 0.4)
+    plt.title (msid)
+    if lower or upper:
+        # If either limit is to be set pyplot autoscaling is turned off
+        vals = dat.raw_vals if dat.state_codes else dat.vals
+        setLimits (vals, lower, upper, slop, expand)
 
-sys.exit ()
+    if plot_dest:
+        outfile = plot_dest
+    else:
+        outfile = msid + '.png'
+
+    if interactive_plot:
+        plt.show ()
+    else:
+        plt.savefig (outfile)
+
+    sys.exit ()
