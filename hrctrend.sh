@@ -5,6 +5,8 @@
 # you need pyyaks
 export SKA=/home/grant/Engineering/sot/ska
 
+eval `environment.sh`
+
 #eval `$SKA/bin/flt_envs -shell sh -ska`
 
 
