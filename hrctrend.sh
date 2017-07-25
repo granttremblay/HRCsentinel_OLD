@@ -3,9 +3,8 @@
 # deleted this from Ralph's code source /proj/sot/ska/bin/ska_envs.sh
 
 # you need pyyaks
-export SKA=/home/grant/Engineering/sot/ska
 
-eval `environment.sh`
+sh environment.#!/bin/sh
 
 #eval `$SKA/bin/flt_envs -shell sh -ska`
 
