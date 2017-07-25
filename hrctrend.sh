@@ -2,7 +2,12 @@
 
 # deleted this from Ralph's code source /proj/sot/ska/bin/ska_envs.sh
 
-eval `/home/grant/Ska/sot/ska/bin/flt_envs -shell sh -ska`
+# you need pyyaks
+export SKA=/home/grant/Engineering/sot/ska
+
+#eval `$SKA/bin/flt_envs -shell sh -ska`
+
+
 
 cd /home/grant/HRCOps/Data/SentinelData
 
