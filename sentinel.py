@@ -8,6 +8,7 @@ import sys
 import argparse
 
 import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 
 import Chandra.Time
 from Ska.engarchive import fetch
