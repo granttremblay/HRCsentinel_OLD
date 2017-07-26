@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Plot one MSID, with scale setting options on the command line.
+"""Monitor the long-term health of the main 28 volt bus
 """
 
 import os
@@ -15,13 +15,6 @@ from Ska.engarchive import fetch
 
 import numpy as np
 import re
-
-# Establish the environment only for this session
-
-#os.environ["SKA"] = "/home/grant/Engineering/sot/ska"
-#os.environ["SKA_BIN"] = "/home/grant/Engineering/sot/ska/bin"
-
-os.putenv("SKA", "/home/grant/Engineering/sot/ska")
 
 
 # Arguments affect imports, so process them early
@@ -50,6 +43,7 @@ argdata = parser.parse_args()
 if not argdata.msid:
     parser.print_help()
     sys.exit(1)
+
 msid = argdata.msid
 lower = argdata.lower
 upper = argdata.upper
@@ -160,10 +154,22 @@ def setLimits(vals, lower, upper, slop, expand):
     # Last tweak to prevent the limits from coinciding
     plt.ylim(ylow - 0.001, yhi + 0.001)
 
+def convertDNtoVoltage(m,b):
+    """
+    Scale the DN values for the 28 volt monitor MSID
+    to an actual voltage. I got the list here:
+    https://icxc.cfa.harvard.edu/hrcops/msid/hrc.msid.html
 
-############################################################
-# For Chandra.Time formats see
-# http://cxc.cfa.harvard.edu/mta/ASPECT/tool_doc/eng_archive/fetch_tutorial.html#date-and-time-formats
+    "m" and "b" are coefficients in the formula  V = m * DN + b,
+    where V is the voltage being read, DN is the telemetry
+    digital value, and b is the offset of the measurement.
+
+    example:  2C15NALV reads digital number 32.
+
+              from the table, m = 0.15625 and b = -20
+              the voltage is then V = 0.15625 * 32 + -20 = -15 volts
+    """
+    pass
 
 if __name__ == '__main__':
 
