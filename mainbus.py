@@ -29,7 +29,7 @@ parser.add_argument('-e', '--expand', type=float,
                     help='scale expansion for pruning or unspecified limit',
                     default=0.03)
 parser.add_argument('-d', '--days', type=float,
-                    help='number of days to plot', default=14.0)
+                    help='number of days to plot', default=6570)
 parser.add_argument('-t', '--time',
                     help='end time for plot in Chandra.Time format')
 parser.add_argument('-i', '--interact', action='store_true',
