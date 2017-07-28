@@ -1,0 +1,294 @@
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:093:A-APR0317A ===
+Command Line: CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:093:A-APR0317A
+Wed Mar 29 13:56:48 EDT 2017
+2017:088:17:56:48
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:093:A-APR0317A ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-030-chk_for_cmd_timing_lt_1sec.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[FAIL]CLP-030-chk_for_cmd_timing_lt_1sec.pl 
+ 1:  2017:097:16:05:21.315	00:00:34	  528714	2S1HVOF   	640A000 == 640a000 sd0500 shield a hv off  VCDU WARN: dvcdu: -16146819
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-031-chk_for_cmds_between_radmon-disable.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]  CLP-031-chk_for_cmds_between_radmon.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-033-chk_for_HV_down_in_radzone.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-033-chk_for_HV_down_in_radzone.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-034-chk_for_bad_cmd_hex.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-034-chk_for_bad_cmd_hex.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-036-chk_hv_scs_for_selected_detector.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+==================================================
+  OBS: 18306/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2017:093:03:18:03.254; vcdu=15777586
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 19838/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2017:094:00:19:18.316; vcdu=16072903
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 18931/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2017:095:16:18:09.982; vcdu=16634588
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+[OK]   CLP-036-chk_hv_scs_for_selected_detector.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-037-chk-format_commands.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-037-chk-format_commands.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-039-chk-pmt-on-and-up.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-039-chk-pmt-on-and-up.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-040-chk_dither_par.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+  scs{91} is term when Dither is Enabled @ 2017:092:16:53:30.000 vcdu=15631349
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFY =  0.000000e+00 rad (0.000000e+00 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:092:20:28:30.000 vcdu=15681690
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 18306/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2017:093:03:18:03.254; vcdu=15777586
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+  scs{91} is act when Dither is Enabled @ 2017:093:03:33:42.942 vcdu=15781253
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+  scs{91} is act when Dither is Enabled @ 2017:093:06:50:21.520 vcdu=15827296
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 19838/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2017:094:00:19:18.316; vcdu=16072903
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2017:094:00:19:22.496 vcdu=16072920
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+  scs{91} is act when Dither is Enabled @ 2017:094:06:46:47.888 vcdu=16163633
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 18931/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2017:095:16:18:09.982; vcdu=16634588
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2017:095:16:19:50.784 vcdu=16634981
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+  scs{91} is act when Dither is Enabled @ 2017:095:19:35:15.380 vcdu=16680736
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+[OK]   CLP-040-chk_dither_par.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-041-chk_mechanism_cmds.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+Warn: Found Mech Cmd [2PSHBALD] in line:  2017:094:00:17:26.316 00:00:02 16072466 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2017:094:00:17:27.316 00:00:01 16072470 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2017:094:00:17:47.316 00:00:01 16072548 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2017:094:00:17:48.316 00:00:01 16072552 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2017:094:00:17:49.316 00:00:01 16072556 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2017:094:00:17:50.316 00:00:01 16072560 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2017:094:00:17:51.316 00:00:01 16072564 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2017:094:00:17:52.316 00:00:01 16072568 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2017:094:00:17:53.316 00:00:01 16072572 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2017:095:16:16:17.982 00:00:02 16634151 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2017:095:16:16:18.982 00:00:01 16634155 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2017:095:16:16:38.982 00:00:01 16634233 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2017:095:16:16:39.982 00:00:01 16634237 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2017:095:16:16:40.982 00:00:01 16634240 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2017:095:16:16:41.982 00:00:01 16634244 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2017:095:16:16:42.982 00:00:01 16634248 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2017:095:16:16:43.982 00:00:01 16634252 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2017:095:16:16:44.982 00:00:01 16634256 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+[OK]   CLP-041-chk_mechanism_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-042-chk_fmt.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-042-chk_fmt.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-043-chk_discrete_hv_cmds_cmds.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-043-chk_discrete_hv_cmds_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-044-chk_hrc_cmds_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-045-chk_hrc_scs_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:093:A-APR0317A
+[OK]   CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+
+1 errors found in load review

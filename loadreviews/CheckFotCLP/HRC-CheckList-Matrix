@@ -1,0 +1,34 @@
+CLP-033-chk_for_HV_down_in_radzone.pl	HRC-01	MCP HV Ramped Down in RADZONE  HRC-R-002  Damage to MCPs from operation at high rates
+CLP-033-chk_for_HV_down_in_radzone.pl	HRC-02	Antico Shield HV off in RADZONE     Damage to PMT from operation at high rates
+CLP-036-chk_hv_scs_for_selected_detector.pl	HRC-03	HRC-S MCP HV Ramping SCSs disabled when HRC-I selected  HRC-C-006   
+CLP-036-chk_hv_scs_for_selected_detector.pl	HRC-04	HRC-I MCP HV Ramping SCSs disabled when HRC-S selected  HRC-C-006   
+CLP-035-chk_hv_scs_after_radmon_dis.pl	HRC-05	MCP HV Ramp-up SCSs not enabled if RADMON disabled  HRC-R-002  No RADMON protection of MCP in operation DELETED
+CLP-041-chk_mechanism_cmds.pl	HRC-06	HRC door "close" safing SCS not disabled while door "open"  Loss of protection from door in the case of a safing action
+CLP-041-chk_mechanism_cmds.pl	HRC-07	HRC door "close" safing SCS not enabled while door "closed"   Over-close the HRC door during a safing action require ground intervention to correct
+CLP-041-chk_mechanism_cmds.pl	HRC-08	HRC door "open" for observation     No science data
+CLP-032-chk_proper_det_vs_rampupdown_scs.pl	HRC-09	HRC configuration correct for observation     Poor quality science data
+CLP-030-chk_for_cmd_timing_lt_1sec.pl	HRC-10	TLM format 1 for HRC observations     Loss of science data
+	HRC-11	SIM translation correct for observation     Poor quality or no science data
+	HRC-12	SIM focus correct for observation     Poor quality science data
+CLP-040-chk_dither_par.pl	HRC-13	Correct dither selected for HRC observations  HRC-R-004  Possible localized damage to MCP
+CLP-032-chk_proper_det_vs_rampupdown_scs.pl	HRC-14	MCP HV turn-on only via SCSs 92 and 93  HRC-C-006   
+CLP-041-chk_mechanism_cmds.pl	HRC-15	Shutters HOME prior to HRC door motion  HRC-C-001  Door and shutter collide - loss of instrument
+CLP-041-chk_mechanism_cmds.pl	HRC-16	HRC Door not moved to OPEN limit     Snubbers break off
+CLP-041-chk_mechanism_cmds.pl	HRC-17	HRC Door not moved to CLOSED limit  HRC-L-001  Over-stress door mechanism - potential loss of instrument DELETED
+CLP-041-chk_mechanism_cmds.pl	HRC-18	HRC Door "closed" in RADZONE     Possible degradation of UV/ion shields
+	HRC-19	SIM translated to HRC-S for RADZONE     Loss of ACIS safing
+CLP-030-chk_for_cmd_timing_lt_1sec.pl	HRC-20	Time between HRC commands > 1 second     Command collisions
+CLP-042-chk_fmt.pl	HRC-21	HRC telemetry timing commanded at format changes  HRC-L-003  Loss of science data
+CLP-036-chk_hv_scs_for_selected_detector	HRC-22	HRC Dither Control SCS not disabled     Loss of science data
+CLP-036-chk_hv_scs_for_selected_detectorHRC-23	MCP HV turn-on SCSs not disabled     Loss of science data
+	HRC-24	HRC HV safing SCS (# 104) not disabled     Loss of SI safing capability
+	HRC-25	RADMON disabled in RADZONE     Unintended SI safing
+CLP-043-chk_discreet_hv_cmds_cmds.pl	HRC-26	Detectors not switched with MCP HV on  HRC-C-005  Possible damage to charge amplifiers
+CLP-042-chk_fmt.plHRC-27	Shutters moved with HRC door not "open"  HRC-C-008  Door and shutter collide - loss of instrument
+CLP-036-chk_hv_scs_for_selected_detector.pl	HRC-28	MCP HV turn-on only for selected detector  HRC-C-006  Possible MCP damage
+CLP-042-chk_fmt.pl	HRC-29	Any mechanism selected for commanding     Protect against a second relay failure
+CLP-039-chk-pmt-on-and-up.pl	HRC-30	PMT HV step increase size not greater-than 4     Possible PMT HV damage
+	HRC-31	Exposure time at least 90% of requested     Less than approved science data
+CLP-039-chk-pmt-on-and-up.pl	HRC-32	PMT HV at operational level for science observing time (while RADMON is enabled)     Full RADMON protection of SIs
+	HRC-33	No HRC MCP or PMT HV commands in vehicle loads     Possible MCP or PMT damage
+	HRC-34	No HRC HV SCS enable or active commands in vehicle loads   Possible MCP damage

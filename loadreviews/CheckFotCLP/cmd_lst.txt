@@ -1,0 +1,345 @@
+
+The HRC Command List                    SAO-HRC-CLIST-98-312
+                                        Rev D, 28 MAY 1998
+
+                                 CONTENTS
+
+1.0  DISCRETE COMMANDS
+
+2.0  SERIAL DIGITAL COMMANDS
+
+     2.1  1st Decoder (Spect & Shield A HVPS)
+     2.2  2nd Decoder (Imaging and Shield B HVPS)
+     2.3  3rd Decoder (Low Voltage Power Supply Control)
+     2.4  4th Decoder (Motor Controller and Observing Mode CMDS)
+     2.5  5th Decoder (CEA CMDS)
+     2.6  6th Decoder (Discriminator Thresholds)
+     2.7  7th Decoder (Unassigned)
+     2.8  8th Decoder (Unassigned)
+     2.9  Block 0 (CEA Features)
+     2.10 Block 1 (Motion Control Commands)
+     2.11 Block 2 (Limit Switch Enable Commands)
+     2.12 Block 3 (Unused)
+     2.13 Block 4 (Unused)
+     2.14 Block 5 (Motor Mode Commands)
+     2.15 Block 6 (Motor Select Commands)
+     2.16 Block 7 Available (78XX thru 7FXX)
+
+
+
+
+1.0  DISCRETE COMMANDS
+
+MNEMONIC       DESCRIPTION              DISCRETE TLM VERIFIER
+
+32H   2C1BASL   BUS A SELECT, CEA A LVPS           2C1LVBS
+33H   2C1BBSL   BUS B SELECT, CEA A LVPS           2C1LVBS
+74H   2C2BASL   BUS A SELECT, CEA B LVPS           2C2LVBS
+75H   2C2BBSL   BUS B SELECT, CEA B LVPS           2C2LVBS
+34H   2IMBASL   BUS A SELECT, IMAGING HVPS         2IMHVBS
+36H   2IMBBSL   BUS B SELECT, IMAGING HVPS         2IMHVBS
+76H   2SPBASL   BUS A SELECT, SPECTROSCOPY HVPS    2SPHVBS
+77H   2SPBBSL   BUS B SELECT, SPECTROSCOPY HVPS    2SPHVBS
+37H   2S1BASL   BUS A SELECT, SHIELD A HVPS        2S1HVBS
+38H   2S1BBSL   BUS B SELECT, SHIELD A HVPS        2S1HVBS
+78H   2S2BASL   BUS A SELECT, SHIELD B HVPS        2S2HVBS
+79H   2S2BBSL   BUS B SELECT, SHIELD B HVPS        2S2HVBS
+39H   2PRASSL   SPECTR DETECTOR SELECT, PREAMP A   2PREADS
+3AH   2PRAISL   IMAGING DETECTOR SELECT, PREAMP A  2PREADS
+3BH   2PRA1SL   SHIELD PMT 1 SELECT, PREAMP A      2ELEASS
+3DH   2PRA2SL   SHIELD PMT 2 SELECT, PREAMP A      2ELEASS
+7AH   2PRBSSL   SPECTR DETECTOR SELECT, PREAMP B   2PREBDS
+7BH   2PRBISL   IMAGING DETECTOR SELECT, PREAMP B  2PREBDS
+7CH   2PRB1SL   SHIELD PMT 1 SELECT, PREAMP B      2ELEBSS
+7DH   2PRB2SL   SHIELD PMT 2 SELECT, PREAMP B      2ELEBSS
+3EH   205VAON   +5V LV POWER SUPPLY A ON           2PS5AON
+3FH   205VAOF   +5V LV POWER SUPPLY A OFF          2PS5AON
+7EH   205VBON   +5V LV POWER SUPPLY B ON           2PS5BON
+7FH   205VBOF   +5V LV POWER SUPPLY B OFF          2PS5BON
+22H C 2FSMREN   FAILSAFE MASTER RELAY ENABLE       2FSMRST
+24H   2FSMRDI   FAILSAFE MASTER RELAY DISABLE      2FSMRST
+25H C 2FSCSEN   FAILSAFE CALSRC RELAY ENABLE       2FSCAST
+28H   2FSCSDI   FAILSAFE CALSRC RELAY DISABLE      2FSCAST
+65H C 2FSPYEN   FAILSAFE +Y SHUTTER ENABLE         2FSPYST
+66H   2FSPYDI   FAILSAFE +Y SHUTTER DISABLE        2FSPYST
+69H C 2FSNYEN   FAILSAFE -Y SHUTTER ENABLE         2FSNYST
+6AH   2FSNYDI   FAILSAFE -Y SHUTTER DISABLE        2FSNYST
+
+2.0  SERIAL DIGITAL COMMANDS  
+
+TLM VERIFIERS ARE READ IN SCIENCE HEADER TLM FRAMES
+
+2.1  1st Decoder (Spect & Shield A HVPS)
+
+DEC  HEX  MNEMONIC  DESCRIPTION                  TLM    VERIFIER
+                                                MNEMONIC-BYTE-BIT
+00   00XX CODE NOT USED
+01   0100 2SPHVOF   SPECT DET HV OFF              2SPONST   88/7
+   C 0101 2SPHVON   SPECT DET HV ON               2SPONST   88/7
+02 C 02YY 2SPTTHV   SPECT TOP PLATE HV            2SPTPAST 62/0-6
+03 C 03YY 2SPTBHV   SPECT BOT PLATE HV            2SPBPAST 63/0-6
+04   0400 2SPCLDS   SPECT ILIM DISABLE            2SPCLST   88/6
+     0401 2SPCLEN   SPECT ILIM ENABLE             2SPCLST   88/6
+05   0500 2S1HVOF   SHIELD A HV OFF               2S1ONST   88/5
+   C 0501 2S1HVON   SHIELD A HV ON                2S1ONST   88/5
+06 C 06XY 2S1STHV   SHIELD A HV STEP              2S1HVST     89
+07   07XX
+
+2.2  2nd Decoder (Imaging and Shield B HVPS)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+08   0800 
+09   0900 2IMHVOF   IMAGING DET HV OFF            2IMONST   88/4
+   C 0901 2IMHVON   IMAGING DET HV ON             2IMONST   88/4
+10 C 0AYY 2IMTTHV   IMAGING TOP PLATE HV          2IMTPAST 64/0-6
+11 C 0BYY 2IMTBHV   IMAGING BOT PLATE HV          2IMBPAST 65/0-6
+12   0C00 2IMCLDS   IMAGING ILIM DISABLE          2IMCLST   88/3
+     0C01 2IMCLEN   IMAGING ILIM ENABLE           2IMCLST   88/3
+13   OD00 2S2HVOF   SHIELD B HV OFF               2S2ONST   88/2
+   C OD01 2S2HVON   SHIELD B HV ON                2S2ONST   88/2
+14 C 0EXY 2S2STHV   SHIELD B HV STEP              2S2HVST     90
+15   0FXX
+
+2.3  3rd Decoder (Low Voltage Power Supply Control)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+16   1000 215PCAOF  +15V LV POWER SUPPLY OFF       215PCAST  63/7
+     1001 215PCAON  +15V LV POWER SUPPLY ON        215PCAST  63/7
+17   1100 215NCAOF  -15V LV POWER SUPPLY OFF       215NCAST  64/7
+     1101 215NCAON  -15V LV POWER SUPPLY ON        215NCAST  64/7
+18   1200 224PCAOF  +24V LV POWER SUPPLY OFF       224PCAST  62/7
+     1201 224PCAON  +24V LV POWER SUPPLY ON        224PCAST  62/7
+19   13XX 
+20   14XX 
+21   15XX
+22   16XX
+23   17XX
+
+
+
+2.4  4th Decoder (Motor Controller and Observing Mode CMDS)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+24   18YY 2PSHBALD  MOT CTRL POS WORD HI BYTE LOAD 2SCTHAST    69
+25   19YY 2PSLBALD  MOT CTRL POS WORD LO BYTE LOAD 2SCTHAST    70
+26   1A00 2OBSVASL  OBSERVING MODE SELECT          2OBNLASL  86/1
+     1A01 2NXILASL  NEXT IN LINE MODE SELECT       2OBNLASL  86/1
+27   1B00 2SPIMASL  SPECT DET IN IMAGING MODE      2SPMDASL  86/0
+     1B01 2SPNLASL  SPECT DET IN NORMAL MODE       2SPMDASL  86/0
+28   1CXX                                               
+29   1DXX
+30   1EXX
+31   1FXX
+
+2.5  5th Decoder (CEA CMDS)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+32   20YY 2CALBAAM  CAL PULSE AMPLITUDE            2CALPALV   107
+33   2100 2CLMDAOF  CAL MODE OFF                   2CLMDAST  86/3
+     2101 2CLMDAON  CAL MODE ON                    2CLMDAST  86/3
+34   22YY 2FCPUALV  FORCED COARSE POS "U"          2FCPUAST    79
+35   23YY 2FCPVALV  FORCED COARSE POS "V"          2FCPVAST    80
+36   24YY 2CBHUALV  CB HI CHANNEL, "U" AXIS        2CBHUAST    81
+37   25YY 2CBLUALV  CB LO CHANNEL, "U" AXIS        2CBLUAST    82
+38   26YY 2CBHVALV  CB HI CHANNEL, "V" AXIS        2CBHVAST    83
+39   27YY 2CBLVALV  CB LO CHANNEL, "V" AXIS        2CBLVAST    84
+
+2.6  6th Decoder (Discriminator Thresholds)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+40   28YY 2ULDIATH  UPPER LVL THRESHOLD            2ULDIALV   104
+41   29YY 2LLDIATH  TRIGGER LVL THRESHOLD          2LLDIALV   105
+42   2AYY                                                        
+43   2BYY 2GRDVAAM  GRID BIAS VOLTAGE              2GRDVALV   108
+44   2CYY 2WDTHATH  COARSE WIDTH THRESHOLD         2WDTHAST    85
+45   2DYY 2RSRFAAM  RANGE SWITCH SETTING           2RSRFALV   109
+46   2EXX
+47   2FXX
+
+2.7  7th Decoder (Unassigned)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+48   30XX
+49   31XX
+50   32XX
+51   33XX
+52   34XX
+53   35XX
+54   36XX
+55   37XX
+
+2.8  8th Decoder (Unassigned)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+56   38XX
+57   39XX
+58   3AXX
+59   3BXX
+60   3CXX
+61   3DXX
+62   3EXX
+63   3FXX
+
+2.9  Block 0 (CEA Features)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+64   4000 2SHL1ADI  SHIELD ANTICO DISABLE          2SHLDAVR  87/0
+     4001 2SHL1AEN  SHIELD ANTICO ENABLE           2SHLDAVR  87/0
+65   4100 2WDTHADI  WIDTH DISABLE                  2WDTHAVR  87/1
+     4101 2WDTHAEN  WIDTH ENABLE                   2WDTHAVR  87/1
+
+66   4200 2ULDIADI  UPPER LVL DISABLE              2ULDIAVR  87/2
+     4201 2ULDIAEN  UPPER LVL ENABLE               2ULDIAVR  87/2
+67   4300 2CBLKADI  CENTER BLANK DISABLE           2CBLKAVR  87/3
+     4301 2CBLKAEN  CENTER BLANK ENABLE            2CBLKAVR  87/3
+68   4400 2EBLKADI  EDGE BLANK DISABLE             2EBLKAVR  87/4
+     4401 2EBLKAEN  EDGE BLANK ENABLE              2EBLKAVR  87/4
+69   4500 2FIFOAOF  DATA FIFO RESET                2FIFOAVR  86/2
+     4501 2FIFOAON  DATA FIFO ENABLE               2FIFOAVR  86/2
+70   4600 
+     4601 
+71   4700 
+     4701 
+
+2.10 Block 1 (Motion Control Commands)                            
+   
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+72   4800                                          
+     4801              
+73   4900 2SMOIADI  SELECTED MTR OVERCUR PROT DISA 2DROIAST  71/1
+     4901 2SMOIAEN  SELECTED MTR OVERCUR PROT ENAB 2DROIAST  71/1
+74   4A00 2SMOTADI  SELECTED MTR OVERTEM PROT DISA 2DROTAST  71/2
+     4A01 2SMOTAEN  SELECTED MTR OVERTEM PROT ENAB 2DROTAST  71/2
+75   4B00                                                        
+     4B01                                                        
+76   4C00                                                        
+     4C01                                                        
+77   4D00                                                        
+     4D01                                                        
+78   4E00                                                        
+     4E01                                                        
+79   4F00 
+     4F01 
+
+2.11 Block 2 (Limit Switch Enable Commands)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+80   5000 2CHPLADI  CLOS/HOME PRIMARY LIM SW DISA  2CPLSAST  72/0
+     5001 2CHPLAEN  CLOS/HOME PRIMARY LIM SW ENAB  2CPLSAST  72/0
+81   5100 2CHSLADI  CLOS/HOME SECON LIM SW DISA    2CSLSAST  72/1
+     5101 2CHSLAEN  CLOS/HOME SECON LIM SW ENAB    2CSLSAST  72/1
+82   5200 2OMPLADI  OPEN/MAX PRIMARY LIM SW DISA   2OPLSAST  72/2
+     5201 2OMPLAEN  OPEN/MAX PRIMARY LIM SW ENAB   2OPLSAST  72/2
+83   5300 2OMSLADI  OPEN/MAX SECON LIM SW DISA     2OSLSAST  72/3
+     5301 2OMSLAEN  OPEN/MAX SECON LIM SW ENAB     2OSLSAST  72/3
+84   5400 2STFLADI  CLEAR STOP FLAGS               2SFLGAST  72/4
+     5401 2STFLAEN  ENABLE STOP FLAGS              2SFLGAST  72/4
+85   5500                                                    73/5
+     5501                                                    73/5
+86   5600                                                    73/6
+     5601                                                    73/6
+87   5700 
+     5701 
+
+2.12 Block 3 (Unused)
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+88   5800                                                    
+     5801                                                        
+89   5900                                                        
+     5901                                                        
+90   5A00                                                 
+     5A01                                                      
+91   5B00                                                        
+     5B01                                                        
+92   5C00                                                        
+     5C01                                                        
+93   5D00                                                        
+     5D01                                                        
+94   5E00                                                        
+     5E01                                                        
+95   5F00                                                        
+     5F01                                                        
+
+2.13 Block 4 (Unused) 
+
+DEC  HEX  MNEMONIC  DESCRIPTION
+
+96   6000      
+     6001 
+97   6100                                                    77/1
+     6101                                                    77/1
+98   6200                                                    77/2
+     6201                                                    77/2
+99   6300                                                    77/3
+     6301                                                    77/3
+100  6400                                                    77/4
+     6401                                                    77/4
+101  6500                                                    77/5
+     6501                                                    77/5
+102  6600                                                    77/6
+     6601                                                    77/6
+103  6700 
+     6701 
+
+2.14 Block 5 (Motor Mode Commands)
+
+104   6800 2MDRVADI  MOTOR DRIVE DISABLE           2MDRVAST  68/0
+104 C 6801 2MDRVAEN  MOTOR DRIVE ENABLE            2MDRVAST  68/0
+105   6901 2MVPSAEX  STEP FM HOME TO POS CTR VALUE 2MCPRAMD  68/1
+106   6A01 2MVLAAEX  MOVE TO CLOS/HOME LIM SWITCH  2MCLAAMD  68/2
+107   6B01 2MVLBAEX  MOVE TO OPEN/MAX LIMIT SWITCH 2MCLBAMD  68/3
+108   6C01 2NSTAAEX  MOVE N STEPS TWRD CLOS/HOM LS 2MCNAAMD  68/4
+109   6D01 2NSTBAEX  MOVE N STEPS TWRD OPEN/MAX LS 2MCNBAMD  68/5
+110   6E00           SPARE                                   68/6
+111   6FXX 2MCMRASL  MOTION CONTROL MODE RESET     2MCMDARS  68/7
+
+2.15 Block 6 (Motor Select Commands)
+
+112   70XX 2ALMTADS  ALL MOTORS DESELECT           2ALMTAST  66/0
+113 C 71XX 2DRMTASL  DOOR MOTOR SELECT             2DRMTAST  66/1
+114   72XX 2CLMTASL  CALSRC MOTOR SELECT           2CLMTAST  66/2
+115   73XX 2PYMTASL  +Y SHUTTER MOTOR SELECT       2PYMTAST  66/3
+116   74XX 2NYMTASL  -Y SHUTTER MOTOR SELECT       2NYMTAST  66/4
+
+2.16 Block 7 Available (78XX THRU 7FXX)
+
+CODES 8000 THRU FFFF RESERVED FOR FUTURE GROWTH (IF REQUIRED)
+
+UNLESS OTHERWISE SPECIFIED,
+     CODES XXX1 = ON OR ENABLED
+     CODES XXX0 = OFF OR DISABLED
+     X,XX,XXX = DON'T CARE
+     Y,YY = DATA VALUE
+     C = CRITICAL COMMAND
+
+
+
+Revision History:
+
+
+Rev "D" has the following change:
+
+     In Section 2.10, Change
+
+          FROM:     4A00..... 2SMOTAEN
+
+          TO:       4A00..... 2SMOTADI
+
+
+          FROM:     4A01..... 2SMOTADI
+
+          TO:       4A01..... 2SMOTAEN
+

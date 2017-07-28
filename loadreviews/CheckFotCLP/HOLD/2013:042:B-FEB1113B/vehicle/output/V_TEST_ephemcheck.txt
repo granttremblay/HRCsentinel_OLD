@@ -1,0 +1,71 @@
+>>> Running Ephemeris Command Check - vehicle/VR042_0714.backstop
+
+Searching for continuity prior to 2013042.072528811
+EPHEMERIS UPDATE at 2013042.070135547
+
+[PASS] Continuity Search
+
+
+>> Ephemeris Update/Perigee Sequence Check
+2013043.144644905 PERIGEE (VCDU count = 3160345)
+2013044.222946842 EPHEMERIS UPDATE (VCDU count = 3608909)
+2013046.061403097 PERIGEE (VCDU count = 4044596)
+2013047.135733762 EPHEMERIS UPDATE (VCDU count = 4500487)
+2013048.214139667 PERIGEE (VCDU count = 4945305)
+[PASS] SEQUENCE CHECK
+
+
+>> Ephemeris Update Parameter Check
+
+2013044.222946842 EPHEMERIS UPDATE (VCDU count = 3608909)
+[ OK ] Time matched one time in EPHEM_CERT.txt (2013044.222946842)
+Parameter Comparison
++---------+------------------+------------------+-------+-------------+--------+
+|Parameter|    FOT Request   |   INVERTED CLD   | UNITS | %Difference | Result |
++---------+------------------+------------------+-------+-------------+--------+
+| AOEPHEM1|           8133401|           8133401|       |   0.00e+00  | [PASS] |
+| AOEPHEM2|           8A3001A|           8A3001A|       |   0.00e+00  | [PASS] |
+|  AORATIO|         3.7024565|         3.7024565|       |   1.19e-06  | [PASS] |
+| AOARGPER|         4.8560116|         4.8560114|    rad|   4.13e-06  | [PASS] |
+| AOECCENT|         0.8640213|         0.8640212|       |   1.19e-05  | [PASS] |
+| AO1MINUS|         0.3680263|         0.3680263|       |   6.77e-06  | [PASS] |
+|  AO1PLUS|         0.6319737|         0.6319736|       |   1.49e-05  | [PASS] |
+| AOMOTION|         0.0000275|         0.0000275|    1/s|   4.36e-06  | [PASS] |
+| AOITERAT|        10.0000000|        10.0000000|       |   0.00e+00  | [PASS] |
+| AOORBANG|     90340.9631951|     90340.9531000| km^2/s|   1.12e-05  | [PASS] |
+| AOPERIGE| 414224036.9822619| 414224036.9824200|      s|   3.82e-11  | [PASS] |
+| AOASCEND|         6.0507308|         6.0507307|    rad|   1.79e-06  | [PASS] |
+|   AOSINI|         0.9645371|         0.9645370|       |   4.31e-06  | [PASS] |
+|    AOSLR|     20475.3550597|     20475.3516000|     km|   1.69e-05  | [PASS] |
+| AOSQRTMU|    155041.6055191|    155041.5940000| km^2/s|   7.43e-06  | [PASS] |
++---------+------------------+------------------+-------+-------------+--------+
+[PASS] Parameter Comparison: Command Load and EPHEM_CERT.txt Parameters match
+
+2013047.135733762 EPHEMERIS UPDATE (VCDU count = 4500487)
+[ OK ] Time matched one time in EPHEM_CERT.txt (2013047.135733762)
+Parameter Comparison
++---------+------------------+------------------+-------+-------------+--------+
+|Parameter|    FOT Request   |   INVERTED CLD   | UNITS | %Difference | Result |
++---------+------------------+------------------+-------+-------------+--------+
+| AOEPHEM1|           8133401|           8133401|       |   0.00e+00  | [PASS] |
+| AOEPHEM2|           8A3001A|           8A3001A|       |   0.00e+00  | [PASS] |
+|  AORATIO|         3.6981030|         3.6981029|       |   1.93e-06  | [PASS] |
+| AOARGPER|         4.8548314|         4.8548307|    rad|   1.38e-05  | [PASS] |
+| AOECCENT|         0.8637228|         0.8637227|       |   1.01e-05  | [PASS] |
+| AO1MINUS|         0.3679732|         0.3679732|       |   1.50e-06  | [PASS] |
+|  AO1PLUS|         0.6320268|         0.6320267|       |   1.81e-05  | [PASS] |
+| AOMOTION|         0.0000275|         0.0000275|    1/s|   4.73e-06  | [PASS] |
+| AOITERAT|        10.0000000|        10.0000000|       |   0.00e+00  | [PASS] |
+| AOORBANG|     90435.3621774|     90435.3594000| km^2/s|   3.07e-06  | [PASS] |
+| AOPERIGE| 414452513.4997417| 414452513.5000000|      s|   6.23e-11  | [PASS] |
+| AOASCEND|         6.0492747|         6.0492744|    rad|   3.72e-06  | [PASS] |
+|   AOSINI|         0.9645080|         0.9645079|       |   8.07e-06  | [PASS] |
+|    AOSLR|     20518.1675879|     20518.1641000|     km|   1.70e-05  | [PASS] |
+| AOSQRTMU|    154992.3792892|    154992.3750000| km^2/s|   2.77e-06  | [PASS] |
++---------+------------------+------------------+-------+-------------+--------+
+[PASS] Parameter Comparison: Command Load and EPHEM_CERT.txt Parameters match
+
+[PASS] PARAMETER CHECKS
+
+
+[PASS] OVERALL RESULT

@@ -1,0 +1,508 @@
+HDR,HDR_ID=OCT1810_A
+
+BEGIN_COMMENT,ID=49999
+
+  ** WARNING: This file automatically generated 
+  ** by Matlab OR Viewer. 07-Oct-2010 17:21:08
+  ** 
+  ** Some OR parameters may have been modified.
+
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+
+This is the OR list for the week of OCT 18, 2010.
+
+SOT Mission Planner: Heidi Watry (hgneiser@cfa)
+
+FOT Mission Planner: David Balke (dbalke@cfa)    
+
+Please email all notes and comments to Heidi Watry (hgneiser@cfa)
+Version list:
+_00 : as extracted using MP software
+_01 : LTS OR list, released September 29th, 2010
+_02 : Final OR list, released October 5th, 2010
+    Changes since last LTS:
+    -split comet into six 3 ks pieces to be scheduled by the OFLS
+    -added obsid 12248 as well as the pool targets
+
+**************************************************************
+For this week, please note:
+
+Priority Definitions
+---------------------------------
+- 4 for constrained observations that absolutely must be done in this load
+- 5 for time constrained or otherwise urgent targets that should be done in this load if at all possible
+- 6 for objects from the LTS w/o time constraints 
+
+Comments
+---------------------------------
+12320 103P/Hartley 2(Wolk) 18.0 ks
+      -This is a comet so the obsid will be broken into six 3 ks
+      observations in the final OR
+
+10981 Alpha Centauri(Ayres)   10.0 ks
+      -monitor constraint met all week (OCT0910-NOV1810)
+
+11060 EXO 0748-676(Degenaar) 30.0 ks
+      -monitor constraint met all week (SEP1710-NOV1610)
+
+11950/1 Vega(Cal team) 2.0 ks each
+11952/3/4 Vega(Cal team) 1 ks each
+      -window constraint met all week (SEP0110-NOV3010)  
+
+12160 M31(Garcia) 5.0 ks
+      -first in the new monitoring series
+ 
+13136 RXJ1958.2-3011 (Vikhlinin) 40 ks
+      -Harvey requested we observe this soon
+
+11371 NGC3522 (Gallo) 5.9 ks
+      -Sunblock in the first orbit.
+
+11613 2PIGG_1571(Silverman) 10.0 ks 
+      -offsets configured for the OCT1810 week
+
+12239 NGC 404(Williams) 100.0ks 
+11821 HFPK 334(Haberl) 28.5 ks
+12330 NGC 3603(Townsley) 140.0 ks 
+      -prefers segments larger than 30 ks
+      -do not match rolls to allow for filling of the chip gap
+
+
+Low Visibility targets:
+
+	No visibility issues to report
+
+
+Pitch/Time Summary
+---------------------------------
+Total time in OR list : 451.40 ksec
+Total time at PSMC pitch angle (46-56) : 15.90 ksec
+Percent of total : 3.522%
+Total time at bad pitch angle (70-127) : 128.50 ksec
+Percent of total : 28.467%
+Total time at good pitch angle (56-70,127-145) : 197.00 ksec
+Percent of total : 43.642%
+Total time at cold pitch angle (145-156) : 110.00 ksec
+Percent of total : 24.369%
+Total time in P-line region (156-170) : 0.00 ksec
+Percent of total : 0.000%
+Total time at forbidden pitch angle (0-46,170-180) : 0.00 ksec
+Percent of total : 0.000%
+
+Total time at priority 4, 5 or 6 : 428.40 ksec
+Total time at bad pitch angle (70-127) : 123.50 ksec
+Percent of total : 28.828%
+
+Note: Pitch totals are calculated based on a midweek roll.
+
+
+
+
+			Target Summary: OCT1810
+
+			  pitch angle/roll
+			    (day of year)
+    obsid  time  P  U      291         297         target          PI RC OC
+    -----  ----  -  -  ----------  ----------  ----------  ---------- -- --
+ ** 12320     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+ ** 13140     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+ ** 13141     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+ ** 13142     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+ ** 13143     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+ ** 13144     3  4  N   120/103.1   125/105.4  103P/Hartl       Lisse  6  0
+    10981    10  5  N    52/201.4    49/194.8  Alpha Cent       Ayres  -  -
+ ** 11060    30  5  N     79/90.5     79/84.4  EXO 0748-6    Degenaar  1  0
+ ** 11950     2  5  Y    85/285.9    82/291.2        Vega  Calibratio  -  -
+ ** 11951     2  5  Y    85/285.9    82/291.2        Vega  Calibratio  -  -
+ ** 11952     1  5  Y    85/285.9    82/291.2        Vega  Calibratio  -  -
+ ** 11953     1  5  Y    85/285.9    82/291.2        Vega  Calibratio  -  -
+ ** 11954     1  5  Y    85/285.9    82/291.2        Vega  Calibratio  -  -
+    12160     5  5  N   146/201.8   146/212.7         M31      Murray  6  2
+    12248    34  5  N   141/278.3   135/281.0       A2507     Maughan  5  0
+ ** 13136    40  5  N    91/281.6    85/280.7  RXJ1958.2-      Murray  5  1
+*** 11371     5  6  N     46/53.5     51/55.9     NGC3522       Gallo  6  2
+    11613    10  6  N    141/26.9    141/17.4  2PIGG_1571   Silverman  4  0
+ ** 11821    28  6  N    97/353.2    95/347.7    HFPK 334     Predehl  6  1
+    12239   100  6  N   153/191.8   153/205.2     NGC 404    Williams  5  2
+    12330   140  6  N    57/139.2    57/132.2    NGC 3603    Townsley  6  2
+    12725     8  8  N   140/119.5   145/123.4     3C 93.1      Harris  4  2
+  * 13003     5  8  N   156/323.2   150/316.8  J003359.2-         Liu  6  0
+ ** 13004     5  8  N    121/66.4    124/60.9  J050145.6-         Liu  6  0
+    13011     5  8  N   137/275.3   132/278.4  J224017.7+         Liu  6  0
+
+*** = forbidden zone (0-46,170-180)
+ ** = bad pitch (70-127)
+  * = pline restrictions (156-170)
+
+
+Time Summary
+---------------------------------
+
+Priority	# of Obs	Time (seconds)
+4		6		    18000.00
+5		10		   126000.00
+6		5		   284400.00
+8		4		    23000.00
+
+HRC		6		    17000.00
+ACIS		19		   434400.00
+
+TOTAL		25		   451400.00
+
+
+
+Targets Not Approved for Flight
+---------------------------------
+12320, 12725, 13140-5 all need approval and the appropriate usint
+member has been contacted.
+
+Approval Status
+---------------------------------
+
+200613 10981     Alpha Centauri              Ayres  HRC-I NONE  DEFAULT  kashyap  08/18/09
+401095 11060       EXO 0748-676           Degenaar ACIS-S NONE TE_008FC  nadams  08/19/10
+600890 11371            NGC3522              Gallo ACIS-S NONE TE_00600  zhao  12/06/09
+702199 11613         2PIGG_1571          Silverman ACIS-I NONE TE_006E6  emk  02/16/10
+501338 11821           HFPK 334             Haberl ACIS-S NONE TE_004F2  plucinsk  12/01/09
+290939 11950               Vega        Calibration  HRC-I NONE  DEFAULT  lpd  09/09/09
+290940 11951               Vega        Calibration  HRC-S NONE  SCENTER  lpd  09/09/09
+290941 11952               Vega        Calibration  HRC-S NONE  SCENTER  lpd  09/09/09
+290942 11953               Vega        Calibration  HRC-S NONE   SPWING  lpd  09/09/09
+290943 11954               Vega        Calibration  HRC-S NONE   SNWING  lpd  09/09/09
+600914 12160                M31             Garcia ACIS-I NONE TE_00780  zhao  09/17/10
+600920 12239            NGC 404           Williams ACIS-S NONE TE_0074C  zhao  09/17/10
+800968 12248              A2507            Maughan ACIS-I NONE TE_00458  maxim  07/19/10
+100077 12320     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+200666 12330           NGC 3603           Townsley ACIS-I NONE TE_004DE  swolk  09/23/10
+702361 12725            3C 93.1             Harris ACIS-S NONE TE_006CC  *** not approved for flight ***
+600967 13003   J003359.2-094220                Liu ACIS-S NONE TE_0095A  zhao  09/29/10
+600968 13004   J050145.6-180937                Liu ACIS-S NONE TE_0095A  zhao  09/29/10
+600975 13011   J224017.7+080316                Liu ACIS-S NONE TE_0095A  zhao  09/29/10
+801057 13136     RXJ1958.2-3011          Vikhlinin ACIS-I NONE TE_00458  maxim  09/29/10
+100081 13140     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+100082 13141     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+100083 13142     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+100084 13143     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+100085 13144     103P/Hartley 2               Wolk ACIS-S NONE TE_00376  *** not approved for flight ***
+
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+***OR QUICK LOOK START
+   NOTE: This comment is automatically regenerated when using the 
+         mp_orf_gui or the mp_orf_file applications.
+   
+                                                            Req.  Opt.  Drop
+SeqNbr    ObsId     Target Name              Observer       Chip  Chip  Chip
+-------------------------------------------------------------------------------
+100077    12320     103P/Hartley 2           Wolk              6     0     0
+100081    13140     103P/Hartley 2           Wolk              6     0     0
+100082    13141     103P/Hartley 2           Wolk              6     0     0
+100083    13142     103P/Hartley 2           Wolk              6     0     0
+100084    13143     103P/Hartley 2           Wolk              6     0     0
+100085    13144     103P/Hartley 2           Wolk              6     0     0
+200613    10981     Alpha Centauri           Ayres             X     X     X
+401095    11060     EXO 0748-676             Degenaar          1     0     0
+290939    11950     Vega                     Calibration       X     X     X
+290940    11951     Vega                     Calibration       X     X     X
+290941    11952     Vega                     Calibration       X     X     X
+290942    11953     Vega                     Calibration       X     X     X
+290943    11954     Vega                     Calibration       X     X     X
+600914    12160     M31                      Garcia            6     2     0
+800968    12248     A2507                    Maughan           5     0     0
+801057    13136     RXJ1958.2-3011           Vikhlinin         5     1     0
+600890    11371     NGC3522                  Gallo             6     2     0
+702199    11613     2PIGG_1571               Silverman         4     0     0
+501338    11821     HFPK 334                 Haberl            6     1     0
+600920    12239     NGC 404                  Williams          5     2     0
+200666    12330     NGC 3603                 Townsley          6     2     0
+702361    12725     3C 93.1                  Harris            4     2     0
+600967    13003     J003359.2-094220         Liu               6     0     0
+600968    13004     J050145.6-180937         Liu               6     0     0
+600975    13011     J224017.7+080316         Liu               6     0     0
+***OR QUICK LOOK END
+END_COMMENT
+
+BEGIN_COMMENT, ID=12320
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=12320,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000), MIN_ACQ=1,MIN_GUIDE=1,
+ PRECEDING=(T_X47)
+
+BEGIN_COMMENT, ID=13140
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=13140,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000),PRECEDING=(12320),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=13141
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=13141,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000),PRECEDING=(13140),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=13142
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=13142,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000),PRECEDING=(13141),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=13143
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=13143,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000),PRECEDING=(13142),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=13144
+Remarks:
+Pointing is for planing purposed and may be in error by 10 degrees.
+Observation will need to be split into six, 3 ks chunks
+END_COMMENT
+OBS,
+ ID=13144,MT_OBJECT=103P_HARTLEY_2,
+ DURATION=(3000.0),
+ PRIORITY=4,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00376,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.037500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,3000.000000),PRECEDING=(13143),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=13004,TARGET=(75.440000,-18.160278,{J050145.6-180937}),
+ DURATION=(5000.0),
+ PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_0095A,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(13144),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=12330
+Remarks:
+Very short observation segments (<30ks) will make it difficult for us 
+to perform astrometric registration of this field to an absolute reference 
+frame. 
+Would actually like different (natural) roll angles to help fill in chip gaps
+END_COMMENT
+OBS,
+ ID=12330,TARGET=(168.780000,-61.259778,{NGC 3603}),
+ DURATION=(140030.0),
+ PRIORITY=6,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_004DE,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,130000.000000),PRECEDING=(13004),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=11613
+Remarks:
+We would like to review the target offsets if the observing week 
+changes changes from Oct 20, 2010 and roll angle changes.
+END_COMMENT
+OBS,
+ ID=11613,TARGET=(39.300417,-25.426611,{2PIGG_1571}),
+ DURATION=(1000.0,1000.0,20000.0),
+ PRIORITY=6,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_006E6,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,9000.000000),PRECEDING=(12330),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=11060
+NOTE: The PRECEDING=(11059,150:00:00:00.000,210:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=11059
+in this OR list.
+Remarks:
+To optimize the scientific output a clustering of data should be 
+avoided and therefore the requested observations should be performed 
+approximately 6 months (+/- 1 month) apart. We note that it is likely that the 
+two observations will need different instrument settings due to an expected 
+fading of the source (more specifically, we will likely need to use different 
+sub-arrays of the ACIS-S chip for the two observations).
+END_COMMENT
+OBS,
+ ID=11060,TARGET=(117.140833,-67.752389,{EXO 0748-676}),
+ DURATION=(30000.0),
+ PRIORITY=5,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_008FC,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,27000.000000),PRECEDING=(T_X48),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=10981
+NOTE: The PRECEDING=(10980,160:00:00:00.000,200:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=10980
+in this OR list.
+Remarks:
+The first HRC-I observation should be in May 2010.
+END_COMMENT
+OBS,
+ ID=10981,TARGET=(219.880833,-60.833611,{Alpha Centauri}),
+ DURATION=(10000.0),
+ PRIORITY=5,SI=HRC-I,GRATING=NONE,SI_MODE=DEFAULT,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,9000.000000),PRECEDING=(11060),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=13003,TARGET=(8.496667,-9.705556,{J003359.2-094220}),
+ DURATION=(5000.0),
+ PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_0095A,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(10981),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=12239,TARGET=(17.362500,35.717778,{NGC 404}),
+ DURATION=(97100.0),
+ PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_0074C,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,90000.000000),PRECEDING=(13003),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=13011,TARGET=(340.073750,8.054444,{J224017.7+080316}),
+ DURATION=(5000.000000),PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_0095A,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(12239),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11821,TARGET=(15.866667,-72.791667,{HFPK 334}),
+ DURATION=(2850.0,2850.0,38500.0),
+ PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_004F2,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.011667,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,25650.000000),PRECEDING=(13011),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=13136,TARGET=(299.553333,-30.182944,{RXJ1958.2-3011}),
+ DURATION=(40000.0),
+ PRIORITY=5,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00458,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,36000.000000),PRECEDING=(T_X49),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=12248,TARGET=(344.238000,5.547000,{A2507}),
+ DURATION=(34000.0),
+ PRIORITY=5,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00458,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.023333,-0.004167),SIM_OFFSET=(-1651),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,30600.000000),PRECEDING=(13136),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=12160,TARGET=(10.685000,41.268972,{M31}),
+ DURATION=(5000.0),
+ PRIORITY=5,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00780,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(12248),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=12725,TARGET=(57.195417,33.887528,{3C 93.1}),
+ DURATION=(8000.0),
+ PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_006CC,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,7200.000000),PRECEDING=(12160),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11371,TARGET=(166.669000,20.085660,{NGC3522}),
+ DURATION=(5900.0),
+ PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00600,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5310.000000),PRECEDING=(12725),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11950,TARGET=(279.235000,38.783778,{Vega}),
+ DURATION=(2000.0),
+ PRIORITY=5,SI=HRC-I,GRATING=NONE,SI_MODE=DEFAULT,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,2000.000000),PRECEDING=(11371),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11951,TARGET=(279.235000,38.783778,{Vega}),
+ DURATION=(2000.0),
+ PRIORITY=5,SI=HRC-S,GRATING=NONE,SI_MODE=SCENTER,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.000000,0.000000),SIM_OFFSET=(,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,2000.000000),PRECEDING=(11950),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11952,TARGET=(279.235000,38.783778,{Vega}),
+ DURATION=(1000.0),
+ PRIORITY=5,SI=HRC-S,GRATING=NONE,SI_MODE=SCENTER,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.166667,0.000000),SIM_OFFSET=(,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,1000.000000),PRECEDING=(11951),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11953,TARGET=(279.235000,38.783778,{Vega}),
+ DURATION=(1000.0),
+ PRIORITY=5,SI=HRC-S,GRATING=NONE,SI_MODE=SPWING,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.416667,0.000000),SIM_OFFSET=(,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,1000.000000),PRECEDING=(11952),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=11954,TARGET=(279.235000,38.783778,{Vega}),
+ DURATION=(1000.0),
+ PRIORITY=5,SI=HRC-S,GRATING=NONE,SI_MODE=SNWING,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.416667,0.000000),SIM_OFFSET=(,-70),
+ DITHER=(ON,0.005556,0.331200,0.000000,0.005556,0.468400,0.000000),
+ SEGMENT=(1,1000.000000),PRECEDING=(11953),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT,ID=49999
+Priority 4 targets.
+These are constrained observations that must be scheduled in this load.
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+Priority 5 targets.
+These are coordinated or in other ways constrained or urgent observations
+and should be scheduled this week if at all possible.
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+Priority 6 targets.
+Unconstrained targets from the LTS.
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+MPCAT File: /data/mpcrit1/mplogs/2010/OCT1810/scheduled/oct1810.mpc
+END_COMMENT
+

@@ -1,0 +1,39 @@
+
+ID      Category        Check Performed         CARD    Implications
+CLP-033 HRC-01  HV      MCP HV Ramped Down in RADZONE   HRC-R-002       Damage to MCPs from operation at high rates
+CLP-033 HRC-02  HV      Antico Shield HV off in RADZONE                 Damage to PMT from operation at high rates
+CLP-032 HRC-03  HV      HRC-S MCP HV Ramping SCSs disabled when HRC-I selected  HRC-C-006        
+CLP-032 HRC-04  HV      HRC-I MCP HV Ramping SCSs disabled when HRC-S selected  HRC-C-006        
+CLP-035 HRC-05  HV      MCP HV Ramp-up SCSs not enabled if RADMON disabled      HRC-R-002       No RADMON protection of MCP in operation DELETED
+
+		HRC-06  MECH    HRC door "close" safing SCS not disabled while door "open"              Loss of protection from door in the case of a safing action
+		HRC-07  MECH    HRC door "close" safing SCS not enabled while door "closed"             Over-close the HRC door during a safing action require ground intervention to correct
+		HRC-08  MECH    HRC door "open" for observation                 No science data
+
+CLP-036 HRC-09  OBS     HRC configuration correct for observation               Poor quality science data
+		HRC-10  OBS     TLM format 1 for HRC observations               Loss of science data
+		HRC-11  OBS     SIM translation correct for observation                 Poor quality or no science data
+		HRC-12  OBS     SIM focus correct for observation               Poor quality science data
+		HRC-13  OBS     Correct dither selected for HRC observations    HRC-R-004       Possible localized damage to MCP
+		HRC-14  HV      MCP HV turn-on only via SCSs 92 and 93  HRC-C-006        
+		HRC-15  MECH    Shutters HOME prior to HRC door motion  HRC-C-001       Door and shutter collide - loss of instrument
+		HRC-16  MECH    HRC Door not moved to OPEN limit                Snubbers break off
+		HRC-17  MECH    HRC Door not moved to CLOSED limit      HRC-L-001       Over-stress door mechanism - potential loss of instrument DELETED
+		HRC-18  RADZONE         HRC Door "closed" in RADZONE            Possible degradation of UV/ion shields
+		HRC-19  RADZONE         SIM translated to HRC-S for RADZONE             Loss of ACIS safing
+CLP-030 HRC-20  CMD     Time between HRC commands > 1 second            Command collisions
+CLP-037	HRC-21  CMD     HRC telemetry timing commanded at format changes        HRC-L-003       Loss of science data
+		HRC-22  OBS     HRC Dither Control SCS not disabled             Loss of science data
+		HRC-23  OBS     MCP HV turn-on SCSs not disabled                Loss of science data
+		HRC-24  HV      HRC HV safing SCS (# 104) not disabled          Loss of SI safing capability
+		HRC-25  RADZONE         RADMON disabled in RADZONE              Unintended SI safing
+		HRC-26  HV      Detectors not switched with MCP HV on   HRC-C-005       Possible damage to charge amplifiers
+		HRC-27  MECH    Shutters moved with HRC door not "open"         HRC-C-008       Door and shutter collide - loss of instrument
+		HRC-28  HV      MCP HV turn-on only for selected detector       HRC-C-006       Possible MCP damage
+		HRC-29  MECH    Any mechanism selected for commanding           Protect against a second relay failure
+		HRC-30  HV      PMT HV step increase size not greater-than 4            Possible PMT HV damage
+		HRC-31  OBS     Exposure time at least 90% of requested                 Less than approved science data
+		HRC-32  SAFE    PMT HV at operational level for science observing time
+(while RADMON is enabled)               Full RADMON protection of SIs
+
+

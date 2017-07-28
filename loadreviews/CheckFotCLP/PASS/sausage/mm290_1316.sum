@@ -1,0 +1,1775 @@
+                          MPS MMAN Processing Summary
+                            MPS MMAN VERSION = 11.00
+                             2010:284:21:09:37.000
+
+
+MPS MMAN Data file:       /ehs/ofls/build/bin/mps/output/m290:1316/mm290:1316.man
+ORER Data file:     /ehs/ofls/build/bin/mps/output/m290:1316/OCT1810_A16.oer.dis
+Ephemeris File:     /ehs/ofls/build/bin/mps/output/me19081_281/DE10256.EPH
+SLP File:           /ehs/ofls/build/bin/mps/output/me19081_281/DE200_1980_2020_LE.SLP
+MPS Directory File: /ehs/ofls/build/bin/mps/output/mps_dir_file
+
+                  Initial Momentum (kg-m^2/sec)
+       Starting (S/C):   -20.200000   -12.200000    13.150000
+       Starting (GCI):   -19.587271     9.467835    16.015662
+
+                  Momentum Buildup (kg-m^2/sec)
+      Fixed Att (S/C):     0.000000     0.000000     0.000000
+      Fixed Att (GCI):     0.000000     0.000000     0.000000
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_E4600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:13:12:00.000
+             RA (deg):    356.00000000
+            DEC (deg):      0.00000000
+           ROLL (deg):    290.37941670
+        Dev. from
+      Opt. Roll (deg):     -0.00394333
+      Sun Angle (deg):    152.37158806
+           Quaternion:     -0.570513302799    0.019922763539   -0.028654115988    0.820546523032
+
+   FINAL ID:    GG_4600
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:13:37:44.508
+             RA (deg):     19.77765200
+            DEC (deg):    -15.03272100
+           ROLL (deg):    354.36700772
+        Dev. from
+      Opt. Roll (deg):     -0.03777387
+      Sun Angle (deg):    155.55738168
+           Quaternion:     -0.070429012519    0.120343979395    0.176387789978    0.974394390566
+
+                          OUTPUT DATA
+               Eigenvector:       0.89771922    -0.04261375     0.43850230
+      Maneuver Angle (deg):      66.33810157
+            Duration (sec):          1544.51
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           224.51
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.010562    -0.018238     0.290607
+       Maneuver (GCI):     0.057914     0.031850     0.283775
+      Fixed Att (S/C):     0.005510    -0.029243     0.075675
+      Fixed Att (GCI):     0.031422    -0.011733     0.074075
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  GG_4600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:13:49:46.424
+             RA (deg):     19.77765200
+            DEC (deg):    -15.03272100
+           ROLL (deg):    354.36700772
+        Dev. from
+      Opt. Roll (deg):     -0.05545211
+      Sun Angle (deg):    155.55447630
+           Quaternion:     -0.070429012519    0.120343979395    0.176387789978    0.974394390566
+
+   FINAL ID:    G1_4600
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:14:20:16.375
+             RA (deg):    356.60000000
+            DEC (deg):      9.80000000
+           ROLL (deg):    271.05172155
+        Dev. from
+      Opt. Roll (deg):     -0.00222915
+      Sun Angle (deg):    154.77647240
+           Quaternion:     -0.699527772501   -0.040216014059   -0.080907148663    0.708870651817
+
+                          OUTPUT DATA
+               Eigenvector:      -0.90763278     0.00662535    -0.41971281
+      Maneuver Angle (deg):      87.74632091
+            Duration (sec):          1829.95
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           509.95
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.129707    -0.495282     0.150991
+       Maneuver (GCI):     0.051393     0.139072     0.512781
+      Fixed Att (S/C):     0.037071    -0.561433     0.281712
+      Fixed Att (GCI):    -0.043697     0.274434     0.564552
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  G1_4600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:14:41:26.552
+             RA (deg):    356.60000000
+            DEC (deg):      9.80000000
+           ROLL (deg):    271.05172155
+        Dev. from
+      Opt. Roll (deg):      0.00818555
+      Sun Angle (deg):    154.76333489
+           Quaternion:     -0.699527772501   -0.040216014059   -0.080907148663    0.708870651817
+
+   FINAL ID:    G2_4600
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:15:10:35.419
+             RA (deg):     17.20000000
+            DEC (deg):    -15.00000000
+           ROLL (deg):    348.14056133
+        Dev. from
+      Opt. Roll (deg):      0.00632824
+      Sun Angle (deg):    155.18517006
+           Quaternion:     -0.120686877184    0.113051953640    0.160795631606    0.973035815533
+
+                          OUTPUT DATA
+               Eigenvector:       0.90607049    -0.00454937     0.42310232
+      Maneuver Angle (deg):      81.66499171
+            Duration (sec):          1748.87
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           428.87
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.094843    -0.162685     0.979047
+       Maneuver (GCI):     0.145231     0.088915     0.982343
+      Fixed Att (S/C):     0.082293    -1.464058     1.664079
+      Fixed Att (GCI):     0.875541    -0.870861     1.842397
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  G2_4600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:15:48:42.465
+             RA (deg):     17.20000000
+            DEC (deg):    -15.00000000
+           ROLL (deg):    348.14056133
+        Dev. from
+      Opt. Roll (deg):     -0.04764244
+      Sun Angle (deg):    155.17410720
+           Quaternion:     -0.120686877184    0.113051953640    0.160795631606    0.973035815533
+
+   FINAL ID:    G3_4600
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:16:12:00.000
+             RA (deg):     40.50000000
+            DEC (deg):    -10.00000000
+           ROLL (deg):     43.78987166
+        Dev. from
+      Opt. Roll (deg):      0.00594542
+      Sun Angle (deg):    153.48233143
+           Quaternion:      0.320535468349    0.204448619872    0.289437241302    0.878455382310
+
+                          OUTPUT DATA
+               Eigenvector:       0.90063772     0.02833508     0.43364597
+      Maneuver Angle (deg):      55.31512371
+            Duration (sec):          1397.53
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:            77.53
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.158829    -0.597533     2.580856
+       Maneuver (GCI):     1.512514    -1.624187     1.455131
+      Fixed Att (S/C):     0.891382    -4.121224     8.761561
+      Fixed Att (GCI):     6.995909    -5.910918     3.265320
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  G3_4600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:17:07:12.890
+             RA (deg):     40.50000000
+            DEC (deg):    -10.00000000
+           ROLL (deg):     43.78987166
+        Dev. from
+      Opt. Roll (deg):     -0.07138640
+      Sun Angle (deg):    153.50083143
+           Quaternion:      0.320535468349    0.204448619872    0.289437241302    0.878455382310
+
+   FINAL ID:    T_X4700
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:17:29:51.225
+             RA (deg):     47.65428400
+            DEC (deg):     11.00394700
+           ROLL (deg):     91.47805719
+        Dev. from
+      Opt. Roll (deg):      0.00239702
+      Sun Angle (deg):    155.00250016
+           Quaternion:      0.679143070353    0.226769964786    0.343462624669    0.607761053801
+
+                          OUTPUT DATA
+               Eigenvector:       0.90005208    -0.02611752     0.43499899
+      Maneuver Angle (deg):      52.37515010
+            Duration (sec):          1358.34
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:            38.34
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.217674    -3.694224    -8.120022
+       Maneuver (GCI):    -5.765922     5.865554    -3.461047
+      Fixed Att (S/C):     0.015713    -3.903740    -7.141457
+      Fixed Att (GCI):    -4.862411     5.412682    -3.646871
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_X4700
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:22:23:51.296
+             RA (deg):     47.65428400
+            DEC (deg):     11.00394700
+           ROLL (deg):     91.47805719
+        Dev. from
+      Opt. Roll (deg):     -0.17396955
+      Sun Angle (deg):    155.21238790
+           Quaternion:      0.679143070353    0.226769964786    0.343462624669    0.607761053801
+
+   FINAL ID:    1232000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:22:46:41.333
+             RA (deg):     74.03311591
+            DEC (deg):     45.51643227
+           ROLL (deg):    112.72294291
+        Dev. from
+      Opt. Roll (deg):     -0.01498482
+      Sun Angle (deg):    123.17910519
+           Quaternion:      0.742017716803    0.291105145354    0.564696618602    0.213974837862
+
+                          OUTPUT DATA
+               Eigenvector:       0.61935611     0.57356176     0.53612024
+      Maneuver Angle (deg):      53.25279479
+            Duration (sec):          1370.04
+            Sun In FSS FOV:     OUTMAN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:            50.04
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.049675    -0.092885     0.081451
+       Maneuver (GCI):     0.051135     0.036045    -0.117540
+      Fixed Att (S/C):     0.017414    -0.483653     0.064336
+      Fixed Att (GCI):    -0.026776     0.369847    -0.317583
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1232000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:290:23:53:20.639
+             RA (deg):     74.03311591
+            DEC (deg):     45.51643227
+           ROLL (deg):    112.72294291
+        Dev. from
+      Opt. Roll (deg):      0.00869617
+      Sun Angle (deg):    123.22338599
+           Quaternion:      0.742017716803    0.291105145354    0.564696618602    0.213974837862
+
+   FINAL ID:    1314000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:290:23:57:20.639
+             RA (deg):     74.15940425
+            DEC (deg):     45.41724016
+           ROLL (deg):    112.57124376
+        Dev. from
+      Opt. Roll (deg):     -0.01043998
+      Sun Angle (deg):    123.18248477
+           Quaternion:      0.741368166288    0.291695898006    0.564900184840    0.214882587172
+
+                          OUTPUT DATA
+               Eigenvector:      -0.42074485     0.29706420    -0.85716196
+      Maneuver Angle (deg):       0.14658553
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000988    -0.027384     0.004229
+       Maneuver (GCI):    -0.000935     0.020902    -0.018193
+      Fixed Att (S/C):     0.014050    -0.383488     0.055979
+      Fixed Att (GCI):    -0.016163     0.292914    -0.253642
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1314000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:00:51:50.639
+             RA (deg):     74.15940425
+            DEC (deg):     45.41724016
+           ROLL (deg):    112.57124376
+        Dev. from
+      Opt. Roll (deg):      0.00886046
+      Sun Angle (deg):    123.21842913
+           Quaternion:      0.741368166288    0.291695898006    0.564900184840    0.214882587172
+
+   FINAL ID:    1314100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:00:55:50.639
+             RA (deg):     74.28680303
+            DEC (deg):     45.31721728
+           ROLL (deg):    112.41838934
+        Dev. from
+      Opt. Roll (deg):     -0.01040510
+      Sun Angle (deg):    123.17663160
+           Quaternion:      0.740709503692    0.292291794416    0.565107947356    0.215796074784
+
+                          OUTPUT DATA
+               Eigenvector:      -0.42042452     0.30031695    -0.85618511
+      Maneuver Angle (deg):       0.14793207
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000978    -0.027242     0.004217
+       Maneuver (GCI):    -0.000905     0.020751    -0.018151
+      Fixed Att (S/C):     0.013917    -0.380675     0.055490
+      Fixed Att (GCI):    -0.015885     0.290187    -0.252439
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1314100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:01:50:20.639
+             RA (deg):     74.28680303
+            DEC (deg):     45.31721728
+           ROLL (deg):    112.41838934
+        Dev. from
+      Opt. Roll (deg):      0.00883143
+      Sun Angle (deg):    123.21238422
+           Quaternion:      0.740709503692    0.292291794416    0.565107947356    0.215796074784
+
+   FINAL ID:    1314200
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:01:54:20.639
+             RA (deg):     74.41415653
+            DEC (deg):     45.21733980
+           ROLL (deg):    112.26581061
+        Dev. from
+      Opt. Roll (deg):     -0.01037168
+      Sun Angle (deg):    123.17006435
+           Quaternion:      0.740047783349    0.292887265688    0.565318225369    0.216706326682
+
+                          OUTPUT DATA
+               Eigenvector:      -0.42000094     0.30388058    -0.85513496
+      Maneuver Angle (deg):       0.14787353
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000974    -0.027346     0.004087
+       Maneuver (GCI):    -0.001034     0.020783    -0.018233
+      Fixed Att (S/C):     0.013819    -0.380845     0.053838
+      Fixed Att (GCI):    -0.017286     0.289672    -0.252832
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1314200
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:02:48:50.639
+             RA (deg):     74.41415653
+            DEC (deg):     45.21733980
+           ROLL (deg):    112.26581061
+        Dev. from
+      Opt. Roll (deg):      0.00880330
+      Sun Angle (deg):    123.20565335
+           Quaternion:      0.740047783349    0.292887265688    0.565318225369    0.216706326682
+
+   FINAL ID:    1314300
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:02:52:50.639
+             RA (deg):     74.54148320
+            DEC (deg):     45.11763095
+           ROLL (deg):    112.11351030
+        Dev. from
+      Opt. Roll (deg):     -0.01033899
+      Sun Angle (deg):    123.16279412
+           Quaternion:      0.739382992458    0.293482311888    0.565531133421    0.217613097503
+
+                          OUTPUT DATA
+               Eigenvector:      -0.41951066     0.30760471    -0.85404341
+      Maneuver Angle (deg):       0.14780047
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000973    -0.027538     0.003921
+       Maneuver (GCI):    -0.001212     0.020882    -0.018362
+      Fixed Att (S/C):     0.013749    -0.382257     0.051843
+      Fixed Att (GCI):    -0.019246     0.290081    -0.253928
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1314300
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:03:47:20.639
+             RA (deg):     74.54148320
+            DEC (deg):     45.11763095
+           ROLL (deg):    112.11351030
+        Dev. from
+      Opt. Roll (deg):      0.00877561
+      Sun Angle (deg):    123.19824140
+           Quaternion:      0.739382992458    0.293482311888    0.565531133421    0.217613097503
+
+   FINAL ID:    1314400
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:03:51:20.639
+             RA (deg):     74.66879042
+            DEC (deg):     45.01810290
+           ROLL (deg):    111.96149337
+        Dev. from
+      Opt. Roll (deg):     -0.01030660
+      Sun Angle (deg):    123.15483690
+           Quaternion:      0.738715146523    0.294076929919    0.565746712849    0.218516243076
+
+                          OUTPUT DATA
+               Eigenvector:      -0.41897714     0.31140191    -0.85292849
+      Maneuver Angle (deg):       0.14771805
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000974    -0.027753     0.003753
+       Maneuver (GCI):    -0.001396     0.020997    -0.018504
+      Fixed Att (S/C):     0.013697    -0.384127     0.049842
+      Fixed Att (GCI):    -0.021293     0.290836    -0.255318
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1314400
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:04:45:50.639
+             RA (deg):     74.66879042
+            DEC (deg):     45.01810290
+           ROLL (deg):    111.96149337
+        Dev. from
+      Opt. Roll (deg):      0.00874810
+      Sun Angle (deg):    123.19015992
+           Quaternion:      0.738715146523    0.294076929919    0.565746712849    0.218516243076
+
+   FINAL ID:    1300400
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:05:13:49.939
+             RA (deg):     75.44290607
+            DEC (deg):    -18.18260243
+           ROLL (deg):     66.30510370
+        Dev. from
+      Opt. Roll (deg):     -0.01827885
+      Sun Angle (deg):    121.09391708
+           Quaternion:      0.346200815131    0.435023118499    0.437444616814    0.706782915183
+
+                          OUTPUT DATA
+               Eigenvector:      -0.53171499     0.02342857    -0.84659924
+      Maneuver Angle (deg):      76.44750655
+            Duration (sec):          1679.30
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           359.30
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.103681    -0.153998    -0.027690
+       Maneuver (GCI):     0.048206     0.040272    -0.176879
+      Fixed Att (S/C):     0.024395    -0.675064     0.053880
+      Fixed Att (GCI):     0.269371    -0.238315    -0.574329
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1300400
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:291:06:41:39.939
+             RA (deg):     75.44290607
+            DEC (deg):    -18.18260243
+           ROLL (deg):     66.30510370
+        Dev. from
+      Opt. Roll (deg):     -0.07540833
+      Sun Angle (deg):    121.13225164
+           Quaternion:      0.346200815131    0.435023118499    0.437444616814    0.706782915183
+
+   FINAL ID:    1233000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:291:07:09:29.541
+             RA (deg):    168.82080901
+            DEC (deg):    -61.26157174
+           ROLL (deg):    139.08769417
+        Dev. from
+      Opt. Roll (deg):     -0.02321819
+      Sun Angle (deg):     57.38839346
+           Quaternion:     -0.098693712175    0.819717837198    0.252798268032    0.504395930036
+
+                          OUTPUT DATA
+               Eigenvector:       0.00689345     0.79941768    -0.60073610
+      Maneuver Angle (deg):      75.72013274
+            Duration (sec):          1669.60
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           349.60
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.054354    -0.115259     0.023696
+       Maneuver (GCI):     0.040807    -0.081014    -0.092586
+      Fixed Att (S/C):    -0.287153    -7.349636    -0.103541
+      Fixed Att (GCI):     3.118489    -6.347062    -2.024886
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1233000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:292:22:07:49.541
+             RA (deg):    168.82080901
+            DEC (deg):    -61.26157174
+           ROLL (deg):    139.08769417
+        Dev. from
+      Opt. Roll (deg):     -1.91696009
+      Sun Angle (deg):     57.32189318
+           Quaternion:     -0.098693712175    0.819717837198    0.252798268032    0.504395930036
+
+   FINAL ID:    1161300
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:292:22:37:32.811
+             RA (deg):     39.28793477
+            DEC (deg):    -25.44879541
+           ROLL (deg):     24.04097945
+        Dev. from
+      Opt. Roll (deg):     -0.03159459
+      Sun Angle (deg):    141.52956475
+           Quaternion:      0.118900855686    0.271186493296    0.277525779329    0.913947435129
+
+                          OUTPUT DATA
+               Eigenvector:      -0.01306564    -0.99869106     0.04945152
+      Maneuver Angle (deg):      84.24525047
+            Duration (sec):          1783.27
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           463.27
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.009229    -0.178426    -0.014232
+       Maneuver (GCI):     0.064607    -0.150188    -0.073438
+      Fixed Att (S/C):     0.072104    -1.249155    -0.195288
+      Fixed Att (GCI):     0.493824    -0.967139    -0.651541
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1161300
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:293:01:32:09.953
+             RA (deg):     39.28793477
+            DEC (deg):    -25.44879541
+           ROLL (deg):     24.04097945
+        Dev. from
+      Opt. Roll (deg):     -0.21655181
+      Sun Angle (deg):    141.53706449
+           Quaternion:      0.118900855686    0.271186493296    0.277525779329    0.913947435129
+
+   FINAL ID:    RDE4701
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:293:01:36:09.953
+             RA (deg):     39.28793477
+            DEC (deg):    -25.44879541
+           ROLL (deg):     24.04097945
+        Dev. from
+      Opt. Roll (deg):     -0.22077369
+      Sun Angle (deg):    141.53725423
+           Quaternion:      0.118900855686    0.271186493296    0.277525779329    0.913947435129
+
+                          OUTPUT DATA
+               Eigenvector:      -0.49540858     0.69163816    -0.52555399
+      Maneuver Angle (deg):       0.00000000
+            Duration (sec):           240.00
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000000
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.001681    -0.027663    -0.005866
+       Maneuver (GCI):     0.010129    -0.021266    -0.015736
+      Fixed Att (S/C):     0.013625    -0.235082    -0.054590
+      Fixed Att (GCI):     0.082954    -0.180784    -0.137349
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  RDE4701
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:293:02:10:14.657
+             RA (deg):     39.28793477
+            DEC (deg):    -25.44879541
+           ROLL (deg):     24.04097945
+        Dev. from
+      Opt. Roll (deg):     -0.25671303
+      Sun Angle (deg):    141.53891062
+           Quaternion:      0.118900855686    0.271186493296    0.277525779329    0.913947435129
+
+   FINAL ID:    T_E4700
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:293:02:31:39.953
+             RA (deg):     15.10000000
+            DEC (deg):    -12.30000000
+           ROLL (deg):    337.00671043
+        Dev. from
+      Opt. Roll (deg):      0.00547834
+      Sun Angle (deg):    155.60209744
+           Quaternion:     -0.210239287370    0.078035201388    0.149181522733    0.963044559024
+
+                          OUTPUT DATA
+               Eigenvector:      -0.81939947    -0.28641511    -0.49653891
+      Maneuver Angle (deg):      46.80471482
+            Duration (sec):          1285.30
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:             0.00
+               Const. Accl:           522.65
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.022792    -0.095362    -0.035917
+       Maneuver (GCI):     0.048885    -0.092267    -0.000765
+      Fixed Att (S/C):     0.421424    -9.047228     6.793697
+      Fixed Att (GCI):     3.888954    -4.828272     9.473546
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_E4700
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:293:07:57:10.470
+             RA (deg):     15.10000000
+            DEC (deg):    -12.30000000
+           ROLL (deg):    337.00671043
+        Dev. from
+      Opt. Roll (deg):     -0.39916171
+      Sun Angle (deg):    155.46894637
+           Quaternion:     -0.210239287370    0.078035201388    0.149181522733    0.963044559024
+
+   FINAL ID:    T_X4800
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:293:08:21:43.908
+             RA (deg):     40.50000000
+            DEC (deg):    -10.00000000
+           ROLL (deg):     38.09723872
+        Dev. from
+      Opt. Roll (deg):      0.00701958
+      Sun Angle (deg):    154.37399873
+           Quaternion:      0.276518428230    0.189823763694    0.299232507521    0.893288533470
+
+                          OUTPUT DATA
+               Eigenvector:       0.90440112     0.01761027     0.42631972
+      Maneuver Angle (deg):      61.00782035
+            Duration (sec):          1473.44
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           153.44
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.329399    -2.387073     4.990214
+       Maneuver (GCI):     3.297037    -3.703600     2.474217
+      Fixed Att (S/C):     1.901740     4.702301    -8.221920
+      Fixed Att (GCI):    -4.745046     7.485203    -3.845063
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_X4800
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:293:13:28:34.778
+             RA (deg):     40.50000000
+            DEC (deg):    -10.00000000
+           ROLL (deg):     38.09723872
+        Dev. from
+      Opt. Roll (deg):     -0.51583402
+      Sun Angle (deg):    154.42856241
+           Quaternion:      0.276518428230    0.189823763694    0.299232507521    0.893288533470
+
+   FINAL ID:    1106000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:293:13:56:30.647
+             RA (deg):    117.16944539
+            DEC (deg):    -67.77210575
+           ROLL (deg):     88.04267955
+        Dev. from
+      Opt. Roll (deg):     -0.00623289
+      Sun Angle (deg):     79.56685388
+           Quaternion:     -0.041451315666    0.701299869804    0.307484791839    0.641804786388
+
+                          OUTPUT DATA
+               Eigenvector:      -0.10213651     0.97583889    -0.19314916
+      Maneuver Angle (deg):      76.19022951
+            Duration (sec):          1675.87
+            Sun In FSS FOV:     OUTMAN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           355.87
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.009216    -0.178735    -0.006430
+       Maneuver (GCI):     0.073710    -0.144313    -0.076244
+      Fixed Att (S/C):    -0.006311    -1.441438    -0.729993
+      Fixed Att (GCI):     0.015289    -1.519712    -0.548555
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1106000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:293:22:21:00.647
+             RA (deg):    117.16944539
+            DEC (deg):    -67.77210575
+           ROLL (deg):     88.04267955
+        Dev. from
+      Opt. Roll (deg):     -0.37435125
+      Sun Angle (deg):     79.55863650
+           Quaternion:     -0.041451315666    0.701299869804    0.307484791839    0.641804786388
+
+   FINAL ID:    1098100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:293:22:41:21.397
+             RA (deg):    219.90828717
+            DEC (deg):    -60.81263306
+           ROLL (deg):    198.45297059
+        Dev. from
+      Opt. Roll (deg):     -0.01555939
+      Sun Angle (deg):     51.40663058
+           Quaternion:     -0.214241695207    0.827887120832    0.040508308763    0.516780889853
+
+                          OUTPUT DATA
+               Eigenvector:       0.30721077     0.65062630    -0.69448324
+      Maneuver Angle (deg):      41.99186418
+            Duration (sec):          1220.75
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:             0.00
+               Const. Accl:           490.37
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.016697    -0.064229     0.002213
+       Maneuver (GCI):     0.021076    -0.062708    -0.005708
+      Fixed Att (S/C):    -0.053395    -0.598846     0.006954
+      Fixed Att (GCI):     0.263308    -0.523196     0.135837
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1098100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:294:01:32:31.397
+             RA (deg):    219.90828717
+            DEC (deg):    -60.81263306
+           ROLL (deg):    198.45297059
+        Dev. from
+      Opt. Roll (deg):     -0.14641122
+      Sun Angle (deg):     51.34277628
+           Quaternion:     -0.214241695207    0.827887120832    0.040508308763    0.516780889853
+
+   FINAL ID:    1300300
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:294:02:07:00.273
+             RA (deg):      8.47415676
+            DEC (deg):     -9.70185616
+           ROLL (deg):    319.78521587
+        Dev. from
+      Opt. Roll (deg):     -0.02455995
+      Sun Angle (deg):    153.57321116
+           Quaternion:     -0.347480276710    0.053883581486    0.098123733264    0.930981068505
+
+                          OUTPUT DATA
+               Eigenvector:      -0.07425097    -0.94098353    -0.33020720
+      Maneuver Angle (deg):     105.66569919
+            Duration (sec):          2068.88
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           748.88
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.033741    -0.174667    -0.020293
+       Maneuver (GCI):     0.070755    -0.137545     0.090188
+      Fixed Att (S/C):     0.041584    -0.637471     0.038252
+      Fixed Att (GCI):     0.182110    -0.440062     0.427484
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1300300
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:294:03:34:50.273
+             RA (deg):      8.47415676
+            DEC (deg):     -9.70185616
+           ROLL (deg):    319.78521587
+        Dev. from
+      Opt. Roll (deg):     -0.08707552
+      Sun Angle (deg):    153.51839101
+           Quaternion:     -0.347480276710    0.053883581486    0.098123733264    0.930981068505
+
+   FINAL ID:    1223900
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:294:04:13:30.282
+             RA (deg):     17.38061254
+            DEC (deg):     35.73480137
+           ROLL (deg):    198.42965315
+        Dev. from
+      Opt. Roll (deg):      0.06073312
+      Sun Angle (deg):    153.82411557
+           Quaternion:     -0.921277021751   -0.190518638914   -0.276350065969    0.196422856255
+
+                          OUTPUT DATA
+               Eigenvector:      -0.89632842    -0.00172643    -0.44338740
+      Maneuver Angle (deg):     124.50068523
+            Duration (sec):          2320.01
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:          1000.01
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.103105    -0.099925    -0.162310
+       Maneuver (GCI):    -0.036476     0.034123     0.210868
+      Fixed Att (S/C):     0.486531   -11.921765    -0.060132
+      Fixed Att (GCI):    -5.128508    10.226257     3.389822
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1223900
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:295:07:16:20.282
+             RA (deg):     17.38061254
+            DEC (deg):     35.73480137
+           ROLL (deg):    198.42965315
+        Dev. from
+      Opt. Roll (deg):      2.57323995
+      Sun Angle (deg):    153.91755827
+           Quaternion:     -0.921277021751   -0.190518638914   -0.276350065969    0.196422856255
+
+   FINAL ID:    1301100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:295:07:44:20.625
+             RA (deg):    340.05966432
+            DEC (deg):      8.07209339
+           ROLL (deg):    277.57050889
+        Dev. from
+      Opt. Roll (deg):      0.00892385
+      Sun Angle (deg):    134.01551508
+           Quaternion:     -0.656490114512    0.061646576230   -0.175591813000    0.731018429586
+
+                          OUTPUT DATA
+               Eigenvector:       0.79776370     0.21271660     0.56420273
+      Maneuver Angle (deg):      76.52571688
+            Duration (sec):          1680.34
+            Sun In FSS FOV:     OUTMAN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           360.34
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.075733    -0.163115     0.092887
+       Maneuver (GCI):    -0.069348     0.100229     0.161601
+      Fixed Att (S/C):     0.031484    -0.730074     0.078579
+      Fixed Att (GCI):    -0.073831     0.007328     0.731211
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1301100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:295:09:12:10.625
+             RA (deg):    340.05966432
+            DEC (deg):      8.07209339
+           ROLL (deg):    277.57050889
+        Dev. from
+      Opt. Roll (deg):      0.03663519
+      Sun Angle (deg):    133.96014236
+           Quaternion:     -0.656490114512    0.061646576230   -0.175591813000    0.731018429586
+
+   FINAL ID:    1182100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:295:09:44:00.835
+             RA (deg):     15.75645979
+            DEC (deg):    -72.79719083
+           ROLL (deg):    349.21122040
+        Dev. from
+      Opt. Roll (deg):     -0.01980591
+      Sun Angle (deg):     95.83200757
+           Quaternion:     -0.155931818650    0.574823205179    0.165098121538    0.786133678826
+
+                          OUTPUT DATA
+               Eigenvector:       0.39863655     0.32327647     0.85824311
+      Maneuver Angle (deg):      93.76576111
+            Duration (sec):          1910.21
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           590.21
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.140588    -0.114959     0.051024
+       Maneuver (GCI):     0.053943    -0.092275     0.155433
+      Fixed Att (S/C):     0.026891    -3.219941     0.106271
+      Fixed Att (GCI):     1.511282    -2.839438     0.183449
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1182100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:295:17:46:34.482
+             RA (deg):     15.75645979
+            DEC (deg):    -72.79719083
+           ROLL (deg):    349.21122040
+        Dev. from
+      Opt. Roll (deg):     -0.31951173
+      Sun Angle (deg):     95.71536087
+           Quaternion:     -0.155931818650    0.574823205179    0.165098121538    0.786133678826
+
+   FINAL ID:    RDE4801
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:295:17:50:34.482
+             RA (deg):     15.75645979
+            DEC (deg):    -72.79719083
+           ROLL (deg):    349.21122040
+        Dev. from
+      Opt. Roll (deg):     -0.32199347
+      Sun Angle (deg):     95.71445362
+           Quaternion:     -0.155931818650    0.574823205179    0.165098121538    0.786133678826
+
+                          OUTPUT DATA
+               Eigenvector:      -0.03630854     0.49760556     0.86664318
+      Maneuver Angle (deg):       0.00000000
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000000
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000215    -0.035816     0.002334
+       Maneuver (GCI):     0.017768    -0.031089     0.002456
+      Fixed Att (S/C):     0.000436    -0.040782     0.002400
+      Fixed Att (GCI):     0.020067    -0.035497     0.002538
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  RDE4801
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:295:17:55:04.482
+             RA (deg):     15.75645979
+            DEC (deg):    -72.79719083
+           ROLL (deg):    349.21122040
+        Dev. from
+      Opt. Roll (deg):     -0.32478546
+      Sun Angle (deg):     95.71343458
+           Quaternion:     -0.155931818650    0.574823205179    0.165098121538    0.786133678826
+
+   FINAL ID:    T_E4800
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:295:18:21:34.509
+             RA (deg):     40.50000000
+            DEC (deg):     -9.00000000
+           ROLL (deg):     33.86426853
+        Dev. from
+      Opt. Roll (deg):     -0.04052266
+      Sun Angle (deg):    155.79381533
+           Quaternion:      0.246416567196    0.170910661531    0.308654325426    0.902663242069
+
+                          OUTPUT DATA
+               Eigenvector:       0.32400298    -0.82777754     0.45804630
+      Maneuver Angle (deg):      69.75200170
+            Duration (sec):          1590.03
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           270.03
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.038825    -0.185437     0.027060
+       Maneuver (GCI):     0.071017    -0.161672    -0.073792
+      Fixed Att (S/C):     0.043943    -0.330349    -0.298244
+      Fixed Att (GCI):     0.051865    -0.097889    -0.433289
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_E4800
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:295:19:39:54.772
+             RA (deg):     40.50000000
+            DEC (deg):     -9.00000000
+           ROLL (deg):     33.86426853
+        Dev. from
+      Opt. Roll (deg):     -0.15987097
+      Sun Angle (deg):    155.80948834
+           Quaternion:      0.246416567196    0.170910661531    0.308654325426    0.902663242069
+
+   FINAL ID:    GG_4800
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:295:20:04:33.695
+             RA (deg):     15.10000000
+            DEC (deg):    -12.30000000
+           ROLL (deg):    332.60193996
+        Dev. from
+      Opt. Roll (deg):      0.00486065
+      Sun Angle (deg):    153.65441971
+           Quaternion:     -0.247093220129    0.072244600455    0.152070171584    0.954253803338
+
+                          OUTPUT DATA
+               Eigenvector:      -0.90442353     0.03105500    -0.42550401
+      Maneuver Angle (deg):      61.41925829
+            Duration (sec):          1478.92
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           158.92
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.020545    -0.036529     0.006704
+       Maneuver (GCI):     0.031707    -0.021841     0.017862
+      Fixed Att (S/C):     0.086769    -1.599332     9.075472
+      Fixed Att (GCI):     1.172409     3.171234     8.573116
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  GG_4800
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:296:00:18:33.139
+             RA (deg):     15.10000000
+            DEC (deg):    -12.30000000
+           ROLL (deg):    332.60193996
+        Dev. from
+      Opt. Roll (deg):     -0.27962662
+      Sun Angle (deg):    153.54009433
+           Quaternion:     -0.247093220129    0.072244600455    0.152070171584    0.954253803338
+
+   FINAL ID:    T_X4900
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:296:00:26:29.936
+             RA (deg):     14.50000000
+            DEC (deg):     -9.40000000
+           ROLL (deg):    328.07197712
+        Dev. from
+      Opt. Roll (deg):      0.00497641
+      Sun Angle (deg):    155.76060027
+           Quaternion:     -0.281858938884    0.043556448965    0.143279728477    0.947696836405
+
+                          OUTPUT DATA
+               Eigenvector:      -0.83066014    -0.41924712    -0.36638176
+      Maneuver Angle (deg):       5.31625423
+            Duration (sec):           476.80
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:             0.00
+               Const. Accl:           118.40
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.075825     2.749085     2.166218
+       Maneuver (GCI):    -0.882626     3.364988     0.391854
+      Fixed Att (S/C):     0.180135    -7.036389    10.033221
+      Fixed Att (GCI):     2.273639    -0.099673    12.042814
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  T_X4900
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:296:05:15:48.495
+             RA (deg):     14.50000000
+            DEC (deg):     -9.40000000
+           ROLL (deg):    328.07197712
+        Dev. from
+      Opt. Roll (deg):     -0.28548638
+      Sun Angle (deg):    155.57754675
+           Quaternion:     -0.281858938884    0.043556448965    0.143279728477    0.947696836405
+
+   FINAL ID:    1313600
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:296:05:43:17.592
+             RA (deg):    299.53678983
+            DEC (deg):    -30.16938991
+           ROLL (deg):    280.82540861
+        Dev. from
+      Opt. Roll (deg):     -0.00064807
+      Sun Angle (deg):     86.05597135
+           Quaternion:     -0.430631565686    0.483082312190   -0.231363721413    0.726401240843
+
+                          OUTPUT DATA
+               Eigenvector:      -0.20572931     0.91709970    -0.34147267
+      Maneuver Angle (deg):      74.18229218
+            Duration (sec):          1649.10
+            Sun In FSS FOV:     OUTMAN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           329.10
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.043561    -0.117882     0.027507
+       Maneuver (GCI):     0.052793    -0.083257     0.082652
+      Fixed Att (S/C):    -0.046756    -2.174543     1.107827
+      Fixed Att (GCI):     1.152145    -0.654618     2.049912
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1313600
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:296:17:05:10.482
+             RA (deg):    299.53678983
+            DEC (deg):    -30.16938991
+           ROLL (deg):    280.82540861
+        Dev. from
+      Opt. Roll (deg):     -0.05852212
+      Sun Angle (deg):     85.57196655
+           Quaternion:     -0.430631565686    0.483082312190   -0.231363721413    0.726401240843
+
+   FINAL ID:    1224800
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:296:17:28:45.339
+             RA (deg):    344.22741514
+            DEC (deg):      5.54089611
+           ROLL (deg):    280.90708393
+        Dev. from
+      Opt. Roll (deg):      0.00751265
+      Sun Angle (deg):    136.36284383
+           Quaternion:     -0.635058691511    0.050339732863   -0.136162031400    0.758700382784
+
+                          OUTPUT DATA
+               Eigenvector:      -0.16966850    -0.88199878    -0.43964845
+      Maneuver Angle (deg):      56.61424629
+            Duration (sec):          1414.86
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:            94.86
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.030913    -0.142124    -0.002364
+       Maneuver (GCI):     0.008736    -0.032818     0.141446
+      Fixed Att (S/C):     0.185155    -4.667486     0.322992
+      Fixed Att (GCI):    -0.408051    -0.472898     4.640463
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1224800
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:02:59:55.339
+             RA (deg):    344.22741514
+            DEC (deg):      5.54089611
+           ROLL (deg):    280.90708393
+        Dev. from
+      Opt. Roll (deg):      0.18164268
+      Sun Angle (deg):    135.98350752
+           Quaternion:     -0.635058691511    0.050339732863   -0.136162031400    0.758700382784
+
+   FINAL ID:    1216000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:03:26:31.767
+             RA (deg):     10.69466417
+            DEC (deg):     41.28728846
+           ROLL (deg):    212.66064815
+        Dev. from
+      Opt. Roll (deg):      0.03335918
+      Sun Angle (deg):    146.58784706
+           Quaternion:     -0.884891869318   -0.182388995912   -0.312337882179    0.293505845155
+
+                          OUTPUT DATA
+               Eigenvector:      -0.77258362    -0.13088466    -0.62127591
+      Maneuver Angle (deg):      70.23213882
+            Duration (sec):          1596.43
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           276.43
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.071522    -0.159777    -0.090457
+       Maneuver (GCI):    -0.068314     0.074301     0.169231
+      Fixed Att (S/C):     0.040630    -0.691441     0.005760
+      Fixed Att (GCI):    -0.317396     0.535623     0.303550
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1216000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:04:54:21.767
+             RA (deg):     10.69466417
+            DEC (deg):     41.28728846
+           ROLL (deg):    212.66064815
+        Dev. from
+      Opt. Roll (deg):      0.14329374
+      Sun Angle (deg):    146.58422985
+           Quaternion:     -0.884891869318   -0.182388995912   -0.312337882179    0.293505845155
+
+   FINAL ID:    1272500
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:05:20:49.356
+             RA (deg):     57.21978448
+            DEC (deg):     33.87769062
+           ROLL (deg):    123.31395980
+        Dev. from
+      Opt. Roll (deg):      0.01309464
+      Sun Angle (deg):    145.66827074
+           Quaternion:      0.805370752790    0.281726672594    0.442582809995    0.275913915553
+
+                          OUTPUT DATA
+               Eigenvector:      -0.82956996     0.01240691    -0.55826495
+      Maneuver Angle (deg):      69.56913368
+            Duration (sec):          1587.59
+            Sun In FSS FOV:     OUT
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           267.59
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.070810    -0.150341    -0.079161
+       Maneuver (GCI):    -0.068368     0.168480    -0.028692
+      Fixed Att (S/C):     0.057115    -1.070297     0.075174
+      Fixed Att (GCI):    -0.133340     0.762642    -0.745014
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1272500
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:07:38:39.356
+             RA (deg):     57.21978448
+            DEC (deg):     33.87769062
+           ROLL (deg):    123.31395980
+        Dev. from
+      Opt. Roll (deg):      0.08170624
+      Sun Angle (deg):    145.75490220
+           Quaternion:      0.805370752790    0.281726672594    0.442582809995    0.275913915553
+
+   FINAL ID:    1137100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:08:10:31.813
+             RA (deg):    166.66762644
+            DEC (deg):     20.06320250
+           ROLL (deg):     55.96636047
+        Dev. from
+      Opt. Roll (deg):      0.00794077
+      Sun Angle (deg):     52.07589429
+           Quaternion:      0.206421443304    0.441058446250    0.873193546963    0.019765228996
+
+                          OUTPUT DATA
+               Eigenvector:      -0.01335337     0.99596323    -0.08876331
+      Maneuver Angle (deg):      93.93428208
+            Duration (sec):          1912.46
+            Sun In FSS FOV:     OUTMAN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           592.46
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):     0.000270    -0.172867     0.024878
+       Maneuver (GCI):    -0.016403     0.124504    -0.121373
+      Fixed Att (S/C):    -0.028898    -0.323195     0.079451
+      Fixed Att (GCI):     0.008746     0.251488    -0.219726
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1137100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:09:53:21.813
+             RA (deg):    166.66762644
+            DEC (deg):     20.06320250
+           ROLL (deg):     55.96636047
+        Dev. from
+      Opt. Roll (deg):      0.03364720
+      Sun Angle (deg):     52.14344467
+           Quaternion:      0.206421443304    0.441058446250    0.873193546963    0.019765228996
+
+   FINAL ID:    1195000
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:10:27:26.363
+             RA (deg):    279.20721875
+            DEC (deg):     38.79603812
+           ROLL (deg):    291.47020722
+        Dev. from
+      Opt. Roll (deg):      0.02089778
+      Sun Angle (deg):     82.76295992
+           Quaternion:     -0.582330139943    0.135122389748   -0.647602710871    0.472487329751
+
+                          OUTPUT DATA
+               Eigenvector:      -0.37422917    -0.21480335     0.90211532
+      Maneuver Angle (deg):     103.84129576
+            Duration (sec):          2044.55
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000004
+                Const. Vel:           724.55
+               Const. Accl:           540.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.066948    -0.068954    -0.006033
+       Maneuver (GCI):    -0.045039     0.084876     0.006371
+      Fixed Att (S/C):    -0.002520    -0.151638     0.002382
+      Fixed Att (GCI):    -0.067147     0.081229     0.109083
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1195000
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:11:05:22.611
+             RA (deg):    279.20721875
+            DEC (deg):     38.79603812
+           ROLL (deg):    291.47020722
+        Dev. from
+      Opt. Roll (deg):      0.04406949
+      Sun Angle (deg):     82.75105111
+           Quaternion:     -0.582330139943    0.135122389748   -0.647602710871    0.472487329751
+
+   FINAL ID:    1195100
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:11:09:22.611
+             RA (deg):    279.20720666
+            DEC (deg):     38.79602146
+           ROLL (deg):    291.51428242
+        Dev. from
+      Opt. Roll (deg):      0.00251198
+      Sun Angle (deg):     82.74974355
+           Quaternion:     -0.582148297702    0.134873458541   -0.647654651876    0.472711287751
+
+                          OUTPUT DATA
+               Eigenvector:       0.99999991     0.00033742     0.00027344
+      Maneuver Angle (deg):       0.04406763
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000000
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.000248    -0.015968     0.000226
+       Maneuver (GCI):    -0.007101     0.008522     0.011490
+      Fixed Att (S/C):    -0.002518    -0.151043     0.002107
+      Fixed Att (GCI):    -0.067223     0.080774     0.108543
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1195100
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:11:47:12.611
+             RA (deg):    279.20720666
+            DEC (deg):     38.79602146
+           ROLL (deg):    291.51428242
+        Dev. from
+      Opt. Roll (deg):      0.02564856
+      Sun Angle (deg):     82.73781886
+           Quaternion:     -0.582148297702    0.134873458541   -0.647654651876    0.472711287751
+
+   FINAL ID:    1195200
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:11:51:12.611
+             RA (deg):    279.28547485
+            DEC (deg):     38.64094370
+           ROLL (deg):    291.46973535
+        Dev. from
+      Opt. Roll (deg):      0.00244089
+      Sun Angle (deg):     82.73651782
+           Quaternion:     -0.581933353296    0.135695082549   -0.646971593942    0.473675177231
+
+                          OUTPUT DATA
+               Eigenvector:       0.02644622    -0.00002985     0.99965024
+      Maneuver Angle (deg):       0.16672653
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.000224    -0.015947     0.000195
+       Maneuver (GCI):    -0.007117     0.008481     0.011482
+      Fixed Att (S/C):    -0.001404    -0.084413     0.001092
+      Fixed Att (GCI):    -0.037620     0.044918     0.060794
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1195200
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:12:12:22.611
+             RA (deg):    279.28547485
+            DEC (deg):     38.64094370
+           ROLL (deg):    291.46973535
+        Dev. from
+      Opt. Roll (deg):      0.01534958
+      Sun Angle (deg):     82.72980153
+           Quaternion:     -0.581933353296    0.135695082549   -0.646971593942    0.473675177231
+
+   FINAL ID:    1195300
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:12:16:22.611
+             RA (deg):    279.40210775
+            DEC (deg):     38.40819530
+           ROLL (deg):    291.38054632
+        Dev. from
+      Opt. Roll (deg):      0.00243299
+      Sun Angle (deg):     82.72840937
+           Quaternion:     -0.581703871302    0.137058045250   -0.645917475031    0.475001382939
+
+                          OUTPUT DATA
+               Eigenvector:      -0.06603281     0.00031256     0.99781740
+      Maneuver Angle (deg):       0.25054232
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000001
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.000165    -0.015935     0.000182
+       Maneuver (GCI):    -0.007111     0.008426     0.011507
+      Fixed Att (S/C):    -0.001397    -0.084339     0.001051
+      Fixed Att (GCI):    -0.037556     0.044587     0.060973
+
+                MANEUVER DATA SUMMARY
+   INITIAL ID:  1195300
+                     INITIAL ATTITUDE
+      START TIME (GMT):  2010:297:12:37:32.611
+             RA (deg):    279.40210775
+            DEC (deg):     38.40819530
+           ROLL (deg):    291.38054632
+        Dev. from
+      Opt. Roll (deg):      0.01529986
+      Sun Angle (deg):     82.72163144
+           Quaternion:     -0.581703871302    0.137058045250   -0.645917475031    0.475001382939
+
+   FINAL ID:    1195400
+                       FINAL ATTITUDE
+      STOP TIME (GMT):   2010:297:12:41:32.611
+             RA (deg):    279.00908683
+            DEC (deg):     39.18315659
+           ROLL (deg):    291.74852719
+        Dev. from
+      Opt. Roll (deg):      0.00244942
+      Sun Angle (deg):     82.72045580
+           Quaternion:     -0.582180022134    0.132138316358   -0.649499971955    0.470909411255
+
+                          OUTPUT DATA
+               Eigenvector:       0.14454436     0.00004869    -0.98949832
+      Maneuver Angle (deg):       0.84214436
+            Duration (sec):           240.00
+            Sun In FSS FOV:     IN
+
+                   Profile Parameters
+                Jerk Width:      60.00000000
+                 Peak Jerk:       0.00000003
+                Const. Vel:             0.00
+               Const. Accl:             0.00
+
+                  Momentum Buildup (kg-m^2/sec)
+       Maneuver (S/C):    -0.000246    -0.015919     0.000170
+       Maneuver (GCI):    -0.007155     0.008463     0.011432
+      Fixed Att (S/C):    -0.001395    -0.084273     0.000762
+      Fixed Att (GCI):    -0.038083     0.045309     0.060011
+
+
+
+              SIM POSITIONING SUMMARY
+
+
+   INITIAL ID:   T_E4600
+   FINAL ID:    1232000
+            SIM TOTAL DURATION (sec):           501.694
+      SIM TRANSLATION DURATION (sec):           241.034
+         SIM FOCUS DURATION(1) (sec):            11.460
+         SIM FOCUS DURATION(2) (sec):             1.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        75620
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -418
+          FINAL SIM FOCUS POSITION(2) (motor steps):         -468
+                 TRANSLATION DISTANCE (motor steps):       175232
+                    FOCUS DISTANCE(1) (motor steps):          573
+                    FOCUS DISTANCE(2) (motor steps):          573
+                              NUMBER OF SIM MOTIONS:            2
+                          NUMBER OF SIM MOTOR STEPS:       175855
+
+   INITIAL ID:   1300400
+   FINAL ID:    1233000
+            SIM TOTAL DURATION (sec):           196.936
+      SIM TRANSLATION DURATION (sec):            23.776
+         SIM FOCUS DURATION(1) (sec):             1.360
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        92905
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -536
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):        17285
+                    FOCUS DISTANCE(1) (motor steps):          -68
+                    FOCUS DISTANCE(2) (motor steps):          -68
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:        17353
+
+   INITIAL ID:   1161300
+   FINAL ID:    RDE4701
+            SIM TOTAL DURATION (sec):           445.710
+      SIM TRANSLATION DURATION (sec):           264.810
+         SIM FOCUS DURATION(1) (sec):             9.100
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):       -99612
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -991
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):      -192517
+                    FOCUS DISTANCE(1) (motor steps):         -455
+                    FOCUS DISTANCE(2) (motor steps):         -455
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:       192972
+
+   INITIAL ID:   RDE4701
+   FINAL ID:    1106000
+            SIM TOTAL DURATION (sec):           501.694
+      SIM TRANSLATION DURATION (sec):           241.034
+         SIM FOCUS DURATION(1) (sec):            11.460
+         SIM FOCUS DURATION(2) (sec):             1.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        75620
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -418
+          FINAL SIM FOCUS POSITION(2) (motor steps):         -468
+                 TRANSLATION DISTANCE (motor steps):       175232
+                    FOCUS DISTANCE(1) (motor steps):          573
+                    FOCUS DISTANCE(2) (motor steps):          573
+                              NUMBER OF SIM MOTIONS:            2
+                          NUMBER OF SIM MOTOR STEPS:       175855
+
+   INITIAL ID:   1106000
+   FINAL ID:    1098100
+            SIM TOTAL DURATION (sec):           350.247
+      SIM TRANSLATION DURATION (sec):           173.487
+         SIM FOCUS DURATION(1) (sec):             4.960
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):       -50505
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -716
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):      -126125
+                    FOCUS DISTANCE(1) (motor steps):         -248
+                    FOCUS DISTANCE(2) (motor steps):         -248
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:       126373
+
+   INITIAL ID:   1098100
+   FINAL ID:    1300300
+            SIM TOTAL DURATION (sec):           428.647
+      SIM TRANSLATION DURATION (sec):           173.487
+         SIM FOCUS DURATION(1) (sec):             5.960
+         SIM FOCUS DURATION(2) (sec):             1.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        75620
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -418
+          FINAL SIM FOCUS POSITION(2) (motor steps):         -468
+                 TRANSLATION DISTANCE (motor steps):       126125
+                    FOCUS DISTANCE(1) (motor steps):          298
+                    FOCUS DISTANCE(2) (motor steps):          298
+                              NUMBER OF SIM MOTIONS:            2
+                          NUMBER OF SIM MOTOR STEPS:       126473
+
+   INITIAL ID:   1182100
+   FINAL ID:    RDE4801
+            SIM TOTAL DURATION (sec):           423.294
+      SIM TRANSLATION DURATION (sec):           241.034
+         SIM FOCUS DURATION(1) (sec):            10.460
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):       -99612
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -991
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):      -175232
+                    FOCUS DISTANCE(1) (motor steps):         -523
+                    FOCUS DISTANCE(2) (motor steps):         -523
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:       175755
+
+   INITIAL ID:   RDE4801
+   FINAL ID:    1313600
+            SIM TOTAL DURATION (sec):           524.110
+      SIM TRANSLATION DURATION (sec):           264.810
+         SIM FOCUS DURATION(1) (sec):            10.100
+         SIM FOCUS DURATION(2) (sec):             1.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        92905
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -486
+          FINAL SIM FOCUS POSITION(2) (motor steps):         -536
+                 TRANSLATION DISTANCE (motor steps):       192517
+                    FOCUS DISTANCE(1) (motor steps):          505
+                    FOCUS DISTANCE(2) (motor steps):          505
+                              NUMBER OF SIM MOTIONS:            2
+                          NUMBER OF SIM MOTOR STEPS:       193072
+
+   INITIAL ID:   1313600
+   FINAL ID:    1224800
+            SIM TOTAL DURATION (sec):            97.671
+      SIM TRANSLATION DURATION (sec):             2.271
+         SIM FOCUS DURATION(1) (sec):             0.000
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        91254
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -536
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):        -1651
+                    FOCUS DISTANCE(1) (motor steps):            0
+                    FOCUS DISTANCE(2) (motor steps):            0
+                              NUMBER OF SIM MOTIONS:            0
+                          NUMBER OF SIM MOTOR STEPS:         1651
+
+   INITIAL ID:   1224800
+   FINAL ID:    1216000
+            SIM TOTAL DURATION (sec):            97.671
+      SIM TRANSLATION DURATION (sec):             2.271
+         SIM FOCUS DURATION(1) (sec):             0.000
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        92905
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -536
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):         1651
+                    FOCUS DISTANCE(1) (motor steps):            0
+                    FOCUS DISTANCE(2) (motor steps):            0
+                              NUMBER OF SIM MOTIONS:            0
+                          NUMBER OF SIM MOTOR STEPS:         1651
+
+   INITIAL ID:   1216000
+   FINAL ID:    1272500
+            SIM TOTAL DURATION (sec):           275.336
+      SIM TRANSLATION DURATION (sec):            23.776
+         SIM FOCUS DURATION(1) (sec):             2.360
+         SIM FOCUS DURATION(2) (sec):             1.000
+       FINAL SIM TRANSLATION POSITION (motor steps):        75620
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -418
+          FINAL SIM FOCUS POSITION(2) (motor steps):         -468
+                 TRANSLATION DISTANCE (motor steps):       -17285
+                    FOCUS DISTANCE(1) (motor steps):          118
+                    FOCUS DISTANCE(2) (motor steps):          118
+                              NUMBER OF SIM MOTIONS:            2
+                          NUMBER OF SIM MOTOR STEPS:        17453
+
+   INITIAL ID:   1137100
+   FINAL ID:    1195000
+            SIM TOTAL DURATION (sec):           350.247
+      SIM TRANSLATION DURATION (sec):           173.487
+         SIM FOCUS DURATION(1) (sec):             4.960
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):       -50505
+          FINAL SIM FOCUS POSITION(1) (motor steps):         -716
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):      -126125
+                    FOCUS DISTANCE(1) (motor steps):         -248
+                    FOCUS DISTANCE(2) (motor steps):         -248
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:       126373
+
+   INITIAL ID:   1195000
+   FINAL ID:    1195100
+            SIM TOTAL DURATION (sec):           246.247
+      SIM TRANSLATION DURATION (sec):            67.547
+         SIM FOCUS DURATION(1) (sec):             6.900
+         SIM FOCUS DURATION(2) (sec):             0.000
+       FINAL SIM TRANSLATION POSITION (motor steps):       -99612
+          FINAL SIM FOCUS POSITION(1) (motor steps):        -1061
+          FINAL SIM FOCUS POSITION(2) (motor steps):            0
+                 TRANSLATION DISTANCE (motor steps):       -49107
+                    FOCUS DISTANCE(1) (motor steps):         -345
+                    FOCUS DISTANCE(2) (motor steps):         -345
+                              NUMBER OF SIM MOTIONS:            1
+                          NUMBER OF SIM MOTOR STEPS:        49452
+
+
+
+                MOMENTUM DATA SUMMARY
+
+          NO MOMENTUM DUMPS SCHEDULED
+
+
+
+
+    SUMMARY OF PERIGEE CROSSING TIMES
+
+       2010:258:23:35:05.494
+       2010:261:15:04:27.671
+       2010:264:06:33:35.131
+       2010:266:22:01:51.823
+       2010:269:13:29:00.250
+       2010:272:04:55:32.078
+       2010:274:20:22:47.020
+       2010:277:11:50:30.868
+       2010:280:03:16:38.392
+       2010:282:18:42:44.390
+       2010:285:10:10:31.981
+       2010:288:01:39:23.165
+       2010:290:17:08:18.003
+       2010:293:08:36:32.341
+       2010:296:00:03:39.995
+
+
+The maximum error severity for this run is = 0
+
+
+*****************************MPS MMAN PROCESSING COMPLETE!************************
+
+
+
+ Number of Informational messages generated = 0
+ Number of Warning messages generated       = 0
+ Number of Critical messages generated      = 0
+ Number of Fatal messages generated         = 0

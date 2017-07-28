@@ -1,0 +1,1547 @@
+CLP-030-chk_for_cmd_timing_lt_1sec.pl: [OK]
+
+CLP-031-chk_for_cmds_between_radmon.pl: [OK]
+
+CLP-033-chk_for_HV_down_in_radzone.pl: [OK]
+
+CLP-034-chk_for_bad_cmd_hex.pl: [OK]
+
+==================================================
+  OBS: 10303/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:12:49:35.482; vcdu=2766784
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10403/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:16:41:45.252; vcdu=2821145
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20110/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:182:19:18:58.457; vcdu=2857957
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 10304/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:182:20:22:49.935; vcdu=2872909
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20115/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:21:32:40.154; vcdu=2889261
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:00:25:14.326; vcdu=2929668
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:03:18:39.639; vcdu=2970274
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:08:19:55.629; vcdu=3040814
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30116/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:11:32:31.640; vcdu=3085911
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20210/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:12:57:48.215; vcdu=3105878
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30315/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:14:29:04.447; vcdu=3127249
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20310/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:18:11:29.364; vcdu=3179326
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:21:59:36.095; vcdu=3232738
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:184:02:29:01.573; vcdu=3295823
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30216/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:04:58:27.573; vcdu=3330812
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30310/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:06:01:52.173; vcdu=3345659
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30415/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:184:07:06:10.773; vcdu=3360717
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30410/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:09:53:13.773; vcdu=3399831
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 10109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:02:26:18.000; vcdu=3632355
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:06:34:55.976; vcdu=3690572
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20116/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:09:10:24.927; vcdu=3726977
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 10110/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:10:14:31.180; vcdu=3741987
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20215/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:11:24:38.293; vcdu=3758405
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10210/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:14:21:28.259; vcdu=3799810
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+CLP-036-chk_hv_scs_for_selected_detector: [OK]
+
+CLP-037-chk-format_commands.pl: [OK]
+
+
+    116.5:  2011:183:23:15:03.073 00:01:16  3250404 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+    117.5:  2011:183:23:15:04.073 00:00:01  3250408 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    118.5:  2011:183:23:15:05.073 00:00:01  3250412 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    116.8:  2011:184:02:23:47.073 00:02:00  3294596 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    117.5:  2011:184:02:23:48.073 00:00:01  3294599 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset VCDU WARN: dvcdu: 3
+    118.5:  2011:184:02:23:49.073 00:00:01  3294603 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    116.5:  2011:184:03:09:39.873 00:01:40  3305338 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+    117.5:  2011:184:03:09:40.873 00:00:01  3305342 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    118.5:  2011:184:03:09:41.873 00:00:01  3305346 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    116.5:  2011:184:04:55:40.273 00:01:29  3330159 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    117.5:  2011:184:04:55:41.273 00:00:01  3330163 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    118.5:  2011:184:04:55:42.273 00:00:01  3330167 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    116.5:  2011:184:07:51:38.073 00:01:16  3371360 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+    117.5:  2011:184:07:51:39.073 00:00:01  3371364 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    118.5:  2011:184:07:51:40.073 00:00:01  3371368 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    116.8:  2011:184:09:50:26.473 00:01:29  3399179 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    117.5:  2011:184:09:50:27.473 00:00:01  3399182 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset VCDU WARN: dvcdu: 3
+    118.5:  2011:184:09:50:28.473 00:00:01  3399186 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+     76.2:  2011:184:10:55:21.073 00:00:36  3414377 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+     77.2:  2011:184:10:55:22.073 00:00:01  3414381 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+     78.2:  2011:184:10:55:23.073 00:00:01  3414385 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+CLP-038-chk-hrccmds_after_dither_ena: [FAIL]
+ Found 21 configuration errors:
+
+
+==================================
+OBS ID: 59241
+
+==================================
+OBS ID: 59240
+
+==================================
+OBS ID: 59239
+
+==================================
+OBS ID: 59238
+
+==================================
+OBS ID: 59237
+
+==================================
+OBS ID: 30105
+
+==================================
+OBS ID: 20111
+
+==================================
+OBS ID: 10303
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10303/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:12:49:35.482; vcdu=2766784
+  Dither Parameters:
+   ANGP  = 0.000000 
+   ANGY  = 0.000000 
+   COEFP = 0.002222 
+   COEFY = 0.002222 
+   RATEP = 0.509102 
+   RATEY = 0.360002 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2011:182:12:51:20.304 vcdu=2767194
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 20118
+  scs{91} is act when Dither is Enabled @ 2011:182:13:42:59.225 vcdu=2779287
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10201
+
+==================================
+OBS ID: 20107
+
+==================================
+OBS ID: 10403
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10403/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:16:41:45.252; vcdu=2821145
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2011:182:16:44:01.252 vcdu=2821675
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 20113
+  scs{91} is act when Dither is Enabled @ 2011:182:17:35:41.257 vcdu=2833773
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10402
+
+==================================
+OBS ID: 20110
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20110/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:182:19:18:58.457; vcdu=2857957
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2011:182:19:20:44.335 vcdu=2858370
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 10304
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10304/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:182:20:22:49.935; vcdu=2872909
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 20115
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20115/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:182:21:32:40.154; vcdu=2889261
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 10502
+  scs{91} is act when Dither is Enabled @ 2011:182:22:29:08.126 vcdu=2902483
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 20112
+
+==================================
+OBS ID: 10404
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:00:25:14.326; vcdu=2929668
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2011:183:00:27:00.796 vcdu=2930083
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 20218
+  scs{91} is act when Dither is Enabled @ 2011:183:01:35:22.439 vcdu=2946090
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10602
+
+==================================
+OBS ID: 20109
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:03:18:39.639; vcdu=2970274
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2011:183:03:20:27.437 vcdu=2970695
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 30518
+  scs{91} is act when Dither is Enabled @ 2011:183:04:33:30.579 vcdu=2987799
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 20207
+
+==================================
+OBS ID: 30313
+
+==================================
+OBS ID: 20209
+  scs{91} is act when Dither is Enabled @ 2011:183:08:12:41.629 vcdu=3039121
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:08:19:55.629; vcdu=3040814
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 30413
+  scs{91} is act when Dither is Enabled @ 2011:183:09:25:47.046 vcdu=3056234
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 20108
+
+==================================
+OBS ID: 30116
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30116/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:11:32:31.640; vcdu=3085911
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2011:183:11:51:58.615 vcdu=3090465
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 20210
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20210/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:12:57:48.215; vcdu=3105878
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 30315
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30315/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:14:29:04.447; vcdu=3127249
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 20208
+  scs{91} is act when Dither is Enabled @ 2011:183:16:04:40.554 vcdu=3149634
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 30618
+
+==================================
+OBS ID: 20310
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20310/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:183:18:11:29.364; vcdu=3179326
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2011:183:18:30:58.658 vcdu=3183890
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 30718
+  scs{91} is act when Dither is Enabled @ 2011:183:20:00:49.226 vcdu=3204926
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 20308
+
+==================================
+OBS ID: 30109
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:183:21:59:36.095; vcdu=3232738
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2011:183:22:27:10.773 vcdu=3239195
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 30818
+  scs{91} is act when Dither is Enabled @ 2011:183:23:13:03.573 vcdu=3249938
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 30307
+
+==================================
+OBS ID: 30513
+
+==================================
+OBS ID: 30209
+  scs{91} is act when Dither is Enabled @ 2011:184:02:21:47.573 vcdu=3294129
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:184:02:29:01.573; vcdu=3295823
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 30613
+  scs{91} is act when Dither is Enabled @ 2011:184:03:07:40.373 vcdu=3304872
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 30108
+
+==================================
+OBS ID: 30216
+  scs{91} is act when Dither is Enabled @ 2011:184:04:53:40.773 vcdu=3329693
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30216/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:04:58:27.573; vcdu=3330812
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 30310
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30310/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:06:01:52.173; vcdu=3345659
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 30415
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30415/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:184:07:06:10.773; vcdu=3360717
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 30208
+  scs{91} is act when Dither is Enabled @ 2011:184:07:49:38.573 vcdu=3370894
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 30918
+
+==================================
+OBS ID: 30410
+  scs{91} is act when Dither is Enabled @ 2011:184:09:48:26.973 vcdu=3398712
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 30410/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:184:09:53:13.773; vcdu=3399831
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 31018
+  scs{91} is act when Dither is Enabled @ 2011:184:10:54:02.883 vcdu=3414072
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 30308
+
+==================================
+OBS ID: 10702
+
+==================================
+OBS ID: 59236
+
+==================================
+OBS ID: 59235
+
+==================================
+OBS ID: 59234
+
+==================================
+OBS ID: 59233
+
+==================================
+OBS ID: 10109
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10109/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:02:26:18.000; vcdu=3632355
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+  scs{91} is act when Dither is Enabled @ 2011:185:02:26:59.596 vcdu=3632518
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+==================================
+OBS ID: 20318
+  scs{91} is act when Dither is Enabled @ 2011:185:03:18:54.186 vcdu=3644672
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10107
+
+==================================
+OBS ID: 20213
+
+==================================
+OBS ID: 10209
+  scs{91} is act when Dither is Enabled @ 2011:185:06:27:41.976 vcdu=3688878
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10209/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:06:34:55.976; vcdu=3690572
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 20313
+  scs{91} is act when Dither is Enabled @ 2011:185:07:19:37.727 vcdu=3701037
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10108
+
+==================================
+OBS ID: 20116
+  scs{91} is term when Dither is Enabled @ 2011:185:09:08:41.580 vcdu=3726574
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20116/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:09:10:24.927; vcdu=3726977
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 10110
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10110/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:10:14:31.180; vcdu=3741987
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 20215
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 20215/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:185:11:24:38.293; vcdu=3758405
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 10208
+  scs{91} is act when Dither is Enabled @ 2011:185:12:17:53.059 vcdu=3770873
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 20418
+
+==================================
+OBS ID: 10210
+  scs{91} is term when Dither is Enabled @ 2011:185:14:19:46.756 vcdu=3799414
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 10210/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:185:14:21:28.259; vcdu=3799810
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+
+==================================
+OBS ID: 20518
+  scs{91} is act when Dither is Enabled @ 2011:185:15:28:24.371 vcdu=3815483
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 10308
+CLP-040-chk_dither_par: [OK]
+

@@ -1,0 +1,15 @@
+>>> Running Momentum Unload Check - vehicle/VR042_0714.backstop
+
+Searching for continuity prior to 2013042.072528811
+ATTITUDE [-0.564993  0.347258  0.746010  0.060530 ] at 2013041.202126404
+PERIGEE at 2013038.074820172 2013040.231822276 
+
+[PASS] Continuity Search
+-------------------------------------------------------------------------------
+>> AOMUNLGR at 2013043.114502000
+>> AOMUNLGR at 2013046.040002000
+
+
+
+[PASS] OVERALL RESULT
+

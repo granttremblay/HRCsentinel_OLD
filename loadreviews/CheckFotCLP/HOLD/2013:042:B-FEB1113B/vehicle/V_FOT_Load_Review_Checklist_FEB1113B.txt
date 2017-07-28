@@ -1,0 +1,191 @@
+Date:                02/07/13
+Time:                07:46 pm
+
+Load:                FEB1113B
+Backstop File Name:  vehicle/VR042_0714.backstop
+
+Schedule Start:      2013:042:07:28:28.811
+Schedule Stop:       2013:049:18:49:23.384
+
+First backstop cmd:  2013:042:07:25:28.811
+
+
+MANEUVERS:
+
+   > Sun constraints check:                                              ? 
+
+   > FSS field-of-view check:                                            ? 
+
+     * Sun Position Monitor disabled from:
+
+       2013:042:16:13:58.112 - 2013:043:02:15:10.186
+       2013:043:10:45:22.299 - 2013:043:19:37:27.197
+       2013:044:09:20:39.565 - 2013:044:18:42:40.845
+       2013:045:02:35:56.335 - 2013:045:14:04:08.058
+       2013:046:00:29:29.544 - 2013:047:21:10:01.137
+       2013:048:16:32:01.409 - 2013:048:19:23:27.351
+       2013:048:19:43:43.076 - 2013:048:20:30:03.076 [SCS 33]
+       2013:048:23:37:53.549 - 2013:049:03:02:40.154
+       
+   > Earth exclusion check (10 deg):                                     ? 
+
+   > Moon exclusion check (6 deg):                                       ? 
+
+   > Planet exclusion check:                                             ? 
+   
+   > Bright x-ray source exclusion check:                                ? 
+
+   > Segmented maneuvers timing check:                                   ? 
+
+   > Dither check:                                                       OK
+
+     * Dither disabled from:
+
+       2013:047:15:13:10.334 - 2013:047:15:19:10.334
+
+       in order to properly establish an ACA monitor window.
+       due to normal ACA dark current operations.
+
+   > Lone NPM command check:                                             OK
+
+   > Normal Maneuver mode duration check:                                OK
+
+   > Momentum dump timing check:                                         OK 
+
+
+EPHEMERIS UPDATES:                                                       ?
+
+
+ECLIPSES:                                                                
+
+   > Eclipse check:                                                      WARN
+   
+   > Attitude within FSS FOV (SPM enable allowed):                       ? 
+   
+
+ASPECT CAMERA (see starcheck output):                                    N/A
+
+   > Star & fid light catalog checks
+
+
+ANGULAR MOMENTUM MANAGEMENT:                                             ? 
+
+   > Measured @ 2013:000:00:00:00.000
+     * Momentum = ( 0.00, 0.00, 0.00 )
+     * MUPS valve temperature A1 = 0.00
+     * MUPS valve temperature A2 = 0.00
+
+   > Previous momentum dumps (used in propagating momentum):
+
+     * N_M: 2013:000:00:00:00.000 (Obs ID 00000 [Inst/Grat])
+
+       Target momentum = ( 0.0, 0.0, 0.0 )
+
+   > Propagated @ 2013:042:07:28:28.811
+     * Momentum = ( 0.0, 0.0, 0.0 )
+     * MUPS valve temperature A1 = 0.0
+     * MUPS valve temperature A2 = 0.0
+
+   > Momentum unloading scheduling check
+
+     * N_M: 2013:000:00:00:00.000 (Obs ID 00000 [Inst/Grat])
+
+       Target momentum = ( 0.0, 0.0, 0.0 )
+
+       - Starting valve temperature A1 = 0.0 < 112 
+       - Starting valve temperature A2 = 0.0 < 119 
+
+       - Predicted Duration: 0 sec <= 363 ~ 400/1.1 sec
+       - Timeout after:      0 sec  = 400 sec
+
+     * N_M: 2013:000:00:00:00.000 (Obs ID 00000 [Inst/Grat])
+
+       Target momentum = ( 0.0, 0.0, 0.0 )
+
+       - Starting valve temperature A1 = 0.0 < 130 
+       - Starting valve temperature A2 = 0.0 < 139 
+
+       - Predicted Duration: 0 sec <= 272 ~ 300/1.1 sec
+       - Timeout after:      0 sec  = 400 sec
+
+     * N_M: 2013:000:00:00:00.000 (Obs ID 00000 [Inst/Grat])
+
+       Target momentum = ( 0.0, 0.0, 0.0 )
+
+       - Starting valve temperature A1 = 0.0 < 163
+       - Starting valve temperature A2 = 0.0 < 165 
+
+       - Predicted Duration: 0 sec <= 181 ~ 200/1.1 sec
+       - Timeout after:      0 sec  = 400 sec
+
+     FOT request: P_MOMPR_VDEA_FEB1113.fot
+
+   > Propagated @ 2013:049:18:49:23.384
+     * Momentum = ( 0.0, 0.0, 0.0 )
+
+
+REACTION WHEEL SPEEDS:                                                   ? 
+
+   > During dwells, reaction wheel speeds are all > 500 RPM
+     in magnitude.
+
+
+TIMELINE REPORT CHECK:                                                   OK
+
+   > .tlr commands = 4243
+   > .cld commands = 4243
+
+
+DISABLED COMMAND CHECK:                                                  OK
+
+     > Disabled commands: 0
+
+
+MECH CHECK:                                                              OK
+
+
+IUMODE CHECK:                                                            OK
+
+
+ACIS PACKET TIMING CHECK:                                                OK
+
+
+RADMON TIMING CHECK (only needed for radiation replan load):             ? 
+
+   > Minor Frame of first RADMON enable = xxx > 10
+
+
+TEPHIN CHECK:                                                            ? 
+
+   > Maximum    TEPHIN for FEB1113B schedule <= 138.0
+
+
+TCYLAFT6 CHECK:                                                          ? 
+
+   > Maximum    TCYLAFT6 for FEB1113B schedule <= 99.0
+
+     
+PFTANK2T CHECK:                                                          ? 
+
+   > Maximum    PFTANK2T for FEB1113B schedule <= 93.0
+   
+   
+1PDEAAT CHECK:                                                           ? 
+
+   > Maximum    1PDEAAT for FEB1113B schedule <= 52.5 
+
+  
+1DPAMZT CHECK:                                                           ? 
+
+   > Maximum    1DPAMZT for FEB1113B schedule <= 31.5 
+   
+   
+PLINE CHECK:                                                             ? 
+
+   > 156 < pitch angle < 162 : No observations
+   > 156 < pitch angle < 166 : No observations
+   > 156 < pitch angle < 170 : No observations
+   > pitch angle > 170       : No observations
+
+   > Eclipse Attitudes are NOT used for PLINE preheating: True
+     [ True => OK / False => NOT OK ]

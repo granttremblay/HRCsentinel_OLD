@@ -1,0 +1,44 @@
+
+>>> Running Eclipse Check - vehicle/VR042_0714.backstop (FEB1113B)
+
+>> ECLIPSE.txt File Processing
+[PASS] ECLIPSE.txt File Processing
+
+>> Continuity Search
+[PASS] Continuity Search
+
+>> .backstop file processing
+[WARN] There were at least as many entry timer commands as eclipses (PENTRY/PEXIT pairs) in the backstop file. This may be due to commands that reset the entry timer to its default value.
+[WARN] .backstop file processing
+
+>> Determine whether eclipsecheck needs to run
+Eclipse elements were found; the script will run.
+
+>> Determine number of eclipses in schedule
+Number of eclipses in this schedule: 1
+
+>> .backstop file checks
+
+--------------------------------------------------------------------------------
+1 EXT ECL PD: 2013048.192842076 2013048.203903076 PENTRY TIME: 2013048.194843076
+  TYPE: NORMAL
+
+        OFLS                     STK/EXP
+  Start 2013048.194843076        2013048.194848590 [PASS] 
+  End   2013048.201903076        2013048.201901380 [PASS] 
+  EntTm 1873 (2013046.000001000) 1873              [PASS] 
+
+  LAST MAN: 2013048.185909312 2013048.192323251 Pitch: 114.89 Roll:  0.01 [PASS] 
+  Autotransition Enabled Prior to Last Maneuver                          [PASS] 
+
+   [FOUND] -10:00 Momentum Unload Disabled
+   [FOUND] -05:00 SPM Disabled
+   [FOUND] -02:00 Eclipse Entry
+
+[PASS] This Eclipse
+--------------------------------------------------------------------------------
+
+[PASS] .backstop file checks
+
+[WARN] OVERALL RESULT
+

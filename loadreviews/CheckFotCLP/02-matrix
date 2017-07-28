@@ -1,0 +1,111 @@
+HRC-01	CLP-033-chk_for_HV_down_in_radzone.pl
+HRC-02	CLP-033-chk_for_HV_down_in_radzone.pl
+HRC-03	CLP-036-chk_hv_scs_for_selected_detector.pl
+HRC-04	CLP-036-chk_hv_scs_for_selected_detector.pl
+HRC-05	CLP-035-chk_hv_scs_after_radmon_dis.pl
+HRC-06	NA
+HRC-07	NA
+HRC-08	NA
+HRC-09	NA
+HRC-10	CLP-030-chk_for_cmd_timing_lt_1sec.pl
+HRC-11	NA
+HRC-12	NA
+HRC-13	NA
+HRC-14	CLP-032-chk_proper_det_vs_rampupdown_scs.pl
+HRC-15	NA
+HRC-16	NA
+HRC-17	NA
+HRC-18	NA
+HRC-19	NA
+HRC-20	CLP-030-chk_for_cmd_timing_lt_1sec.pl
+HRC-21	NA
+HRC-22	NA
+HRC-23	NA
+HRC-24	NA
+HRC-25	NA
+HRC-26	NA
+HRC-27	NA
+HRC-28	CLP-036-chk_hv_scs_for_selected_detector.pl
+HRC-29	NA
+HRC-30	CLP-039-chk-pmt-on-and-up.pl
+HRC-31	NA
+HRC-32	CLP-039-chk-pmt-on-and-up.pl
+
+
+CLP-031-chk_for_cmds_between_radmon.pl
+CLP-000.pl
+CLP-030-chk_for_cmd_timing_lt_1sec.pl
+CLP-031-chk_for_cmds_between_radmon-disable.pl
+CLP-032-chk_proper_det_vs_rampupdown_scs.pl
+CLP-033-chk_for_HV_down_in_radzone.pl
+CLP-034-chk_for_bad_cmd_hex.pl
+CLP-035-chk_hv_scs_after_radmon_dis.pl
+CLP-036-chk_hv_scs_for_selected_detector.pl
+CLP-037-chk-format_commands.pl
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+CLP-039-chk-pmt-on-and-up.pl
+CLP-040-chk_dither_par.pl
+CLP-MasterCheck.sh
+CLP-MasterCheck.test.sh
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+ID 	Category 	Check Performed 	CARD 	Implications
+HRC-01 	HV 	MCP HV Ramped Down in RADZONE 	HRC-R-002 	Damage to MCPs from operation at high rates
+HRC-02 	HV 	Antico Shield HV off in RADZONE 	  	Damage to PMT from operation at high rates
+HRC-03 	HV 	HRC-S MCP HV Ramping SCSs disabled when HRC-I selected 	HRC-C-006 	 
+HRC-04 	HV 	HRC-I MCP HV Ramping SCSs disabled when HRC-S selected 	HRC-C-006 	 
+HRC-05 	HV 	MCP HV Ramp-up SCSs not enabled if RADMON disabled 	HRC-R-002 	No RADMON protection of MCP in operation
+DELETED
+HRC-06 	MECH 	HRC door "close" safing SCS not disabled while door "open" 	  	Loss of protection from door in the case of a safing action
+HRC-07 	MECH 	HRC door "close" safing SCS not enabled while door "closed" 	  	Over-close the HRC door during a safing action
+require ground intervention to correct
+HRC-08 	MECH 	HRC door "open" for observation 	  	No science data
+HRC-09 	OBS 	HRC configuration correct for observation 	  	Poor quality science data
+HRC-10 	OBS 	TLM format 1 for HRC observations 	  	Loss of science data
+HRC-11 	OBS 	SIM translation correct for observation 	  	Poor quality or no science data
+HRC-12 	OBS 	SIM focus correct for observation 	  	Poor quality science data
+HRC-13 	OBS 	Correct dither selected for HRC observations 	HRC-R-004 	Possible localized damage to MCP
+HRC-14 	HV 	MCP HV turn-on only via SCSs 92 and 93 	HRC-C-006 	 
+HRC-15 	MECH 	Shutters HOME prior to HRC door motion 	HRC-C-001 	Door and shutter collide - loss of instrument
+HRC-16 	MECH 	HRC Door not moved to OPEN limit 	  	Snubbers break off
+HRC-17 	MECH 	HRC Door not moved to CLOSED limit 	HRC-L-001 	Over-stress door mechanism - potential loss of instrument
+DELETED
+HRC-18 	RADZONE 	HRC Door "closed" in RADZONE 	  	Possible degradation of UV/ion shields
+HRC-19 	RADZONE 	SIM translated to HRC-S for RADZONE 	  	Loss of ACIS safing
+HRC-20 	CMD 	Time between HRC commands > 1 second 	  	Command collisions
+HRC-21 	CMD 	HRC telemetry timing commanded at format changes 	HRC-L-003 	Loss of science data
+HRC-22 	OBS 	HRC Dither Control SCS not disabled 	  	Loss of science data
+HRC-23 	OBS 	MCP HV turn-on SCSs not disabled 	  	Loss of science data
+HRC-24 	HV 	HRC HV safing SCS (# 104) not disabled 	  	Loss of SI safing capability
+HRC-25 	RADZONE 	RADMON disabled in RADZONE 	  	Unintended SI safing
+HRC-26 	HV 	Detectors not switched with MCP HV on 	HRC-C-005 	Possible damage to charge amplifiers
+HRC-27 	MECH 	Shutters moved with HRC door not "open" 	HRC-C-008 	Door and shutter collide - loss of instrument
+HRC-28 	HV 	MCP HV turn-on only for selected detector 	HRC-C-006 	Possible MCP damage
+HRC-29 	MECH 	Any mechanism selected for commanding 	  	Protect against a second relay failure
+HRC-30 	HV 	PMT HV step increase size not greater-than 4 	  	Possible PMT HV damage
+HRC-31 	OBS 	Exposure time at least 90% of requested 	  	Less than approved science data
+HRC-32 	SAFE 	PMT HV at operational level for science observing time
+(while RADMON is enabled) 	  	Full RADMON protection of SIs
+
+Notes
+1. HRC CARDs not included in HRC load review checks
+
+    * HRC-C-002 - HRC HOUSING PRESSURE AT MCP HV TURN-ON
+    * HRC-C-003 - HRC HIGH VOLTAGE POWER SEQUENCE
+    * HRC-C-004 - HRC MCP HIGH VOLTAGE LIMIT
+    * HRC-C-007 - HRC HIGH VOLTAGE AND ELECTRONIC CALIBRATION MODE
+    * HRC-C-009 - Spacecraft Power Bus Configuration for the HRC
+    * HRC-C-010 - HRC Electronics Power Configuration
+    * HRC-C-011 - HRC Power Internal Configuration
+    * HRC-R-001 - LOWERED MCP HV WHEN SLEWING
+    * HRC-R-003 - Bright Source observations with the HRC and an OTG
+    * HRC-L-003 - HRC Door Operation during ACIS Observations 
+
+
+
+

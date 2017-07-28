@@ -1,0 +1,475 @@
+CLP-030-chk_for_cmd_timing_lt_1sec.pl: [OK]
+
+CLP-031-chk_for_cmds_between_radmon.pl: [OK]
+
+CLP-033-chk_for_HV_down_in_radzone.pl: [OK]
+
+CLP-034-chk_for_bad_cmd_hex.pl: [OK]
+
+==================================================
+  OBS: 20103/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:178:00:05:14.000; vcdu=1239130
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20203/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:178:05:01:28.534; vcdu=1308494
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30104/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:178:08:03:22.675; vcdu=1351086
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20104/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:178:10:05:10.233; vcdu=1379603
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30103/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:178:10:56:59.233; vcdu=1391736
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20204/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:178:14:35:28.516; vcdu=1442894
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30203/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:178:18:27:23.121; vcdu=1497195
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30303/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:178:22:30:15.194; vcdu=1554061
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30204/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:179:00:42:08.000; vcdu=1584941
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30304/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:179:01:47:32.310; vcdu=1600255
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30403/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:179:02:39:21.310; vcdu=1612388
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:179:05:12:30.820; vcdu=1648249
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 10103/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:179:18:48:21.682; vcdu=1839277
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10203/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:179:22:41:42.281; vcdu=1893913
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20304/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:01:02:56.402; vcdu=1926983
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 10104/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:02:24:04.678; vcdu=1945981
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20303/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:180:03:15:53.678; vcdu=1958114
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 10204/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:06:03:19.329; vcdu=1997317
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20403/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:180:08:54:18.213; vcdu=2037351
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20503/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:180:13:56:39.263; vcdu=2108146
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30110/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:17:04:30.470; vcdu=2152131
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 20404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:18:29:16.765; vcdu=2171980
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30115/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:180:20:00:01.097; vcdu=2193226
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 20504/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:180:23:40:48.057; vcdu=2244921
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30503/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:181:03:28:32.437; vcdu=2298246
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30603/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:181:07:43:22.881; vcdu=2357916
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30210/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:181:10:04:23.087; vcdu=2390931
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30504/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:181:11:04:03.687; vcdu=2404904
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 30215/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2011:181:12:04:38.287; vcdu=2419088
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+==================================================
+  OBS: 30604/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2011:181:14:43:40.550; vcdu=2456326
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+CLP-036-chk_hv_scs_for_selected_detector: [OK]
+
+CLP-037-chk-format_commands.pl: [OK]
+
+
+    116.5:  2011:181:07:38:08.381 00:01:59  2356688 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    117.5:  2011:181:07:38:09.381 00:00:01  2356692 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    118.5:  2011:181:07:38:10.381 00:00:01  2356696 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    108.8:  2011:181:10:01:35.787 00:01:17  2390278 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    109.8:  2011:181:10:01:36.787 00:00:01  2390282 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    110.8:  2011:181:10:01:37.787 00:00:01  2390286 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+    107.5:  2011:181:14:40:52.250 00:01:17  2455669 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+    108.5:  2011:181:14:40:53.250 00:00:01  2455673 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset 
+    109.5:  2011:181:14:40:54.250 00:00:01  2455677 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+CLP-038-chk-hrccmds_after_dither_ena: [FAIL]
+ Found 9 configuration errors:
+

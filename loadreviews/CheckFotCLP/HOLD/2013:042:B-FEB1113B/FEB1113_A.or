@@ -1,0 +1,526 @@
+HDR,HDR_ID=FEB1113_A
+
+BEGIN_COMMENT,ID=49999
+
+  ** WARNING: This file automatically generated 
+  ** by Matlab OR Viewer. 03-Feb-2013 10:33:30
+  ** 
+  ** Some OR parameters may have been modified.
+
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+This is the OR list for the week of FEB 11, 2013.
+SOT Mission Planner: Dan Patnaude
+FOT Mission Planner: Mike Leger
+Please email all notes and comments to Dan ( dpatnaude@cfa.harvard.edu ).
+
+Version list:
+_00 : as extracted using MP software
+_01 : LTS OR List, released 23 Jan, 2013
+_02 : Final OR List, released 30 Jan, 2013
+    - added pool targets 14643, 15340, 15285, 15381,
+      15365, 15363, 14645, 14887
+    - updated SIMODE for OBSIDS 15272 (and split 15612)
+      and 14962 due to dropped chip requests
+    - split obsid 13748, 15272, and 13788:
+      
+      13748 (37.5ks)   --> 13748 (41ks)
+      13748.1 (22.5ks) --> 15610 (25ks)
+      13748.2 (24ks)   --> 15611 (26ks)
+      13788 (19ks)     --> 13788 (20ks)
+      13788.1 (20ks)   --> 15613 (20ks)
+      15272 (30ks)     --> 15272 (32ks)
+      15272.1 (30.2ks) --> 15612 (33ks)
+
+      Total scheduled time for obsid 13748 and its 
+      split pieces is 84ks (91% of obscat time)
+
+      Total scheduled time for obsid 13788 and its
+      split piece is 39ks (98% of obscat time)
+
+      Total scheduled time for obsid 15272 and its
+      split piece is 60.2ks (93% of obscat time)
+
+      Additional notes: 13748, 15610, and 15611 have
+      a roll preference that has not been met in the
+      preliminary schedule. Please try to schedule these
+      targets at a roll of 80.16 +/- 10 deg. Currently,
+      these observations are scheduled at a roll of 66 deg.
+
+**************************************************************
+
+For this week, please note:
+
+Priority Definitions
+
+---------------------------------
+	- 4 for constrained observations that absolutely 
+	must be done in this load
+	- 5 for time constrained or otherwise urgent targets 
+	that should be done in this load if at all possible
+	- 6 for objects from the LTS without time constraints
+
+Comments
+---------------------------------
+
+14459: GJ 436 (20ks). phase constrained and coordinated with HST.
+
+       phase window provides for overlap with HST:
+
+WINDOW=(2013:047:12:49:48.339,2013:047:22:20:53.257) (36.8ks)
+
+HST observing window is 2013:047:17:05 - 2013:047:22:45 (20.4ks)
+    so placing this target so that it ends at or near the end of
+    its phase constraint will ensure that the two observations
+    overlap as much as possible
+       This observation has a monitor star comment.
+
+14930: M31 BHXN (5ks). This observation follows 14929 by 21-35
+       days. The monitor constraint is met all week.
+
+15316: G241.97+14.85 (40ks). This observation has a comment in
+       remarks regarding the target offsets. Current target
+       offsets are good for the FEB1113 week
+
+13748: RCW86 (92ks). Roll preference of 80.16 +/-10 deg. Midweek
+       roll is 68.2 deg.
+
+14962: SDSS 1138+0314 (35ks). This target has the potential for
+       a dropped chip
+
+15272: HD 79826 (65ks). This target is at a pitch of approximately
+       153 deg for the entire week, which is up against the new 
+       lower limit for the pline constraint. This target has the
+       potential for a dropped chip
+
+Low Visibility targets:
+
+Obsid	Day of year for low vis
+------------------------------
+15610 	41e, 43e, 44e, 46e, 49e
+14645 	41s, 42s, 43s, 44s, 45s
+13748 	41e, 43e, 44e, 46e, 49e
+15611 	41e, 43e, 44e, 46e, 49e
+15365 	41s, 42s, 43s
+
+
+Pitch/Time Summary
+---------------------------------
+Total time in OR list : 509.00 ksec
+Total time at PSMC pitch angle (46-56) : 10.00 ksec
+Percent of total : 1.965%
+Total time at bad pitch angle (85-115) : 132.00 ksec
+Percent of total : 25.933%
+Total time at good pitch angle (56-85,115-145) : 188.00 ksec
+Percent of total : 36.935%
+Total time at cold pitch angle (145-156) : 174.00 ksec
+Percent of total : 34.185%
+Total time in P-line region (156-170) : 0.00 ksec
+Percent of total : 0.000%
+Total time at forbidden pitch angle (0-46,170-180) : 5.00 ksec
+Percent of total : 0.982%   WARNING!!!! Targets in forbidden region by midweek!
+
+Total time at priority 4, 5 or 6 : 442.00 ksec
+Total time at bad pitch angle (85-115) : 132.00 ksec
+Percent of total : 29.864%
+
+Note: Pitch totals are calculated based on a midweek roll.
+
+
+
+
+			Target Summary: FEB1113
+
+			  pitch angle/roll
+			    (day of year)
+    obsid  time  P  U      042         048         target          PI RC OC FP PD
+    -----  ----  -  -  ----------  ----------  ----------  ---------- -- -- -- --
+    14459    20  4  N   148/107.6   152/117.3      GJ 436  Ehrenreich  1  0  N  N
+    14930     5  4  N    69/312.0    64/315.9    M31 BHXN     Barnard  6  2  N  N
+ ** 13748    41  5  N     84/70.7     88/66.4       RCW86     Katsuda  5  0  N  N
+    15316    40  5  N   145/335.0   144/324.6  G241.97+14      Murray  5  1  N  N
+ ** 15610    25  5  N     84/70.7     88/66.4       RCW86     Katsuda  5  0  N  N
+ ** 15611    26  5  N     84/70.7     88/66.4       RCW86     Katsuda  5  0  N  N
+    13276    30  6  N     63/93.2     68/91.2      RCW120     Garmire  4  0  N  N
+ ** 13788    20  6  N   107/108.7   106/115.0  1RXS J1412     Halpern  3  0  N  N
+    13919    25  6  N    61/225.4    62/218.6  IRAS F0018     Iwasawa  4  0  N  N
+    14032    30  6  N    84/296.8    84/290.7        N113       Lopez  6  2  N  N
+    14594    30  6  N     59/87.3     65/87.2    NGC 6369     Kastner  6  3  N  N
+    14962    35  6  N    148/68.0    154/68.4  SDSS 1138+      Pooley  6  5  N  Y
+    15035    30  6  N    145/77.2    151/80.1  SDSS J1157         Max  5  4  N  N
+    15272    32  6  N   153/347.5   153/334.1    HD 79826   Canizares  6  1  N  Y
+    15612    33  6  N   153/347.5   153/334.1    HD 79826   Canizares  6  1  N  Y
+ ** 15613    20  6  N   107/108.7   106/115.0  1RXS J1412     Halpern  3  0  N  N
+    14643     5  8  N     54/91.2     60/90.7  GRO J1750-    Wijnands  1  0  N  N
+*** 14645     5  8  N     43/65.4     48/70.5  XTE J1858+    Wijnands  1  0  N   
+    14887    11  8  N     57/91.6     63/90.8  G359.1+0.9  Saz Parkin  5  1  N  N
+    15285     4  8  N    147/63.2    153/62.2  CODEX 5750     Predehl  6  2  N  Y
+    15340     2  8  N    121/75.8    127/77.8  SDSS J1332     Garmire  3  0  N  N
+    15363    10  8  N    60/238.9    60/232.0  PSR J0101-     Garmire  5  1  N  N
+*** 15365    10  8  N     44/73.5     49/77.3  HESS J1843     Garmire  5  1  N   
+    15381    20  8  N   152/220.8   147/227.8  SDSS J0826     Garmire  5  1  N  N
+
+*** = forbidden zone (0-46,170-180)
+ ** = bad pitch (85-115)
+  * = pline restrictions (156-170)
+
+
+Time Summary
+---------------------------------
+
+Priority	# of Obs	Time (seconds)
+4		2		    25000.00
+5		4		   132000.00
+6		10		   285000.00
+8		8		    67000.00
+
+HRC		0		        0.00
+ACIS		24		   509000.00
+
+TOTAL		24		   509000.00
+
+
+
+Targets Not Approved for Flight
+---------------------------------
+all targets except split pieces are approved for flight
+
+Approval Status
+---------------------------------
+
+200746 13276               RCW120       Getman ACIS-I NONE TE_0050E  swolk  11/28/11
+501581 13748                RCW86      Katsuda ACIS-S NONE TE_007BC  jeanconn  08/16/12
+501620 13788 1RXS J141256.0+79220      Halpern ACIS-S NONE CC_00136  jeanconn  01/24/12
+702644 13919     IRAS F00183-7111      Iwasawa ACIS-S NONE TE_006C8  brad  10/12/11
+900998 14032                 N113        Lopez ACIS-I NONE TE_0046C  das  11/21/11
+200831 14459               GJ 436     Wheatley ACIS-S NONE TE_00914  swolk  01/28/13
+200895 14594             NGC 6369       Montez ACIS-S NONE TE_004A4  swolk  10/25/12
+401476 14643         GRO J1750-27     Wijnands ACIS-S NONE TE_008FC  swolk  11/01/12
+401478 14645        XTE J1858+034     Wijnands ACIS-S NONE TE_00A04  swolk  11/02/12
+502011 14887           G359.1+0.9 Saz Parkinso ACIS-I NONE TE_0064C  jeanconn  11/07/12
+601060 14930             M31 BHXN      Barnard ACIS-I NONE TE_00ABA  zhao  10/22/12
+702771 14962       SDSS 1138+0314       Pooley ACIS-S NONE TE_009C8  brad  10/30/12
+702842 15035 SDSS J115714.98+0816       McGurk ACIS-S NONE TE_004A6  brad  10/30/12
+200906 15272             HD 79826 Huenemoerder ACIS-S HETG TE_008D0  nss  11/08/12
+801323 15285          CODEX 57507      Predehl ACIS-I NONE TE_0046C  zhao  01/20/13
+801349 15316        G241.97+14.85        Jones ACIS-I NONE TE_00458  zhao  12/07/12
+702900 15340      SDSS J1332+0347       Brandt ACIS-S NONE TE_00B4A  brad  10/27/12
+502028 15363       PSR J0101-6422   Kargaltsev ACIS-I NONE TE_00758  jeanconn  11/02/12
+502030 15365      HESS J1843-033B   Kargaltsev ACIS-I NONE TE_00758  jeanconn  11/13/12
+801371 15381 SDSS J082657.15+3606       Miller ACIS-I NONE TE_00458  zhao  12/07/12
+501581 15610                RCW86      Katsuda ACIS-S NONE TE_007BC  *** not approved for flight ***
+501581 15611                RCW86      Katsuda ACIS-S NONE TE_007BC  *** not approved for flight ***
+200906 15612             HD 79826 Huenemoerder ACIS-S HETG TE_008D0  *** not approved for flight ***
+501620 15613 1RXS J141256.0+79220      Halpern ACIS-S NONE CC_00136  *** not approved for flight ***
+
+
+
+
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+***OR QUICK LOOK START
+   NOTE: This comment is automatically regenerated when using the 
+         mp_orf_gui or the mp_orf_file applications.
+   
+                                                            Req.  Opt.  Drop
+SeqNbr    ObsId     Target Name              Observer       Chip  Chip  Chip
+-------------------------------------------------------------------------------
+200831    14459     GJ 436                   Wheatley          1     0     0
+601060    14930     M31 BHXN                 Barnard           6     2     0
+501581    13748     RCW86                    Katsuda           5     0     0
+801349    15316     G241.97+14.85            Jones             5     1     0
+501581    15610     RCW86                    Katsuda           5     0     0
+501581    15611     RCW86                    Katsuda           5     0     0
+200746    13276     RCW120                   Getman            4     0     0
+501620    13788     1RXS J141256.0+792204    Halpern           3     0     0
+702644    13919     IRAS F00183-7111         Iwasawa           4     0     0
+900998    14032     N113                     Lopez             6     2     0
+200895    14594     NGC 6369                 Montez            6     3     0
+702771    14962     SDSS 1138+0314           Pooley            6     5     1
+702842    15035     SDSS J115714.98+0816     McGurk            5     4     0
+200906    15272     HD 79826                 Huenemoerder      6     1     1
+200906    15612     HD 79826                 Huenemoerder      6     1     1
+501620    15613     1RXS J141256.0+792204    Halpern           3     0     0
+401476    14643     GRO J1750-27             Wijnands          1     0     0
+401478    14645     XTE J1858+034            Wijnands          1     0     0
+502011    14887     G359.1+0.9               Saz Parkinson     5     1     0
+801323    15285     CODEX 57507              Predehl           6     2     0
+702900    15340     SDSS J1332+0347          Brandt            3     0     0
+502028    15363     PSR J0101-6422           Kargaltsev        5     1     0
+502030    15365     HESS J1843-033B          Kargaltsev        5     1     0
+801371    15381     SDSS J082657.15+360659.1  Miller            5     1     0
+***OR QUICK LOOK END
+END_COMMENT
+
+OBS,
+ ID=14962,TARGET=(174.515417,3.249472,{SDSS 1138+0314}),
+ DURATION=(32300.000000),PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_009C8,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,31500.000000),MIN_ACQ=1,MIN_GUIDE=1,
+ PRECEDING=(13276),
+ ROLL=(62.0)
+
+BEGIN_COMMENT, ID=13276
+Remarks:
+This GTO observation complements our GO observation of similar title 
+and similar target. If it is needed, the two observations (GO and GTO; both 
+non-constrained) can be combined together.
+END_COMMENT
+OBS,
+ ID=13276,TARGET=(258.086667,-38.491806,{RCW120}),
+ DURATION=(30000.0),
+ PRIORITY=6,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_0050E,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,27000.000000),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=15611
+Roll Preferences exist for observation.
+  ROLL=(80.160000,10.000000)
+END_COMMENT
+OBS,
+ ID=15611,TARGET=(220.117980,-62.722094,{RCW86}),
+ DURATION=(25000.0,25000.0,30000.000000),
+ PRIORITY=5,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_007BC,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(70.500000,0.000000),SEGMENT=(1,23400.000000),PRECEDING=(14962),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=14643,TARGET=(267.303333,-26.644111,{GRO J1750-27}),
+ DURATION=(4800.0),
+ PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_008FC,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(00000),MIN_ACQ=1,MIN_GUIDE=1,
+ WINDOW=(2013:042:07:30:00.000, 2013:043:14:00:00.000)
+
+OBS,
+ ID=13788,TARGET=(213.232500,79.367694,{1RXS J141256.0+79220}),
+ DURATION=(19600.000000),PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=CC_00136,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(116.000000,0.000000),SEGMENT=(1,18000.000000),PRECEDING=(T_X68),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15340,TARGET=(203.094167,3.794417,{SDSS J1332+0347}),
+ DURATION=(2000.000000),PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00B4A,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,2000.000000),PRECEDING=(13788),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=13919,TARGET=(5.144583,-70.924083,{IRAS F00183-7111}),
+ DURATION=(23000.000000),PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_006C8,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,22500.000000),PRECEDING=(15340),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=15272
+MONITOR_COMMENT
+AGASC_ID=716452328, MAG_ACA=8.810160, WITHIN 2.000000 MAG of MONITOR TARGET
+MONITORING TARGET SHOULD BE PLACED IN SLOT 7.
+END_MONITOR_COMMENT
+END_COMMENT
+OBS,
+ ID=15272,TARGET=(138.982083,-12.235583,{HD 79826}),DURATION=(30000.000000),
+ PRIORITY=6,STAR=(138.982083,-12.235583,8.770000,MON),SI=ACIS-S,GRATING=HETG,
+ SI_MODE=TE_008D0,ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(343.000000,0.000000),SEGMENT=(1,28800.000000),PRECEDING=(13919),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=14032,TARGET=(78.354167,-69.379444,{N113}),DURATION=(28000.000000),
+ PRIORITY=6,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_0046C,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,27000.000000),PRECEDING=(15272),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=15612
+MONITOR_COMMENT
+AGASC_ID=716452328, MAG_ACA=8.810160, WITHIN 2.000000 MAG of MONITOR TARGET
+MONITORING TARGET SHOULD BE PLACED IN SLOT 7.
+END_MONITOR_COMMENT
+END_COMMENT
+OBS,
+ ID=15612,TARGET=(138.982083,-12.235583,{HD 79826}),
+DURATION=(31700.000000),
+ PRIORITY=6,STAR=(138.982083,-12.235583,8.770000,MON),SI=ACIS-S,GRATING=HETG,
+ SI_MODE=TE_008D0,ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(343.000000,0.000000),SEGMENT=(1,29700.000000),PRECEDING=(14032),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15285,TARGET=(174.224167,0.081917,{CODEX 57507}),DURATION=(4000.000000),
+ PRIORITY=8,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_0046C,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,4000.000000),PRECEDING=(15612),MIN_ACQ=1,MIN_GUIDE=1,
+ ROLL=(61.0)
+
+BEGIN_COMMENT, ID=13748
+Roll Preferences exist for observation.
+  ROLL=(80.160000,10.000000)
+END_COMMENT
+OBS,
+ ID=13748,TARGET=(220.117980,-62.722094,{RCW86}),
+ DURATION=(30000.0,30000.0,47500.000000),
+ PRIORITY=5,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_007BC,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(70.500000,0.000000),SEGMENT=(1,36900.000000),PRECEDING=(15285),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15381,TARGET=(126.738333,36.116444,{SDSS J082657.15+3606}),
+ DURATION=(20000.000000),PRIORITY=8,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00458,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(-0.043333,0.000000),SIM_OFFSET=(-2625),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,18000.000000),PRECEDING=(T_X69),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15035,TARGET=(179.312500,8.275556,{SDSS J115714.98+0816}),
+ DURATION=(30000.000000),PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_004A6,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,27000.000000),PRECEDING=(15381),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=15316
+Remarks:
+When the roll is determined, we will make any adjustments to the 
+pointing to maximize the Chandra science for this target. 
+Pointing good for roll 270-360; 0-70. Outside these range, please let us know.
+END_COMMENT
+OBS,
+ ID=15316,TARGET=(130.465833,-17.466583,{G241.97+14.85}),
+ DURATION=(39000.000000),PRIORITY=5,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00458,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(-0.050000,0.000000),SIM_OFFSET=(-1889),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,36000.000000),PRECEDING=(15035),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=14459
+MONITOR_COMMENT
+NO AGASC OBJECT FOUND WITHIN 0.001389 OF MONITORING TARGET
+END_MONITOR_COMMENT
+Remarks:
+HST will observe 3 transits of the planet GJ436b (4 orbits each). We 
+request 20ks Chandra observations immediately preceding each of the 3 HST 
+transits. It is essential that Chandra observes the same transits as HST. Our 
+phase constraint is designed to cover the hours preceding the transit when the 
+X-ray irradiation of the planet will be driving mass loss that we hope to 
+detect 
+at transit with HST. If it is not possible to achieve this constraint then 
+observations made up to a few hours earlier would still be of value.
+END_COMMENT
+OBS,
+ ID=14459,TARGET=(175.547500,26.705528,{GJ 436}),DURATION=(19000.000000),
+ PRIORITY=4,STAR=(175.547500,26.705528,10.600000,MON),SI=ACIS-S,GRATING=NONE,
+ SI_MODE=TE_00914,ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ PHASE=(002:15:27:12.787,2009:033:13:59:49,0.9000,0.0300,0.9900,0.0300),
+ SEGMENT=(1,18000.000000),PRECEDING=(15316),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15365,TARGET=(280.840417,-3.529194,{HESS J1843-033B}),
+ DURATION=(11000.000000),PRIORITY=8,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00758,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,9000.000000),PRECEDING=(14459),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15363,TARGET=(15.296250,-64.375028,{PSR J0101-6422}),
+ DURATION=(10000.000000),PRIORITY=8,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00758,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(-0.006667,0.000000),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,9000.000000),PRECEDING=(15365),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=14645,TARGET=(284.681250,3.434556,{XTE J1858+034}),DURATION=(5000.000000),
+ PRIORITY=8,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_00A04,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(15363),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=14887,TARGET=(264.736250,-29.140194,{G359.1+0.9}),DURATION=(11000.000000),
+ PRIORITY=8,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_0064C,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,9900.000000),PRECEDING=(14645),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=15610
+Roll Preferences exist for observation.
+  ROLL=(80.160000,10.000000)
+END_COMMENT
+OBS,
+ ID=15610,TARGET=(220.117980,-62.722094,{RCW86}),
+ DURATION=(10000.0,10000.0,34000.0),
+ PRIORITY=5,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_007BC,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(70.500000,0.000000),SEGMENT=(1,22500.000000),PRECEDING=(14887),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=15613,TARGET=(213.232500,79.367694,{1RXS J141256.0+79220}),
+ DURATION=(17000.000000),PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=CC_00136,
+ ACA_MODE=DEFAULT,TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ ROLL=(116.000000,0.000000),SEGMENT=(1,18000.000000),PRECEDING=(T_X70),
+ MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT, ID=14930
+NOTE: The PRECEDING=(14929,021:00:00:00.000,035:00:00:00.000) parameter has
+been removed from this OR because there is no OR with an ID=14929
+in this OR list.
+Remarks:
+The combined GTO and GO progaram of 10x5ks ACIS observations should be 
+spaced on ~1 month intervals, avoiding the 2 month sun block. The first 2 HST 
+orbits should occur 3-4 weeks after ONE of these 10 observations (the first 
+with 
+a transient of Lx >1e38 erg/s or <1' of nucleus) and the second 2 orbits should 
+occur several months later. There should be no need for CXC Mission Planners to 
+co-ordinate with the HST schedule, as observations occur frequently enough as 
+long as the one month intervals are maintained.
+END_COMMENT
+OBS,
+ ID=14930,TARGET=(10.685000,41.268972,{M31 BHXN}),DURATION=(5000.000000),
+ PRIORITY=4,SI=ACIS-I,GRATING=NONE,SI_MODE=TE_00ABA,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(-0.003333,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,5000.000000),PRECEDING=(15613),MIN_ACQ=1,MIN_GUIDE=1
+
+OBS,
+ ID=14594,TARGET=(262.335000,-23.759667,{NGC 6369}),DURATION=(30000.000000),
+ PRIORITY=6,SI=ACIS-S,GRATING=NONE,SI_MODE=TE_004A4,ACA_MODE=DEFAULT,
+ TARGET_OFFSET=(0.002500,-0.004167),
+ DITHER=(ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000),
+ SEGMENT=(1,27000.000000),PRECEDING=(14930),MIN_ACQ=1,MIN_GUIDE=1
+
+BEGIN_COMMENT,ID=49999
+Priority 4 targets. 
+These are constrained observations that must be scheduled in this load.
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+Priority 5 targets.
+These are coordinated or in other ways constrained or urgent observations 
+and should be scheduled this week if at all possible.
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+Priority 6 targets. 
+Unconstrained targets from the LTS. 
+END_COMMENT
+
+BEGIN_COMMENT,ID=49999
+MPCAT File: /data/mpcrit1/mplogs/2013/FEB1113/scheduled/feb1113.mpc
+END_COMMENT
+

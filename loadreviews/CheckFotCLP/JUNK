@@ -1,0 +1,176 @@
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:177:A-JUN2617A ===
+Command Line: CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:177:A-JUN2617A
+Thu Jun 22 10:53:27 EDT 2017
+2017:173:14:53:27
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2017:177:A-JUN2617A ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-030-chk_for_cmd_timing_lt_1sec.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[FAIL]CLP-030-chk_for_cmd_timing_lt_1sec.pl 
+ 1:  2017:182:22:06:17.744	00:00:01	12495521	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  VCDU WARN: dvcdu: 2
+ 2:  2017:182:22:06:18.244	00:00:01	12495523	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  VCDU WARN: dvcdu: 2
+ 3:  2017:182:22:06:18.744	00:00:01	12495525	2S2HVON   	641A020 == 641a020 sd0d01 shield b hv on  VCDU WARN: dvcdu: 2
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-031-chk_for_cmds_between_radmon-disable.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]  CLP-031-chk_for_cmds_between_radmon.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-033-chk_for_HV_down_in_radzone.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-033-chk_for_HV_down_in_radzone.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-034-chk_for_bad_cmd_hex.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-034-chk_for_bad_cmd_hex.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-036-chk_hv_scs_for_selected_detector.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-036-chk_hv_scs_for_selected_detector.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-037-chk-format_commands.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-037-chk-format_commands.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-039-chk-pmt-on-and-up.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-039-chk-pmt-on-and-up.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-040-chk_dither_par.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+  scs{91} is term when Dither is Enabled @ 2017:179:00:35:11.585 vcdu=11181702
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:179:15:42:50.698 vcdu=11394225
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:179:16:30:45.201 vcdu=11405443
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:06:12:25.557 vcdu=11597834
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:21:37:59.698 vcdu=11814553
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:22:17:31.873 vcdu=11823810
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:181:15:20:43.880 vcdu=12063389
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:06:27:16.744 vcdu=12275654
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:07:14:57.310 vcdu=12286817
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:20:36:26.744 vcdu=12474483
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  1.939000e-05 rad (1.110969e-03 deg) 
+   COEFY =  1.939000e-05 rad (1.110969e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:183:03:43:25.870 vcdu=12574460
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+[OK]   CLP-040-chk_dither_par.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-041-chk_mechanism_cmds.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-041-chk_mechanism_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-042-chk_fmt.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-042-chk_fmt.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-043-chk_discrete_hv_cmds_cmds.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-043-chk_discrete_hv_cmds_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-044-chk_hrc_cmds_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-045-chk_hrc_scs_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:177:A-JUN2617A
+[OK]   CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+
+3 errors found in load review

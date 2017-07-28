@@ -1,0 +1,4 @@
+
+CLP-MasterCheck.sh /d0/hrc/occ/mp/2013:077:A-MAR1813A
+check  CLP-038-chk-hrccmds_nsec_after_dither_ena.pl /d0/hrc/occ/mp/2013:077:A-MAR1813A
+

@@ -1,0 +1,133 @@
+=== CLP-MasterCheck.sh fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or ===
+Command Line: CLP-MasterCheck.sh fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Tue Apr 23 19:32:40 EDT 2013
+2013:113:23:32:40
+=== CLP-MasterCheck.sh fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-030-chk_for_cmd_timing_lt_1sec.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ t2.pl
+ Program: t2.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-031-chk_for_cmds_between_radmon-disable.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-031-chk_for_cmds_between_radmon.pl
+ Program: CLP-031-chk_for_cmds_between_radmon.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-033-chk_for_HV_down_in_radzone.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-033-chk_for_HV_down_in_radzone.pl
+ Program: CLP-033-chk_for_HV_down_in_radzone.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-034-chk_for_bad_cmd_hex.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-034-chk_for_bad_cmd_hex.pl
+ Program: CLP-034-chk_for_bad_cmd_hex.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-036-chk_hv_scs_for_selected_detector.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-036-chk_hv_scs_for_selected_detector.pl
+ Program: CLP-036-chk_hv_scs_for_selected_detector.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-037-chk-format_commands.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-037-chk-format_commands.pl
+ Program: CLP-037-chk-format_commands.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+ Program: CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-039-chk-pmt-on-and-up.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-039-chk-pmt-on-and-up.pl
+ Program: CLP-039-chk-pmt-on-and-up.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-040-chk_dither_par.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-040-chk_dither_par.pl
+ Program: CLP-040-chk_dither_par.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-041-chk_mechanism_cmds.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-041-chk_mechanism_cmds.pl
+ Program: CLP-041-chk_mechanism_cmds.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-042-chk_fmt.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-042-chk_fmt.pl
+ Program: CLP-042-chk_fmt.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-043-chk_discrete_hv_cmds_cmds.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-043-chk_discrete_hv_cmds_cmds.pl
+ Program: CLP-043-chk_discrete_hv_cmds_cmds.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-044-chk_hrc_cmds_in_vehicle_loads.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+ Program: CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-045-chk_hrc_scs_in_vehicle_loads.pl fotclp2hrcclp -b CR115_0103.backstop -t CR115_0103.tlr -s APR2513A.svrdb -o APR2513_A.or
+Program Error:
+ CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+ Program: CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+ Subroutine: GetIP
+ Section: GetOptions
+ Error Message: Error in parsing commandline
+
+14 errors found in load review

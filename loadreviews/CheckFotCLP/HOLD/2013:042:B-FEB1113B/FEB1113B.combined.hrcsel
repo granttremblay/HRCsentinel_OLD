@@ -1,0 +1,3790 @@
+=+=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=
+ Generating  Command MP Validation Products
+ Cmdline: fotclp2hrcclp 
+ Version: commit 97f1a21a95b142117471668d9fadc9d455f29ddd
+ OLFS Version: 10
+ Run Time: 130207.163948
+
+ Machine:directory hrc.cfa.harvard.edu:/mnt/d0/hrc/occ/mp/2013:042:B-FEB1113B
+ Dep Progs:
+   Version  - Location
+   --------------------------------------------------------
+   3.6.10-2.fc16.x86_64 - Linux
+   version - /usr/bin/perl
+
+=+=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=+=+=+=++=+=
+
+Using TLM file: CR042_0714.tlr
+Using OR  file: FEB1113_A.or
+Current Working Directory: /mnt/d0/hrc/occ/mp/2013:042:B-FEB1113B
+
+Reading OR file: FEB1113_A.or
+Reading SV file: FEB1113B.svrdb
+   State Vector Parameters:
+    # Program: bs2svrdb - $Revision: 1.16 $
+    # Input Backstop File: /mnt/d0/hrc/occ/mp/2013:042:B-FEB1113B/CR042_0714.backstop
+    # Input Continuity  svrdb File: ../2013:035:A-FEB0413A/FEB0413A.svrdb
+    # Output Generated: Thu Feb  7 16:39:48 EST 2013
+    # --- Column Definitions ---
+    # gmt       - yyyy:doy:hh:mm:ss.sss
+    # vcdu      - minor frame counter
+    # FMT       - 1|2
+    # OBSID     - Observation ID
+    # SIMTA     - sim step translation position
+    # SIMFA     - sim step focus position
+    # RADMON    - en|dis
+    # LETG      - in|out
+    # HETG      - in|out
+    # XMITA     - transmitter A on|off
+    # XMITB     - transmitter B on|off
+    # DITHER    - en|dis
+    # DOOR      - HRC door open|close|mv2open|mv2close
+    # PREAMPA   - HRC preamp selection I|S
+    # HVI       - HRC HV-I status; off|on|1/2|up
+    # HVS       - HRC HV-S status; off|on|1/2|up
+    # SHLD2PWR  - HRC shield 2 power on|off
+    # SHLD2STEP - HRC shield 2 HVstep
+    # RANGESET  - HRC Range switch setting
+    # CBu       - HRC Center Blank u - low
+    # CBU       - HRC Center Blank U - high
+    # CBv       - HRC Center Blank v - low
+    # CBV       - HRC Center Blank V - high
+    # DITHER_PAR- angP:angY:coefP:coefY:rateP:rateY (deg|deg/sec)
+    # TARGQUAT  - converted into ra:dec:roll
+    # SCS87     - act|term|enable|disable
+    # SCS88     - act|term|enable|disable
+    # SCS89     - act|term|enable|disable
+    # SCS90     - act|term|enable|disable
+    # SCS91     - act|term|enable|disable
+    # SCS92     - act|term|enable|disable
+    # SCS93     - act|term|enable|disable
+    # SCS105    - act|term|enable|disable
+------------------------------------------------------------------------------------------------------------
+Selecting  HRC Events from the Misson Timeline Report: CR042_0714.tlr
+Program Runtime: 19113038.163948.tm (2/7/113)
+$Header: /d0/hrc/occ/src/RCS/ValidateOFLS_tlr,v 1.29 2004/05/26 19:21:39 jhc Exp $
+
+ GMT                    DTime           vcdu    mnem            Hex       Description
+------------------------------------------------------------------------------------------------------------
+Initial Command State Vector:==================================
+   gmt = 2013:042:04:55:01.542 
+   vcdu = 2687601
+   FMT = 2
+   OBSID =  15609
+   SIMTA = 92904
+   SIMFA = -536
+   RADMON = en
+   LETG = out
+   HETG = out
+   XMITA = off
+   XMITB = off
+   DITHER = en
+   DOOR = na
+   PREAMPA = S
+   HVI = off
+   HVS = 1/2
+   SHLD2PWR = on
+   SHLD2STEP = 8
+   RANGESET = 125
+   CBu = 0
+   CBU = 255
+   CBv = 65
+   CBV = 127
+   DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+   TARGQUAT = 220.4566:-62.2540:75.0132
+   SCS87 = dis
+   SCS88 = act
+   SCS89 = dis
+   SCS90 = ena
+   SCS91 = term
+   SCS92 = act
+   SCS93 = act
+   SCS105 = na
+
+Initial OR Comments:===========================================
+   BEGIN_COMMENT,ID=49999
+   ***OR QUICK LOOK START
+      NOTE: This comment is automatically regenerated when using the
+            mp_orf_gui or the mp_orf_file applications.
+   
+                                                               Req.  Opt.  Drop
+   SeqNbr    ObsId     Target Name              Observer       Chip  Chip  Chip
+   -------------------------------------------------------------------------------
+   200831    14459     GJ 436                   Wheatley          1     0     0
+   601060    14930     M31 BHXN                 Barnard           6     2     0
+   501581    13748     RCW86                    Katsuda           5     0     0
+   801349    15316     G241.97+14.85            Jones             5     1     0
+   501581    15610     RCW86                    Katsuda           5     0     0
+   501581    15611     RCW86                    Katsuda           5     0     0
+   200746    13276     RCW120                   Getman            4     0     0
+   501620    13788     1RXS J141256.0+792204    Halpern           3     0     0
+   702644    13919     IRAS F00183-7111         Iwasawa           4     0     0
+   900998    14032     N113                     Lopez             6     2     0
+   200895    14594     NGC 6369                 Montez            6     3     0
+   702771    14962     SDSS 1138+0314           Pooley            6     5     1
+   702842    15035     SDSS J115714.98+0816     McGurk            5     4     0
+   200906    15272     HD 79826                 Huenemoerder      6     1     1
+   200906    15612     HD 79826                 Huenemoerder      6     1     1
+   501620    15613     1RXS J141256.0+792204    Halpern           3     0     0
+   401476    14643     GRO J1750-27             Wijnands          1     0     0
+   401478    14645     XTE J1858+034            Wijnands          1     0     0
+   502011    14887     G359.1+0.9               Saz Parkinson     5     1     0
+   801323    15285     CODEX 57507              Predehl           6     2     0
+   702900    15340     SDSS J1332+0347          Brandt            3     0     0
+   502028    15363     PSR J0101-6422           Kargaltsev        5     1     0
+   502030    15365     HESS J1843-033B          Kargaltsev        5     1     0
+   801371    15381     SDSS J082657.15+360659.1  Miller            5     1     0
+   ***OR QUICK LOOK END
+   END_COMMENT
+
+===============================================================
+
+ 2013:042:07:25:28.811							-> FIRST Command in Load
+
+ 2013:042:07:25:28.811	00:00:00					-> SCS Slot Change = 0 -> 128
+ 2013:042:07:28:28.811	00:03:00	 2723532	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:042:07:28:33.168	00:00:04	 2723549	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:042:07:28:33.168							->     Q1 = 6.078793e-01 
+ 2013:042:07:28:33.168							->     Q2 = -3.893035e-01 
+ 2013:042:07:28:33.168							->     Q3 = -6.550626e-01 
+ 2013:042:07:28:33.168							->     Q4 = 2.232006e-01 
+									-> RA,Dec,Roll(deg):  258.10245,  -38.50716,   93.08757
+
+ 2013:042:07:28:39.062	00:00:06	 2723572	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:042:07:28:40.087	00:00:01	 2723576	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:042:07:31:28.811	00:02:49					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 13276:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=13276
+  Remarks:
+  This GTO observation complements our GO observation of similar title
+  and similar target. If it is needed, the two observations (GO and GTO; both
+  non-constrained) can be combined together.
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 13276 
+  TARGET = (258.086667,-38.491806,{RCW120}) 
+  DURATION = (30000.0) 
+  PRIORITY = 6 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_0050E 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,27000.000000) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:042:07:31:28.811 
+  vcdu = 2724234
+  FMT = 2
+  OBSID =  13276
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 258.1025:-38.5072:93.0876
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:042:07:31:28.811	00:02:49	 2724234	COAOSQID  	8111700 -> OBSID: [0x2724234] 13276
+ 2013:042:07:47:21.606	00:15:53					-> SCS Slot Change = 131 -> 128
+ 2013:042:11:50:00.257	04:18:31	 2784766	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:042:11:50:00.771	00:00:01	 2784768	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:042:11:50:01.285	00:00:01	 2784770	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:042:13:20:01.285	01:30:00	 2805844	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:042:13:20:01.542	00:00:00	 2805845	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:042:16:13:45.811	02:53:44	 2846525	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:042:16:13:45.811	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:042:16:13:45.811	00:00:00	 2846525	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:042:16:13:45.811			 2846525			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:042:16:13:45.811			 2846525			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:042:16:13:45.811			 2846525			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:042:16:13:46.068	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:042:16:13:50.168	00:00:04	 2846542	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:042:16:13:50.168							->     Q1 = 4.872333e-02 
+ 2013:042:16:13:50.168							->     Q2 = 5.130906e-01 
+ 2013:042:16:13:50.168							->     Q3 = 8.565400e-01 
+ 2013:042:16:13:50.168							->     Q4 = 2.651906e-02 
+									-> RA,Dec,Roll(deg):  174.51530,    3.22479,   62.00000
+
+ 2013:042:16:13:56.062	00:00:06	 2846565	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:042:16:13:57.087	00:00:01	 2846569	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:042:16:13:59.137	00:00:02	 2846577	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:042:16:15:44.987	00:01:46					-> SCS Slot Change = 128 -> 131
+ 2013:042:16:15:44.987	00:01:46	 2846990	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:042:16:15:44.987			 2846990			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:042:16:15:44.987			 2846990			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:042:16:15:44.987			 2846990			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14962:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 14962 
+  TARGET = (174.515417,3.249472,{SDSS1138+0314}) 
+  DURATION = (32300.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_009C8 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,31500.000000) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+  PRECEDING = (13276) 
+  ROLL = (62.0) 
+
+Command State Vector:--------------
+  gmt = 2013:042:16:16:45.811 
+  vcdu = 2847227
+  FMT = 2
+  OBSID =  14962
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 174.5153:3.2248:62.0000
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:042:16:16:45.811	00:01:01	 2847227	COAOSQID  	8111700 -> OBSID: [0x2847227] 14962
+ 2013:042:16:17:03.747	00:00:18	 2847297	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:042:16:17:03.747			 2847297			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:042:16:17:03.747			 2847297			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:042:16:17:03.747			 2847297			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:042:16:44:19.306	00:27:16					-> SCS Slot Change = 131 -> 128
+ 2013:042:22:45:00.257	06:27:56	 2938132	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:042:22:45:00.771	00:00:01	 2938134	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:042:22:45:01.285	00:00:01	 2938136	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:043:00:15:01.285	01:30:00	 2959209	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:00:15:01.542	00:00:00	 2959210	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:01:46:55.980	01:31:54	 2980730	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:01:46:55.980	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:043:01:46:56.237	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:01:47:00.337	00:00:04	 2980747	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:01:47:00.337							->     Q1 = -5.683934e-01 
+ 2013:043:01:47:00.337							->     Q2 = 3.170571e-01 
+ 2013:043:01:47:00.337							->     Q3 = 7.579894e-01 
+ 2013:043:01:47:00.337							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:043:01:47:06.231	00:00:06	 2980770	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:01:47:07.256	00:00:01	 2980774	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:01:49:55.980	00:02:49					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 15611:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=15611
+  Roll Preferences exist for observation.
+    ROLL=(80.160000,10.000000)
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 15611 
+  TARGET = (220.117980,-62.722094,{RCW86}) 
+  DURATION = (25000.0,25000.0,30000.000000) 
+  PRIORITY = 5 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_007BC 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (70.500000,0.000000) 
+  SEGMENT = (1,23400.000000) 
+  PRECEDING = (14962) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:043:01:49:55.980 
+  vcdu = 2981433
+  FMT = 2
+  OBSID =  15611
+  SIMTA = 75624
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:01:49:55.980	00:02:49	 2981433	COAOSQID  	8111700 -> OBSID: [0x2981433] 15611
+ 2013:043:02:15:09.161	00:25:13					-> SCS Slot Change = 131 -> 128
+ 2013:043:02:15:09.161	00:25:13	 2987338	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:043:04:00:00.257	01:44:51	 3011888	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:04:00:00.771	00:00:01	 3011890	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:04:00:01.285	00:00:01	 3011892	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:043:05:30:01.285	01:30:00	 3032966	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:05:30:01.542	00:00:00	 3032967	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:08:43:40.152	03:13:38					-> SCS Slot Change = 128 -> 131
+ 2013:043:08:43:40.152	03:13:38	 3078307	COACTSX   	8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+ 2013:043:08:43:40.152	00:00:00	 3078307	CODISASX  	8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:043:08:43:40.152	00:00:00	 3078307	COTERMSX  	8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+ 2013:043:09:22:00.082							-> DSN EXIT        X_DSS-54
+ 2013:043:09:22:00.117							-> DSN EXIT        X_DSS-65
+ 2013:043:09:32:48.858	00:49:09					-> SCS Slot Change = 131 -> 128
+ 2013:043:09:35:48.858	00:52:09	 3090517	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:09:35:48.858	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:043:09:35:48.858	00:00:00	 3090517	3SIMHD    	6502061 -> SIM: Multipart Cmd (8103) cksum: 81; Num cmds:03
+ 2013:043:09:35:48.858			 3090517			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:043:09:35:48.858			 3090517			659EB81 ->   SIM: cf5c -> TS  goto: [cf5c] -> -99616
+ 2013:043:09:35:48.858			 3090517			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:043:09:35:49.115	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:09:35:53.215	00:00:04	 3090534	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:09:35:53.215							->     Q1 = -5.683934e-01 
+ 2013:043:09:35:53.215							->     Q2 = 3.170571e-01 
+ 2013:043:09:35:53.215							->     Q3 = 7.579894e-01 
+ 2013:043:09:35:53.215							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:043:09:38:48.858	00:02:56					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53954:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:09:38:48.858 
+  vcdu = 3091219
+  FMT = 2
+  OBSID =  53954
+  SIMTA = -99616
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:09:38:48.858	00:02:56	 3091219	COAOSQID  	8111700 -> OBSID: [0x3091219] 53954
+ 2013:043:09:39:02.403	00:00:14					-> SCS Slot Change = 131 -> 128
+ 2013:043:09:39:02.403	00:00:14	 3091272	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:09:39:03.428	00:00:01	 3091276	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:09:41:25.292	00:02:22					-> SCS Slot Change = 128 -> 131
+ 2013:043:09:41:25.292	00:02:22	 3091830	3SIMHD    	6496061 -> SIM: Multipart Cmd (4b03) cksum: 4b; Num cmds:03
+ 2013:043:09:41:25.292			 3091830			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:043:09:41:25.292			 3091830			65F8421 ->   SIM: fc21 -> FA  goto: [fc21] -> -991
+ 2013:043:09:41:25.292			 3091830			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:043:09:42:49.152	00:01:24	 3092157	2S1HVOF   	640A000 == 640a000 sd0500 shield a hv off  
+ 2013:043:09:42:50.152	00:00:01	 3092161	2S2HVOF   	641A000 == 641a000 sd0d00 shield b hv off  
+ 2013:043:09:42:51.152	00:00:01	 3092165	2S1STHV   	640C000 == 640c000 sd0600 (0) shield a hv step  
+ 2013:043:09:42:52.152	00:00:01	 3092169	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:043:09:42:52.152	00:00:00	 3092169		-> Radmon Disable
+ 2013:043:09:43:05.478	00:00:13					-> SCS Slot Change = 131 -> 128
+ 2013:043:09:43:24.152	00:00:32					-> SCS Slot Change = 128 -> 131
+ 2013:043:09:49:22.152	00:06:30					-> SCS Slot Change = 131 -> 128
+ 2013:043:10:45:09.998	01:02:18	 3106756	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:10:45:09.998	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53953:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:10:45:09.998 
+  vcdu = 3106756
+  FMT = 2
+  OBSID =  53954
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:10:45:09.998 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:10:45:09.998	00:00:00	 3106756	COAOSQID  	8111700 -> OBSID: [0x3106756] 53953
+ 2013:043:10:45:10.255	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:10:45:14.355	00:00:04	 3106773	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:10:45:14.355							->     Q1 = -5.334804e-04 
+ 2013:043:10:45:14.355							->     Q2 = 4.178524e-01 
+ 2013:043:10:45:14.355							->     Q3 = 8.993437e-01 
+ 2013:043:10:45:14.355							->     Q4 = 1.287634e-01 
+									-> RA,Dec,Roll(deg):  166.55370,   -6.23276,   49.10553
+
+ 2013:043:10:45:20.249	00:00:06	 3106796	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:10:45:21.274	00:00:01	 3106800	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:10:45:23.324	00:00:02	 3106808	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:043:11:27:57.152	00:42:34					-> SCS Slot Change = 128 -> 131
+ 2013:043:11:30:57.152							-> ELECTRON 1 RADIATION ENTRY 0
+ 2013:043:11:35:00.000	00:49:37					-> SCS Slot Change = 131 -> 128
+ 2013:043:11:35:00.257	00:49:37	 3118425	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:11:35:00.771	00:00:01	 3118427	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:11:35:01.285	00:00:01	 3118429	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:043:11:42:07.594							-> DSN ACQUISITION E_DSS-34
+ 2013:043:11:42:08.339							-> DSN ACQUISITION E_DSS-45
+ 2013:043:12:39:31.000	01:04:30	 3133530	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:12:39:31.000	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53952:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:12:39:31.000 
+  vcdu = 3133530
+  FMT = 2
+  OBSID =  53953
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = on
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 166.5537:-6.2328:49.1055
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:12:39:31.000 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:12:39:31.000	00:00:00	 3133530	COAOSQID  	8111700 -> OBSID: [0x3133530] 53952
+ 2013:043:12:39:31.257	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:12:39:35.357	00:00:04	 3133547	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:12:39:35.357							->     Q1 = -2.511516e-01 
+ 2013:043:12:39:35.357							->     Q2 = -8.903178e-01 
+ 2013:043:12:39:35.357							->     Q3 = -2.549853e-01 
+ 2013:043:12:39:35.357							->     Q4 = 2.814953e-01 
+									-> RA,Dec,Roll(deg):  156.99998,   39.00000,  156.27841
+
+ 2013:043:12:39:41.251	00:00:06	 3133570	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:12:39:42.276	00:00:01	 3133574	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:13:05:01.285	00:25:19	 3139502	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:13:05:01.542	00:00:00	 3139503	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:13:45:09.465							-> DSN EXIT        X_DSS-27
+ 2013:043:13:45:13.499							-> DSN EXIT        X_DSS-24
+ 2013:043:14:00:30.767	00:55:29	 3152495	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:14:00:30.767	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53951:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:14:00:30.767 
+  vcdu = 3152495
+  FMT = 2
+  OBSID =  53952
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 157.0000:39.0000:156.2784
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:14:00:30.767 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:14:00:30.767	00:00:00	 3152495	COAOSQID  	8111700 -> OBSID: [0x3152495] 53951
+ 2013:043:14:00:31.024	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:14:00:35.124	00:00:04	 3152512	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:14:00:35.124							->     Q1 = -3.022758e-01 
+ 2013:043:14:00:35.124							->     Q2 = -6.391163e-01 
+ 2013:043:14:00:35.124							->     Q3 = 5.312033e-01 
+ 2013:043:14:00:35.124							->     Q4 = 4.668862e-01 
+									-> RA,Dec,Roll(deg):  113.36957,   16.00072,  270.01905
+
+ 2013:043:14:00:41.018	00:00:06	 3152535	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:14:00:42.043	00:00:01	 3152539	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:14:41:04.146							-> DSN EXIT        X_DSS-45
+ 2013:043:14:41:04.174							-> DSN EXIT        X_DSS-34
+ 2013:043:15:16:44.252							-> DSN ACQUISITION E_DSS-54
+ 2013:043:15:16:44.333							-> DSN ACQUISITION E_DSS-65
+ 2013:043:15:30:21.050	01:29:39	 3173530	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:15:30:21.050	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53950:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:15:30:21.050 
+  vcdu = 3173530
+  FMT = 2
+  OBSID =  53951
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 113.3696:16.0007:270.0190
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:15:30:21.050 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:15:30:21.050	00:00:00	 3173530	COAOSQID  	8111700 -> OBSID: [0x3173530] 53950
+ 2013:043:15:30:21.307	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:15:30:25.407	00:00:04	 3173547	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:15:30:25.407							->     Q1 = -1.414807e-01 
+ 2013:043:15:30:25.407							->     Q2 = -7.401425e-01 
+ 2013:043:15:30:25.407							->     Q3 = -6.493864e-01 
+ 2013:043:15:30:25.407							->     Q4 = 1.023208e-01 
+									-> RA,Dec,Roll(deg):  175.34009,   19.58562,   98.27857
+
+ 2013:043:15:30:31.301	00:00:06	 3173570	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:15:30:32.326	00:00:01	 3173574	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:16:05:07.896							-> DSN ACQUISITION E_DSS-27
+ 2013:043:16:05:14.655							-> DSN ACQUISITION E_DSS-24
+ 2013:043:16:35:52.081	01:05:20	 3188871	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:16:35:52.081	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53949:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:16:35:52.081 
+  vcdu = 3188871
+  FMT = 2
+  OBSID =  53950
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 175.3401:19.5856:98.2786
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:16:35:52.081 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:16:35:52.081	00:00:00	 3188871	COAOSQID  	8111700 -> OBSID: [0x3188871] 53949
+ 2013:043:16:35:52.338	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:16:35:56.438	00:00:04	 3188888	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:16:35:56.438							->     Q1 = -5.334804e-04 
+ 2013:043:16:35:56.438							->     Q2 = 4.178524e-01 
+ 2013:043:16:35:56.438							->     Q3 = 8.993437e-01 
+ 2013:043:16:35:56.438							->     Q4 = 1.287634e-01 
+									-> RA,Dec,Roll(deg):  166.55370,   -6.23276,   49.10553
+
+ 2013:043:16:36:02.332	00:00:06	 3188911	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:16:36:03.357	00:00:01	 3188915	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:17:04:57.152	00:28:54					-> SCS Slot Change = 128 -> 131
+ 2013:043:17:04:57.152							-> ELECTRON 1 RADIATION EXIT 0
+ 2013:043:18:24:18.152	01:48:15					-> SCS Slot Change = 131 -> 128
+ 2013:043:18:27:18.152	01:51:15	 3214963	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:18:27:18.152	00:00:00					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 53948:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:043:18:27:18.152 
+  vcdu = 3214963
+  FMT = 2
+  OBSID =  53949
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 166.5537:-6.2328:49.1055
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:043:18:27:18.152 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:18:27:18.152	00:00:00	 3214963	COAOSQID  	8111700 -> OBSID: [0x3214963] 53948
+ 2013:043:18:27:18.409	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:043:18:27:22.509	00:00:04	 3214980	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:18:27:22.509							->     Q1 = -2.529500e-01 
+ 2013:043:18:27:22.509							->     Q2 = -8.902350e-01 
+ 2013:043:18:27:22.509							->     Q3 = -2.179063e-01 
+ 2013:043:18:27:22.509							->     Q4 = 3.098626e-01 
+									-> RA,Dec,Roll(deg):  155.12210,   41.44797,  162.03291
+
+ 2013:043:18:27:28.403	00:00:06	 3215003	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:18:27:29.428	00:00:01	 3215007	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:19:13:19.873	00:45:51					-> SCS Slot Change = 128 -> 129
+ 2013:043:19:16:19.873	00:48:50	 3226443	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:043:19:16:24.230	00:00:04	 3226460	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:043:19:16:24.230							->     Q1 = -1.374597e-01 
+ 2013:043:19:16:24.230							->     Q2 = -7.221130e-01 
+ 2013:043:19:16:24.230							->     Q3 = -2.360665e-01 
+ 2013:043:19:16:24.230							->     Q4 = 6.355551e-01 
+									-> RA,Dec,Roll(deg):  213.34026,   79.35308,  115.89410
+
+ 2013:043:19:16:30.124	00:00:06	 3226483	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:043:19:16:31.149	00:00:01	 3226487	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:043:19:25:51.152	00:09:20					-> SCS Slot Change = 129 -> 132
+ 2013:043:19:28:50.152	00:12:19	 3229371		-> Radmon Enable
+ 2013:043:19:28:51.152	00:00:01	 3229375	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:043:19:28:51.152			 3229375			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:043:19:28:51.152			 3229375			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:043:19:28:51.152			 3229375			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:043:19:28:52.152	00:00:01	 3229379	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:043:19:28:53.152	00:00:01	 3229383	2S2HVON   	641A020 == 641a020 sd0d01 shield b hv on  
+ 2013:043:19:29:03.152	00:00:10	 3229422	2S2STHV   	641C080 == 641c080 sd0e04 (4) shield b hv step  
+ 2013:043:19:29:13.152	00:00:10	 3229461	2S2STHV   	641C100 == 641c100 sd0e08 (8) shield b hv step  
+
+
+
+======================================================================================================
+OBSID = 13788:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 13788 
+  TARGET = (213.232500,79.367694,{1RXSJ141256.0+79220}) 
+  DURATION = (19600.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = CC_00136 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (116.000000,0.000000) 
+  SEGMENT = (1,18000.000000) 
+  PRECEDING = (T_X68) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:043:19:31:51.152 
+  vcdu = 3230077
+  FMT = 2
+  OBSID =  13788
+  SIMTA = 75624
+  SIMFA = -991
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 213.3403:79.3531:115.8941
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:043:19:31:51.152	00:02:38	 3230077	COAOSQID  	8111700 -> OBSID: [0x3230077] 13788
+ 2013:043:19:34:27.586	00:02:37	 3230688	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:043:19:34:27.586			 3230688			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:043:19:34:27.586			 3230688			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:043:19:34:27.586			 3230688			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:043:19:35:55.446	00:01:28	 3231031	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:043:19:35:55.446			 3231031			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:043:19:35:55.446			 3231031			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:043:19:35:55.446			 3231031			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:043:19:37:26.172	00:01:31					-> SCS Slot Change = 132 -> 129
+ 2013:043:19:37:26.172	00:01:31	 3231385	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:043:19:51:38.152	00:14:12					-> SCS Slot Change = 129 -> 132
+ 2013:043:19:51:38.152	00:14:12	 3234709	COENASX   	8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:043:20:30:00.000	00:38:22					-> SCS Slot Change = 132 -> 129
+ 2013:043:20:30:00.257	00:38:22	 3243693	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:043:20:30:00.771	00:00:01	 3243695	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:20:30:01.285	00:00:01	 3243697	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:043:22:00:01.285	01:30:00	 3264770	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:043:22:00:01.542	00:00:00	 3264771	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:01:08:22.846	03:08:21	 3308874	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:044:01:08:22.846	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:044:01:08:23.103	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:044:01:08:27.203	00:00:04	 3308891	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:044:01:08:27.203							->     Q1 = 9.835596e-02 
+ 2013:044:01:08:27.203							->     Q2 = -6.104391e-01 
+ 2013:044:01:08:27.203							->     Q3 = -7.656883e-01 
+ 2013:044:01:08:27.203							->     Q4 = 1.772330e-01 
+									-> RA,Dec,Roll(deg):  203.10022,    3.77049,   76.35584
+
+ 2013:044:01:08:33.097	00:00:06	 3308914	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:044:01:08:34.122	00:00:01	 3308918	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:044:01:11:22.846	00:02:49					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 15340:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15340 
+  TARGET = (203.094167,3.794417,{SDSSJ1332+0347}) 
+  DURATION = (2000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_00B4A 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,2000.000000) 
+  PRECEDING = (13788) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:044:01:11:22.846 
+  vcdu = 3309576
+  FMT = 2
+  OBSID =  15340
+  SIMTA = 75624
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 203.1002:3.7705:76.3558
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:044:01:11:22.846	00:02:49	 3309576	COAOSQID  	8111700 -> OBSID: [0x3309576] 15340
+ 2013:044:01:39:06.553	00:27:44					-> SCS Slot Change = 132 -> 129
+ 2013:044:02:16:43.227	01:05:21	 3324876	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:044:02:16:43.227	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:044:02:16:43.484	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:044:02:16:47.584	00:00:04	 3324893	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:044:02:16:47.584							->     Q1 = -7.660494e-01 
+ 2013:044:02:16:47.584							->     Q2 = 1.795825e-01 
+ 2013:044:02:16:47.584							->     Q3 = 5.520984e-01 
+ 2013:044:02:16:47.584							->     Q4 = 2.758727e-01 
+									-> RA,Dec,Roll(deg):    5.16908,  -70.90074,  223.29189
+
+ 2013:044:02:16:53.478	00:00:06	 3324916	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:044:02:16:54.503	00:00:01	 3324920	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:044:02:19:43.227	00:02:49					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 13919:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 13919 
+  TARGET = (5.144583,-70.924083,{IRASF00183-7111}) 
+  DURATION = (23000.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_006C8 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,22500.000000) 
+  PRECEDING = (15340) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:044:02:19:43.227 
+  vcdu = 3325578
+  FMT = 2
+  OBSID =  13919
+  SIMTA = 75624
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 5.1691:-70.9007:223.2919
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:044:02:19:43.227	00:02:49	 3325578	COAOSQID  	8111700 -> OBSID: [0x3325578] 13919
+ 2013:044:02:52:50.590	00:33:07					-> SCS Slot Change = 132 -> 129
+ 2013:044:03:45:00.257	01:25:17	 3345547	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:03:45:00.771	00:00:01	 3345549	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:03:45:01.285	00:00:01	 3345551	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:044:05:15:01.285	01:30:00	 3366624	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:05:15:01.542	00:00:00	 3366625	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:09:20:27.264	04:05:26	 3424091	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:044:09:20:27.264	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:044:09:20:27.521	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:044:09:20:31.621	00:00:04	 3424108	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:044:09:20:31.621							->     Q1 = -1.502860e-01 
+ 2013:044:09:20:31.621							->     Q2 = -1.007199e-01 
+ 2013:044:09:20:31.621							->     Q3 = 9.264950e-01 
+ 2013:044:09:20:31.621							->     Q4 = 3.299647e-01 
+									-> RA,Dec,Roll(deg):  138.95726,  -12.24019,  342.99474
+
+ 2013:044:09:20:37.515	00:00:06	 3424131	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:044:09:20:38.540	00:00:01	 3424135	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:044:09:20:40.590	00:00:02	 3424143	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:044:09:23:26.764	00:02:46	 3424792	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:044:09:23:27.264	00:00:01	 3424794	CSELFMT4  	7C40063 -> FORMAT 4
+ 2013:044:09:23:27.264	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 15272:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=15272
+  MONITOR_COMMENT
+  AGASC_ID=716452328, MAG_ACA=8.810160, WITHIN 2.000000 MAG of MONITOR TARGET
+  MONITORING TARGET SHOULD BE PLACED IN SLOT 7.
+  END_MONITOR_COMMENT
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 15272 
+  TARGET = (138.982083,-12.235583,{HD79826}) 
+  DURATION = (30000.000000) 
+  PRIORITY = 6 
+  STAR = (138.982083,-12.235583,8.770000,MON) 
+  SI = ACIS-S 
+  GRATING = HETG 
+  SI_MODE = TE_008D0 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (343.000000,0.000000) 
+  SEGMENT = (1,28800.000000) 
+  PRECEDING = (13919) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:044:09:23:27.264 
+  vcdu = 3424794
+  FMT = 2
+  OBSID =  15272
+  SIMTA = 75624
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 138.9573:-12.2402:342.9947
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:044:09:23:27.264	00:00:00	 3424794	COAOSQID  	8111700 -> OBSID: [0x3424794] 15272
+ 2013:044:09:23:27.764	00:00:01					-> SCS Slot Change = 132 -> 129
+ 2013:044:09:23:27.764	00:00:01	 3424796	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:044:09:23:28.764	00:00:01	 3424800	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:044:09:24:00.064	00:00:31					-> SCS Slot Change = 129 -> 132
+ 2013:044:09:24:01.603	00:00:33					-> HETG INSERT
+ 2013:044:09:27:44.564	00:03:43					-> SCS Slot Change = 132 -> 129
+ 2013:044:09:27:44.564	00:03:43	 3425798	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:044:09:27:45.064	00:00:01	 3425800	CSELFMT2  	7C40023 -> FORMAT 2
+ 2013:044:09:27:45.564	00:00:01	 3425802	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:044:09:27:46.564	00:00:01	 3425806	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:044:09:31:56.434	00:04:10					-> SCS Slot Change = 129 -> 132
+ 2013:044:09:51:56.760	00:24:10					-> SCS Slot Change = 132 -> 129
+ 2013:044:11:55:00.257	02:27:14	 3460279	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:11:55:00.771	00:00:01	 3460281	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:11:55:01.285	00:00:01	 3460283	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:044:13:25:01.285	01:30:00	 3481356	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:13:25:01.542	00:00:00	 3481357	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:18:16:13.434	04:51:12	 3549540	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:044:18:16:13.434	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:044:18:16:13.434	00:00:00	 3549540	3SIMHD    	6544061 -> SIM: Multipart Cmd (a203) cksum: a2; Num cmds:03
+ 2013:044:18:16:13.434			 3549540			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:044:18:16:13.434			 3549540			655ABA1 ->   SIM: ad5d -> TS  goto: [ad5d] -> 92904
+ 2013:044:18:16:13.434			 3549540			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:044:18:16:13.691	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:044:18:16:17.791	00:00:04	 3549557	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:044:18:16:17.791							->     Q1 = -6.482257e-01 
+ 2013:044:18:16:17.791							->     Q2 = 8.812612e-02 
+ 2013:044:18:16:17.791							->     Q3 = 6.756673e-01 
+ 2013:044:18:16:17.791							->     Q4 = 3.398691e-01 
+									-> RA,Dec,Roll(deg):   78.30578,  -69.36954,  294.13632
+
+ 2013:044:18:16:23.685	00:00:06	 3549580	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:044:18:16:24.710	00:00:01	 3549584	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:044:18:18:12.610	00:01:48					-> SCS Slot Change = 129 -> 132
+ 2013:044:18:18:12.610	00:01:48	 3550005	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:044:18:18:12.610			 3550005			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:044:18:18:12.610			 3550005			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:044:18:18:12.610			 3550005			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:044:18:19:12.934	00:01:00					-> SCS Slot Change = 132 -> 129
+ 2013:044:18:19:12.934	00:01:00	 3550240	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:044:18:19:13.434	00:00:01	 3550242	CSELFMT4  	7C40063 -> FORMAT 4
+ 2013:044:18:19:13.434	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 14032:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 14032 
+  TARGET = (78.354167,-69.379444,{N113}) 
+  DURATION = (28000.000000) 
+  PRIORITY = 6 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_0046C 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,27000.000000) 
+  PRECEDING = (15272) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:044:18:19:13.434 
+  vcdu = 3550242
+  FMT = 2
+  OBSID =  14032
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = in
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 78.3058:-69.3695:294.1363
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:044:18:19:13.434	00:00:00	 3550242	COAOSQID  	8111700 -> OBSID: [0x3550242] 14032
+ 2013:044:18:19:13.934	00:00:01					-> SCS Slot Change = 132 -> 129
+ 2013:044:18:19:13.934	00:00:01	 3550244	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:044:18:19:14.934	00:00:01	 3550248	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:044:18:19:46.234	00:00:31					-> SCS Slot Change = 129 -> 132
+ 2013:044:18:19:47.773	00:00:33					-> HETG RETRACT
+ 2013:044:18:23:30.734	00:03:43					-> SCS Slot Change = 132 -> 129
+ 2013:044:18:23:30.734	00:03:43	 3551246	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:044:18:23:31.234	00:00:01	 3551248	CSELFMT2  	7C40023 -> FORMAT 2
+ 2013:044:18:23:31.734	00:00:01	 3551250	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:044:18:23:32.734	00:00:01	 3551254	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:044:18:24:04.034	00:00:31					-> SCS Slot Change = 129 -> 132
+ 2013:044:18:42:39.820	00:19:07					-> SCS Slot Change = 132 -> 129
+ 2013:044:18:42:39.820	00:19:07	 3555731	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:044:21:45:00.257	03:02:20	 3598425	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:21:45:00.771	00:00:01	 3598427	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:044:21:45:01.285	00:00:01	 3598429	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:044:23:15:01.285	01:30:00	 3619502	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:044:23:15:01.542	00:00:00	 3619503	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:02:35:44.034	03:20:42	 3666498	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:045:02:35:44.034	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:045:02:35:44.034	00:00:00	 3666498	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:045:02:35:44.034			 3666498			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:045:02:35:44.034			 3666498			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:045:02:35:44.034			 3666498			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:045:02:35:44.291	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:045:02:35:48.391	00:00:04	 3666515	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:045:02:35:48.391							->     Q1 = -1.502860e-01 
+ 2013:045:02:35:48.391							->     Q2 = -1.007199e-01 
+ 2013:045:02:35:48.391							->     Q3 = 9.264950e-01 
+ 2013:045:02:35:48.391							->     Q4 = 3.299647e-01 
+									-> RA,Dec,Roll(deg):  138.95726,  -12.24019,  342.99474
+
+ 2013:045:02:35:54.285	00:00:06	 3666538	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:045:02:35:55.310	00:00:01	 3666542	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:045:02:35:57.360	00:00:02	 3666550	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:045:02:37:43.210	00:01:46					-> SCS Slot Change = 129 -> 132
+ 2013:045:02:37:43.210	00:01:46	 3666963	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:045:02:37:43.210			 3666963			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:045:02:37:43.210			 3666963			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:045:02:37:43.210			 3666963			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:045:02:38:43.534	00:01:00					-> SCS Slot Change = 132 -> 129
+ 2013:045:02:38:43.534	00:01:00	 3667199	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:045:02:38:44.034	00:00:01	 3667201	CSELFMT4  	7C40063 -> FORMAT 4
+ 2013:045:02:38:44.034	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 15612:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=15612
+  MONITOR_COMMENT
+  AGASC_ID=716452328, MAG_ACA=8.810160, WITHIN 2.000000 MAG of MONITOR TARGET
+  MONITORING TARGET SHOULD BE PLACED IN SLOT 7.
+  END_MONITOR_COMMENT
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 15612 
+  TARGET = (138.982083,-12.235583,{HD79826}) 
+  DURATION = (31700.000000) 
+  PRIORITY = 6 
+  STAR = (138.982083,-12.235583,8.770000,MON) 
+  SI = ACIS-S 
+  GRATING = HETG 
+  SI_MODE = TE_008D0 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (343.000000,0.000000) 
+  SEGMENT = (1,29700.000000) 
+  PRECEDING = (14032) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:045:02:38:44.034 
+  vcdu = 3667201
+  FMT = 2
+  OBSID =  15612
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 138.9573:-12.2402:342.9947
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:045:02:38:44.034	00:00:00	 3667201	COAOSQID  	8111700 -> OBSID: [0x3667201] 15612
+ 2013:045:02:38:44.534	00:00:01					-> SCS Slot Change = 132 -> 129
+ 2013:045:02:38:44.534	00:00:01	 3667203	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:045:02:38:45.534	00:00:01	 3667206	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  VCDU WARN: dvcdu: 3
+ 2013:045:02:39:01.970	00:00:17					-> SCS Slot Change = 129 -> 132
+ 2013:045:02:39:01.970	00:00:17	 3667271	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:045:02:39:01.970			 3667271			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:045:02:39:01.970			 3667271			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:045:02:39:01.970			 3667271			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:045:02:39:18.373	00:00:16					-> HETG INSERT
+ 2013:045:02:43:01.334	00:03:43					-> SCS Slot Change = 132 -> 129
+ 2013:045:02:43:01.334	00:03:43	 3668205	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:045:02:43:01.834	00:00:01	 3668207	CSELFMT2  	7C40023 -> FORMAT 2
+ 2013:045:02:43:02.334	00:00:01	 3668209	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:045:02:43:03.334	00:00:01	 3668213	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:045:02:43:34.634	00:00:31					-> SCS Slot Change = 129 -> 132
+ 2013:045:03:02:10.420	00:19:07					-> SCS Slot Change = 132 -> 129
+ 2013:045:04:25:00.257	01:41:57	 3692083	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:04:25:00.771	00:00:01	 3692085	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:04:25:01.285	00:00:01	 3692087	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:045:05:55:01.285	01:30:00	 3713161	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:05:55:01.542	00:00:00	 3713162	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:11:53:11.634	05:58:10					-> SCS Slot Change = 129 -> 130
+ 2013:045:11:56:11.634	06:01:10	 3797728	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:045:11:56:11.634	00:00:00					-> SCS Slot Change = 130 -> 133
+ 2013:045:11:56:11.634	00:00:00	 3797728	3SIMHD    	6544061 -> SIM: Multipart Cmd (a203) cksum: a2; Num cmds:03
+ 2013:045:11:56:11.634			 3797728			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:045:11:56:11.634			 3797728			655ABA1 ->   SIM: ad5d -> TS  goto: [ad5d] -> 92904
+ 2013:045:11:56:11.634			 3797728			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:045:11:56:11.891	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:045:11:56:15.991	00:00:04	 3797745	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:045:11:56:15.991							->     Q1 = 2.602898e-02 
+ 2013:045:11:56:15.991							->     Q2 = 5.068706e-01 
+ 2013:045:11:56:15.991							->     Q3 = 8.605496e-01 
+ 2013:045:11:56:15.991							->     Q4 = 4.311779e-02 
+									-> RA,Dec,Roll(deg):  174.22645,    0.06235,   60.99999
+
+ 2013:045:11:56:21.885	00:00:06	 3797768	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:045:11:56:22.910	00:00:01	 3797772	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:045:11:58:10.810	00:01:48					-> SCS Slot Change = 130 -> 133
+ 2013:045:11:58:10.810	00:01:48	 3798193	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:045:11:58:10.810			 3798193			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:045:11:58:10.810			 3798193			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:045:11:58:10.810			 3798193			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:045:11:59:11.134	00:01:00					-> SCS Slot Change = 133 -> 130
+ 2013:045:11:59:11.134	00:01:00	 3798428	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:045:11:59:11.634	00:00:01	 3798430	CSELFMT4  	7C40063 -> FORMAT 4
+ 2013:045:11:59:11.634	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 15285:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15285 
+  TARGET = (174.224167,0.081917,{CODEX57507}) 
+  DURATION = (4000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_0046C 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,4000.000000) 
+  PRECEDING = (15612) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+  ROLL = (61.0) 
+
+Command State Vector:--------------
+  gmt = 2013:045:11:59:11.634 
+  vcdu = 3798430
+  FMT = 2
+  OBSID =  15285
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = in
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 174.2264:0.0623:61.0000
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:045:11:59:11.634	00:00:00	 3798430	COAOSQID  	8111700 -> OBSID: [0x3798430] 15285
+ 2013:045:11:59:12.134	00:00:01					-> SCS Slot Change = 133 -> 130
+ 2013:045:11:59:12.134	00:00:01	 3798432	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:045:11:59:13.134	00:00:01	 3798436	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:045:11:59:44.434	00:00:31					-> SCS Slot Change = 130 -> 133
+ 2013:045:11:59:45.973	00:00:33					-> HETG RETRACT
+ 2013:045:12:03:28.934	00:03:43					-> SCS Slot Change = 133 -> 130
+ 2013:045:12:03:28.934	00:03:43	 3799434	2NXILASL  	6434020 == 6434020 sd1a01 next in line mode select  
+ 2013:045:12:03:29.434	00:00:01	 3799436	CSELFMT2  	7C40023 -> FORMAT 2
+ 2013:045:12:03:29.934	00:00:01	 3799438	2FIFOAOF  	648A000 == 648a000 sd4500 data fifo reset  
+ 2013:045:12:03:30.934	00:00:01	 3799442	2FIFOAON  	648A020 == 648a020 sd4501 data fifo enable  
+ 2013:045:12:04:50.655	00:01:20					-> SCS Slot Change = 130 -> 133
+ 2013:045:12:25:33.981	00:22:03					-> SCS Slot Change = 133 -> 130
+ 2013:045:12:40:00.257	00:36:29	 3807986	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:12:40:00.771	00:00:01	 3807988	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:12:40:01.285	00:00:01	 3807990	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:045:13:36:30.655	00:56:29	 3821217	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:045:13:36:30.655	00:00:00					-> SCS Slot Change = 130 -> 133
+ 2013:045:13:36:30.655	00:00:00	 3821217	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:045:13:36:30.655			 3821217			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:045:13:36:30.655			 3821217			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:045:13:36:30.655			 3821217			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:045:13:36:30.912	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:045:13:36:35.012	00:00:04	 3821234	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:045:13:36:35.012							->     Q1 = -5.683934e-01 
+ 2013:045:13:36:35.012							->     Q2 = 3.170571e-01 
+ 2013:045:13:36:35.012							->     Q3 = 7.579894e-01 
+ 2013:045:13:36:35.012							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:045:13:36:40.906	00:00:06	 3821257	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:045:13:36:41.931	00:00:01	 3821261	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:045:13:38:29.831	00:01:48					-> SCS Slot Change = 130 -> 133
+ 2013:045:13:38:29.831	00:01:48	 3821682	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:045:13:38:29.831			 3821682			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:045:13:38:29.831			 3821682			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:045:13:38:29.831			 3821682			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 13748:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=13748
+  Roll Preferences exist for observation.
+    ROLL=(80.160000,10.000000)
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 13748 
+  TARGET = (220.117980,-62.722094,{RCW86}) 
+  DURATION = (30000.0,30000.0,47500.000000) 
+  PRIORITY = 5 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_007BC 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (70.500000,0.000000) 
+  SEGMENT = (1,36900.000000) 
+  PRECEDING = (15285) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:045:13:39:30.655 
+  vcdu = 3821919
+  FMT = 2
+  OBSID =  13748
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = on
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:045:13:39:30.655	00:01:01	 3821919	COAOSQID  	8111700 -> OBSID: [0x3821919] 13748
+ 2013:045:13:39:48.591	00:00:18	 3821989	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:045:13:39:48.591			 3821989			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:045:13:39:48.591			 3821989			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:045:13:39:48.591			 3821989			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:045:14:04:07.033	00:24:19					-> SCS Slot Change = 133 -> 130
+ 2013:045:14:04:07.033	00:24:19	 3827681	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:045:14:10:01.285	00:05:54	 3829063	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:14:10:01.542	00:00:00	 3829064	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:18:16:27.477							-> DSN EXIT        X_DSS-27
+ 2013:045:18:18:30.410							-> DSN EXIT        X_DSS-24
+ 2013:045:22:00:00.257	07:49:59	 3939108	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:22:00:00.771	00:00:01	 3939110	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:22:00:01.285	00:00:01	 3939112	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:045:23:30:01.285	01:30:00	 3960185	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:045:23:30:01.542	00:00:00	 3960186	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:045:23:41:55.447							-> DSN ACQUISITION E_DSS-24
+ 2013:045:23:42:38.411							-> DSN ACQUISITION E_DSS-27
+ 2013:046:00:17:43.949	00:47:42	 3971356	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:00:17:43.949	00:00:00					-> SCS Slot Change = 130 -> 133
+ 2013:046:00:17:43.949	00:00:00	 3971356	3SIMHD    	6502061 -> SIM: Multipart Cmd (8103) cksum: 81; Num cmds:03
+ 2013:046:00:17:43.949			 3971356			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:046:00:17:43.949			 3971356			659EB81 ->   SIM: cf5c -> TS  goto: [cf5c] -> -99616
+ 2013:046:00:17:43.949			 3971356			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:046:00:17:44.206	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:17:48.306	00:00:04	 3971373	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:00:17:48.306							->     Q1 = -5.683934e-01 
+ 2013:046:00:17:48.306							->     Q2 = 3.170571e-01 
+ 2013:046:00:17:48.306							->     Q3 = 7.579894e-01 
+ 2013:046:00:17:48.306							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:046:00:20:43.949	00:02:56					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53947:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:00:20:43.949 
+  vcdu = 3972059
+  FMT = 2
+  OBSID =  53947
+  SIMTA = -99616
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:00:20:43.949	00:02:56	 3972059	COAOSQID  	8111700 -> OBSID: [0x3972059] 53947
+ 2013:046:00:20:57.494	00:00:14					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:20:57.494	00:00:14	 3972112	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:00:20:58.519	00:00:01	 3972116	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:00:23:20.383	00:02:22					-> SCS Slot Change = 130 -> 133
+ 2013:046:00:23:20.383	00:02:22	 3972669	3SIMHD    	6496061 -> SIM: Multipart Cmd (4b03) cksum: 4b; Num cmds:03
+ 2013:046:00:23:20.383			 3972669			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:046:00:23:20.383			 3972669			65F8421 ->   SIM: fc21 -> FA  goto: [fc21] -> -991
+ 2013:046:00:23:20.383			 3972669			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:046:00:24:10.243	00:00:50	 3972864	COACTSX   	8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+ 2013:046:00:24:10.243	00:00:00	 3972864	CODISASX  	8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:046:00:24:10.243	00:00:00	 3972864	COTERMSX  	8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+ 2013:046:00:24:44.243	00:00:34	 3972997	2S1HVOF   	640A000 == 640a000 sd0500 shield a hv off  
+ 2013:046:00:24:45.243	00:00:01	 3973000	2S2HVOF   	641A000 == 641a000 sd0d00 shield b hv off  VCDU WARN: dvcdu: 3
+ 2013:046:00:24:46.243	00:00:01	 3973004	2S1STHV   	640C000 == 640c000 sd0600 (0) shield a hv step  
+ 2013:046:00:24:47.243	00:00:01	 3973008	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:046:00:24:47.243	00:00:00	 3973008		-> Radmon Disable
+ 2013:046:00:25:00.569	00:00:13					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:25:19.243	00:00:32					-> SCS Slot Change = 130 -> 133
+ 2013:046:00:26:17.243	00:01:30					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:26:22.243	00:01:35					-> SCS Slot Change = 130 -> 133
+ 2013:046:00:29:17.243	00:04:30					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:29:17.243	00:04:30	 3974062	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:00:29:17.243	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53946:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:00:29:17.243 
+  vcdu = 3974062
+  FMT = 2
+  OBSID =  53947
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:00:29:17.243 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:00:29:17.243	00:00:00	 3974062	COAOSQID  	8111700 -> OBSID: [0x3974062] 53946
+ 2013:046:00:29:17.500	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:00:29:21.600	00:00:04	 3974079	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:00:29:21.600							->     Q1 = 2.146776e-02 
+ 2013:046:00:29:21.600							->     Q2 = -5.378654e-01 
+ 2013:046:00:29:21.600							->     Q3 = -8.427548e-01 
+ 2013:046:00:29:21.600							->     Q4 = 2.065107e-03 
+									-> RA,Dec,Roll(deg):  181.52368,   -1.94628,   65.11977
+
+ 2013:046:00:29:27.494	00:00:06	 3974102	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:00:29:28.519	00:00:01	 3974106	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:00:29:30.569	00:00:02	 3974114	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:046:01:16:49.081	00:47:18	 3985191	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:01:16:49.081	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53945:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:01:16:49.081 
+  vcdu = 3985191
+  FMT = 2
+  OBSID =  53946
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 181.5237:-1.9463:65.1198
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:01:16:49.081 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:01:16:49.081	00:00:00	 3985191	COAOSQID  	8111700 -> OBSID: [0x3985191] 53945
+ 2013:046:01:16:49.338	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:01:16:53.438	00:00:04	 3985208	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:01:16:53.438							->     Q1 = 2.133356e-02 
+ 2013:046:01:16:53.438							->     Q2 = -5.378711e-01 
+ 2013:046:01:16:53.438							->     Q3 = -8.427559e-01 
+ 2013:046:01:16:53.438							->     Q4 = 1.456211e-03 
+									-> RA,Dec,Roll(deg):  181.45657,   -1.97088,   65.11944
+
+ 2013:046:01:16:59.332	00:00:06	 3985231	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:01:17:00.357	00:00:01	 3985235	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:03:00:22.486	01:43:22	 4009438	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:03:00:22.486	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53944:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:03:00:22.486 
+  vcdu = 4009438
+  FMT = 2
+  OBSID =  53945
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 181.4566:-1.9709:65.1194
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:03:00:22.486 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:03:00:22.486	00:00:00	 4009438	COAOSQID  	8111700 -> OBSID: [0x4009438] 53944
+ 2013:046:03:00:22.743	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:03:00:26.843	00:00:04	 4009455	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:03:00:26.843							->     Q1 = -7.685169e-02 
+ 2013:046:03:00:26.843							->     Q2 = -6.356690e-01 
+ 2013:046:03:00:26.843							->     Q3 = -7.676544e-01 
+ 2013:046:03:00:26.843							->     Q4 = 2.693480e-02 
+									-> RA,Dec,Roll(deg):  176.73145,    8.75643,   79.50435
+
+ 2013:046:03:00:32.737	00:00:06	 4009478	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:03:00:33.762	00:00:01	 4009482	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:03:08:27.243	00:07:54					-> SCS Slot Change = 130 -> 133
+ 2013:046:03:11:27.243							-> ELECTRON 1 RADIATION ENTRY 0
+ 2013:046:03:14:23.743	00:13:50					-> SCS Slot Change = 133 -> 130
+ 2013:046:03:30:00.257	00:29:27	 4016376	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:03:30:00.771	00:00:01	 4016378	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:046:03:30:01.285	00:00:01	 4016380	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:046:04:42:02.571	01:12:01	 4033244	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:04:42:02.571	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53943:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:04:42:02.571 
+  vcdu = 4033244
+  FMT = 2
+  OBSID =  53944
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = on
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 176.7314:8.7564:79.5044
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:04:42:02.571 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:04:42:02.571	00:00:00	 4033244	COAOSQID  	8111700 -> OBSID: [0x4033244] 53943
+ 2013:046:04:42:02.828	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:04:42:06.928	00:00:04	 4033261	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:04:42:06.928							->     Q1 = -2.587564e-01 
+ 2013:046:04:42:06.928							->     Q2 = -5.731390e-01 
+ 2013:046:04:42:06.928							->     Q3 = 6.559104e-01 
+ 2013:046:04:42:06.928							->     Q4 = 4.175384e-01 
+									-> RA,Dec,Roll(deg):  121.49999,    8.00000,  282.19086
+
+ 2013:046:04:42:12.822	00:00:06	 4033284	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:04:42:13.847	00:00:01	 4033288	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:05:00:01.285	00:17:47	 4037453	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:05:00:01.542	00:00:00	 4037454	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:046:05:16:26.349							-> DSN EXIT        X_DSS-24
+ 2013:046:05:16:37.476							-> DSN EXIT        X_DSS-27
+ 2013:046:05:21:39.912							-> DSN EXIT        X_DSS-65
+ 2013:046:05:21:40.094							-> DSN EXIT        X_DSS-54
+ 2013:046:06:18:22.611							-> DSN ACQUISITION E_DSS-45
+ 2013:046:06:18:22.691							-> DSN ACQUISITION E_DSS-34
+ 2013:046:06:41:30.491	01:41:29	 4061216	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:06:41:30.491	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53942:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:06:41:30.491 
+  vcdu = 4061216
+  FMT = 2
+  OBSID =  53943
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 121.5000:8.0000:282.1909
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:06:41:30.491 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:06:41:30.491	00:00:00	 4061216	COAOSQID  	8111700 -> OBSID: [0x4061216] 53942
+ 2013:046:06:41:30.748	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:06:41:34.848	00:00:04	 4061233	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:06:41:34.848							->     Q1 = -7.685169e-02 
+ 2013:046:06:41:34.848							->     Q2 = -6.356690e-01 
+ 2013:046:06:41:34.848							->     Q3 = -7.676544e-01 
+ 2013:046:06:41:34.848							->     Q4 = 2.693480e-02 
+									-> RA,Dec,Roll(deg):  176.73145,    8.75643,   79.50435
+
+ 2013:046:06:41:40.742	00:00:06	 4061256	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:06:41:41.767	00:00:01	 4061260	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:07:26:14.830							-> DSN EXIT        X_DSS-34
+ 2013:046:07:26:15.432							-> DSN EXIT        X_DSS-45
+ 2013:046:07:51:16.439							-> DSN ACQUISITION E_DSS-65
+ 2013:046:07:51:16.825							-> DSN ACQUISITION E_DSS-54
+ 2013:046:09:02:23.783	02:20:42	 4094204	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:09:02:23.783	00:00:00					-> SCS Slot Change = 130 -> 133
+
+
+
+======================================================================================================
+OBSID = 53941:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:046:09:02:23.783 
+  vcdu = 4094204
+  FMT = 2
+  OBSID =  53942
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 176.7314:8.7564:79.5044
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:046:09:02:23.783 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:09:02:23.783	00:00:00	 4094204	COAOSQID  	8111700 -> OBSID: [0x4094204] 53941
+ 2013:046:09:02:24.040	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:09:02:28.140	00:00:04	 4094221	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:09:02:28.140							->     Q1 = 2.133356e-02 
+ 2013:046:09:02:28.140							->     Q2 = -5.378711e-01 
+ 2013:046:09:02:28.140							->     Q3 = -8.427559e-01 
+ 2013:046:09:02:28.140							->     Q4 = 1.456211e-03 
+									-> RA,Dec,Roll(deg):  181.45657,   -1.97088,   65.11944
+
+ 2013:046:09:02:34.034	00:00:06	 4094244	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:09:02:35.059	00:00:01	 4094248	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:09:07:27.243	00:04:52					-> SCS Slot Change = 130 -> 133
+ 2013:046:09:07:27.243							-> ELECTRON 1 RADIATION EXIT 0
+ 2013:046:09:16:25.040	00:13:50					-> SCS Slot Change = 133 -> 130
+ 2013:046:11:18:47.925	02:16:13	 4126143	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:11:18:52.282	00:00:04	 4126160	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:11:18:52.282							->     Q1 = -2.837912e-01 
+ 2013:046:11:18:52.282							->     Q2 = -8.362874e-01 
+ 2013:046:11:18:52.282							->     Q3 = 2.050646e-01 
+ 2013:046:11:18:52.282							->     Q4 = 4.219413e-01 
+									-> RA,Dec,Roll(deg):  126.70375,   36.11000,  226.13566
+
+ 2013:046:11:18:58.176	00:00:06	 4126183	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:11:18:59.201	00:00:01	 4126187	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:11:51:07.243	00:32:08					-> SCS Slot Change = 130 -> 133
+ 2013:046:11:54:06.243	00:35:07	 4134409		-> Radmon Enable
+ 2013:046:11:54:07.243	00:00:01	 4134413	3SIMHD    	65D6061 -> SIM: Multipart Cmd (eb03) cksum: eb; Num cmds:03
+ 2013:046:11:54:07.243			 4134413			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:046:11:54:07.243			 4134413			65582A1 ->   SIM: ac15 -> TS  goto: [ac15] -> 90280
+ 2013:046:11:54:07.243			 4134413			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:046:11:54:08.243	00:00:01	 4134417	COENASX   	8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:046:11:54:08.243	00:00:00	 4134417	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:046:11:54:09.243	00:00:01	 4134421	2S2HVON   	641A020 == 641a020 sd0d01 shield b hv on  
+ 2013:046:11:54:19.243	00:00:10	 4134460	2S2STHV   	641C080 == 641c080 sd0e04 (4) shield b hv step  
+ 2013:046:11:54:29.243	00:00:10	 4134499	2S2STHV   	641C100 == 641c100 sd0e08 (8) shield b hv step  
+
+
+
+======================================================================================================
+OBSID = 15381:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15381 
+  TARGET = (126.738333,36.116444,{SDSSJ082657.15+3606}) 
+  DURATION = (20000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_00458 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.043333,0.000000) 
+  SIM_OFFSET = (-2625) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,18000.000000) 
+  PRECEDING = (T_X69) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:046:11:57:07.243 
+  vcdu = 4135116
+  FMT = 2
+  OBSID =  15381
+  SIMTA = 90280
+  SIMFA = -991
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 126.7037:36.1100:226.1357
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:11:57:07.243	00:02:38	 4135116	COAOSQID  	8111700 -> OBSID: [0x4135116] 15381
+ 2013:046:12:00:03.842	00:02:57	 4135805	3SIMHD    	64A0061 -> SIM: Multipart Cmd (5003) cksum: 50; Num cmds:03
+ 2013:046:12:00:03.842			 4135805			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:046:12:00:03.842			 4135805			65FC341 ->   SIM: fe1a -> FA  goto: [fe1a] -> -486
+ 2013:046:12:00:03.842			 4135805			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:046:12:01:30.342	00:01:26	 4136142	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:046:12:01:30.342			 4136142			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:046:12:01:30.342			 4136142			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:046:12:01:30.342			 4136142			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:046:12:03:01.068	00:01:31					-> SCS Slot Change = 133 -> 130
+ 2013:046:12:08:32.576							-> DSN ACQUISITION E_DSS-24
+ 2013:046:12:09:39.466							-> DSN ACQUISITION E_DSS-27
+ 2013:046:13:45:00.257	01:43:30	 4160376	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:046:13:45:00.771	00:00:01	 4160378	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:13:45:01.285	00:00:01	 4160380	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:046:15:15:01.285	01:30:00	 4181453	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:15:15:01.542	00:00:00	 4181454	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:046:17:51:45.243	02:36:44	 4218152	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:046:17:51:45.243	00:00:00					-> SCS Slot Change = 130 -> 133
+ 2013:046:17:51:45.243	00:00:00	 4218152	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:046:17:51:45.243			 4218152			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:046:17:51:45.243			 4218152			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:046:17:51:45.243			 4218152			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:046:17:51:45.500	00:00:00					-> SCS Slot Change = 133 -> 130
+ 2013:046:17:51:49.600	00:00:04	 4218169	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:046:17:51:49.600							->     Q1 = -5.922203e-02 
+ 2013:046:17:51:49.600							->     Q2 = -6.352296e-01 
+ 2013:046:17:51:49.600							->     Q3 = -7.689420e-01 
+ 2013:046:17:51:49.600							->     Q4 = 4.128406e-02 
+									-> RA,Dec,Roll(deg):  179.31975,    8.25195,   79.16987
+
+ 2013:046:17:51:55.494	00:00:06	 4218192	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:046:17:51:56.519	00:00:01	 4218196	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:046:17:53:40.808	00:01:44					-> SCS Slot Change = 130 -> 133
+ 2013:046:17:53:40.808	00:01:44	 4218603	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:046:17:53:40.808			 4218603			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:046:17:53:40.808			 4218603			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:046:17:53:40.808			 4218603			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 15035:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15035 
+  TARGET = (179.312500,8.275556,{SDSSJ115714.98+0816}) 
+  DURATION = (30000.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_004A6 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,27000.000000) 
+  PRECEDING = (15381) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:046:17:54:45.243 
+  vcdu = 4218854
+  FMT = 2
+  OBSID =  15035
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 179.3197:8.2519:79.1699
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:046:17:54:45.243	00:01:04	 4218854	COAOSQID  	8111700 -> OBSID: [0x4218854] 15035
+ 2013:046:17:54:59.568	00:00:14	 4218910	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:046:17:54:59.568			 4218910			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:046:17:54:59.568			 4218910			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:046:17:54:59.568			 4218910			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:046:18:32:16.827	00:37:17					-> SCS Slot Change = 133 -> 130
+ 2013:046:21:50:00.000	03:55:00					-> SCS Slot Change = 130 -> 128
+ 2013:046:21:50:00.257	03:55:01	 4273937	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:21:50:00.771	00:00:01	 4273939	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:046:21:50:01.285	00:00:01	 4273941	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:046:23:20:01.285	01:30:00	 4295014	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:046:23:20:01.542	00:00:00	 4295015	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:02:56:33.501	03:36:32	 4345716	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:047:02:56:33.501	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:047:02:56:33.501	00:00:00	 4345716	3SIMHD    	651E061 -> SIM: Multipart Cmd (8f03) cksum: 8f; Num cmds:03
+ 2013:047:02:56:33.501			 4345716			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:047:02:56:33.501			 4345716			6558E21 ->   SIM: ac71 -> TS  goto: [ac71] -> 91016
+ 2013:047:02:56:33.501			 4345716			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:047:02:56:33.758	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:047:02:56:37.858	00:00:04	 4345733	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:047:02:56:37.858							->     Q1 = -2.516609e-01 
+ 2013:047:02:56:37.858							->     Q2 = -1.979575e-01 
+ 2013:047:02:56:37.858							->     Q3 = 8.777297e-01 
+ 2013:047:02:56:37.858							->     Q4 = 3.564691e-01 
+									-> RA,Dec,Roll(deg):  130.48354,  -17.49658,  326.46228
+
+ 2013:047:02:56:43.752	00:00:06	 4345756	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:047:02:56:44.777	00:00:01	 4345760	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:047:02:58:30.078	00:01:45					-> SCS Slot Change = 128 -> 131
+ 2013:047:02:58:30.078	00:01:45	 4346171	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:047:02:58:30.078			 4346171			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:047:02:58:30.078			 4346171			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:047:02:58:30.078			 4346171			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 15316:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=15316
+  Remarks:
+  When the roll is determined, we will make any adjustments to the
+  pointing to maximize the Chandra science for this target.
+  Pointing good for roll 270-360; 0-70. Outside these range, please let us know.
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 15316 
+  TARGET = (130.465833,-17.466583,{G241.97+14.85}) 
+  DURATION = (39000.000000) 
+  PRIORITY = 5 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_00458 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.050000,0.000000) 
+  SIM_OFFSET = (-1889) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,36000.000000) 
+  PRECEDING = (15035) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:047:02:59:33.501 
+  vcdu = 4346418
+  FMT = 2
+  OBSID =  15316
+  SIMTA = 91016
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 130.4835:-17.4966:326.4623
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:047:02:59:33.501	00:01:03	 4346418	COAOSQID  	8111700 -> OBSID: [0x4346418] 15316
+ 2013:047:03:33:52.097	00:34:19					-> SCS Slot Change = 131 -> 128
+ 2013:047:03:35:00.257	00:35:27	 4354718	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:03:35:00.771	00:00:01	 4354720	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:03:35:01.285	00:00:01	 4354722	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:047:05:05:01.285	01:30:00	 4375795	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:05:05:01.542	00:00:00	 4375796	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:11:55:00.257	06:49:59	 4471791	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:11:55:00.771	00:00:01	 4471793	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:11:55:01.285	00:00:01	 4471795	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:047:13:25:01.285	01:30:00	 4492868	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:13:25:01.542	00:00:00	 4492869	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:14:28:08.771	01:03:07	 4507648	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:047:14:28:08.771	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:047:14:28:08.771	00:00:00	 4507648	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:047:14:28:08.771			 4507648			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:047:14:28:08.771			 4507648			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:047:14:28:08.771			 4507648			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:047:14:28:09.028	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:047:14:28:13.128	00:00:04	 4507665	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:047:14:28:13.128							->     Q1 = -1.538895e-01 
+ 2013:047:14:28:13.128							->     Q2 = -8.204836e-01 
+ 2013:047:14:28:13.128							->     Q3 = -5.217211e-01 
+ 2013:047:14:28:13.128							->     Q4 = 1.758742e-01 
+									-> RA,Dec,Roll(deg):  175.56981,   26.69100,  116.14932
+
+ 2013:047:14:28:19.022	00:00:06	 4507688	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:047:14:28:20.047	00:00:01	 4507692	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:047:14:30:05.348	00:01:45					-> SCS Slot Change = 128 -> 131
+ 2013:047:14:30:05.348	00:01:45	 4508103	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:047:14:30:05.348			 4508103			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:047:14:30:05.348			 4508103			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:047:14:30:05.348			 4508103			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14459:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=14459
+  MONITOR_COMMENT
+  NO AGASC OBJECT FOUND WITHIN 0.001389 OF MONITORING TARGET
+  END_MONITOR_COMMENT
+  Remarks:
+  HST will observe 3 transits of the planet GJ436b (4 orbits each). We
+  request 20ks Chandra observations immediately preceding each of the 3 HST
+  transits. It is essential that Chandra observes the same transits as HST. Our
+  phase constraint is designed to cover the hours preceding the transit when the
+  X-ray irradiation of the planet will be driving mass loss that we hope to
+  detect
+  at transit with HST. If it is not possible to achieve this constraint then
+  observations made up to a few hours earlier would still be of value.
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 14459 
+  TARGET = (175.547500,26.705528,{GJ436}) 
+  DURATION = (19000.000000) 
+  PRIORITY = 4 
+  STAR = (175.547500,26.705528,10.600000,MON) 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_00914 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  PHASE = (002:15:27:12.787,2009:033:13:59:49,0.9000,0.0300,0.9900,0.0300) 
+  SEGMENT = (1,18000.000000) 
+  PRECEDING = (15316) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:047:14:31:08.771 
+  vcdu = 4508351
+  FMT = 2
+  OBSID =  14459
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 175.5698:26.6910:116.1493
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:047:14:31:08.771	00:01:04	 4508351	COAOSQID  	8111700 -> OBSID: [0x4508351] 14459
+ 2013:047:14:31:24.108	00:00:15	 4508411	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:047:14:31:24.108			 4508411			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:047:14:31:24.108			 4508411			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:047:14:31:24.108			 4508411			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:047:15:13:10.334	00:41:46					-> SCS Slot Change = 131 -> 128
+ 2013:047:15:13:10.334	00:41:46	 4518191	AODSDITH  	8034300 -> DITHER DISABLE
+ 2013:047:15:14:10.333	00:01:00					-> SCS Slot Change = 128 -> 131
+ 2013:047:15:14:23.659	00:01:13					-> SCS Slot Change = 131 -> 128
+ 2013:047:15:19:10.334	00:06:00	 4519596	AOENDITH  	8034301 -> DITHER ENABLE
+ 2013:047:20:10:00.257	04:50:50	 4587693	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:20:10:00.771	00:00:01	 4587695	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:047:20:10:01.285	00:00:01	 4587697	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:047:20:35:20.334	00:25:19	 4593625	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:047:20:35:20.334	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:047:20:35:20.334	00:00:00	 4593625	3SIMHD    	6544061 -> SIM: Multipart Cmd (a203) cksum: a2; Num cmds:03
+ 2013:047:20:35:20.334			 4593625			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:047:20:35:20.334			 4593625			655ABA1 ->   SIM: ad5d -> TS  goto: [ad5d] -> 92904
+ 2013:047:20:35:20.334			 4593625			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:047:20:35:20.591	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:047:20:35:24.691	00:00:04	 4593642	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:047:20:35:24.691							->     Q1 = 4.952467e-01 
+ 2013:047:20:35:24.691							->     Q2 = -3.779368e-01 
+ 2013:047:20:35:24.691							->     Q3 = -5.130707e-01 
+ 2013:047:20:35:24.691							->     Q4 = 5.904684e-01 
+									-> RA,Dec,Roll(deg):  280.84806,   -3.54736,   77.04306
+
+ 2013:047:20:35:30.585	00:00:06	 4593665	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:047:20:35:31.610	00:00:01	 4593669	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:047:20:37:19.510	00:01:48					-> SCS Slot Change = 128 -> 131
+ 2013:047:20:37:19.510	00:01:48	 4594090	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:047:20:37:19.510			 4594090			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:047:20:37:19.510			 4594090			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:047:20:37:19.510			 4594090			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 15365:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15365 
+  TARGET = (280.840417,-3.529194,{HESSJ1843-033B}) 
+  DURATION = (11000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_00758 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,9000.000000) 
+  PRECEDING = (14459) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:047:20:38:20.334 
+  vcdu = 4594328
+  FMT = 2
+  OBSID =  15365
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = on
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 280.8481:-3.5474:77.0431
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:047:20:38:20.334	00:01:01	 4594328	COAOSQID  	8111700 -> OBSID: [0x4594328] 15365
+ 2013:047:21:10:00.112	00:31:40					-> SCS Slot Change = 131 -> 128
+ 2013:047:21:10:00.112	00:31:40	 4601741	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:047:21:40:01.285	00:30:01	 4608770	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:047:21:40:01.542	00:00:00	 4608771	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:00:17:36.786	02:37:35	 4645670	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:00:17:36.786	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:048:00:17:37.043	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:048:00:17:41.143	00:00:04	 4645687	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:00:17:41.143							->     Q1 = -7.844890e-01 
+ 2013:048:00:17:41.143							->     Q2 = 1.311333e-01 
+ 2013:048:00:17:41.143							->     Q3 = 5.235127e-01 
+ 2013:048:00:17:41.143							->     Q4 = 3.054759e-01 
+									-> RA,Dec,Roll(deg):   15.28557,  -64.35541,  232.20347
+
+ 2013:048:00:17:47.037	00:00:06	 4645710	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:00:17:48.062	00:00:01	 4645714	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:00:20:36.786	00:02:49					-> SCS Slot Change = 128 -> 131
+
+
+
+======================================================================================================
+OBSID = 15363:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15363 
+  TARGET = (15.296250,-64.375028,{PSRJ0101-6422}) 
+  DURATION = (10000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_00758 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.006667,0.000000) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,9000.000000) 
+  PRECEDING = (15365) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:048:00:20:36.786 
+  vcdu = 4646372
+  FMT = 2
+  OBSID =  15363
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 15.2856:-64.3554:232.2035
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:00:20:36.786	00:02:49	 4646372	COAOSQID  	8111700 -> OBSID: [0x4646372] 15363
+ 2013:048:00:54:43.289	00:34:07					-> SCS Slot Change = 131 -> 128
+ 2013:048:00:58:59.963	00:38:23					-> SCS Slot Change = 128 -> 131
+ 2013:048:03:42:39.963	03:22:03					-> SCS Slot Change = 131 -> 128
+ 2013:048:03:45:39.963	03:25:03	 4694385	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:03:45:39.963	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:048:03:45:39.963	00:00:00	 4694385	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:048:03:45:39.963			 4694385			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:048:03:45:39.963			 4694385			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:048:03:45:39.963			 4694385			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:048:03:45:40.220	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:048:03:45:44.320	00:00:04	 4694402	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:03:45:44.320							->     Q1 = 4.418500e-01 
+ 2013:048:03:45:44.320							->     Q2 = -3.716719e-01 
+ 2013:048:03:45:44.320							->     Q3 = -4.851120e-01 
+ 2013:048:03:45:44.320							->     Q4 = 6.567304e-01 
+									-> RA,Dec,Roll(deg):  284.68482,    3.41014,   70.49748
+
+ 2013:048:03:45:50.214	00:00:06	 4694425	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:03:45:51.239	00:00:01	 4694429	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:03:47:39.139	00:01:48					-> SCS Slot Change = 128 -> 131
+ 2013:048:03:47:39.139	00:01:48	 4694850	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:048:03:47:39.139			 4694850			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:03:47:39.139			 4694850			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:048:03:47:39.139			 4694850			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14645:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 14645 
+  TARGET = (284.681250,3.434556,{XTEJ1858+034}) 
+  DURATION = (5000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_00A04 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,5000.000000) 
+  PRECEDING = (15363) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:048:03:48:39.963 
+  vcdu = 4695087
+  FMT = 2
+  OBSID =  14645
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 284.6848:3.4101:70.4975
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:03:48:39.963	00:01:01	 4695087	COAOSQID  	8111700 -> OBSID: [0x4695087] 14645
+ 2013:048:03:48:57.899	00:00:18	 4695157	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:048:03:48:57.899			 4695157			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:03:48:57.899			 4695157			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:048:03:48:57.899			 4695157			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:048:03:55:00.000	00:06:02					-> SCS Slot Change = 131 -> 128
+ 2013:048:03:55:00.257	00:06:02	 4696571	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:048:03:55:00.771	00:00:01	 4696573	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:03:55:01.285	00:00:01	 4696575	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:048:04:13:29.001	00:18:28					-> SCS Slot Change = 128 -> 131
+ 2013:048:04:25:02.327	00:30:01					-> SCS Slot Change = 131 -> 128
+ 2013:048:05:25:01.285	01:30:00	 4717648	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:048:05:25:01.542	00:00:00	 4717649	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:05:52:39.001	00:27:38	 4724118	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:05:52:39.001	00:00:00					-> SCS Slot Change = 128 -> 131
+ 2013:048:05:52:39.001	00:00:00	 4724118	3SIMHD    	6544061 -> SIM: Multipart Cmd (a203) cksum: a2; Num cmds:03
+ 2013:048:05:52:39.001			 4724118			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:048:05:52:39.001			 4724118			655ABA1 ->   SIM: ad5d -> TS  goto: [ad5d] -> 92904
+ 2013:048:05:52:39.001			 4724118			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:048:05:52:39.258	00:00:00					-> SCS Slot Change = 131 -> 128
+ 2013:048:05:52:43.358	00:00:04	 4724135	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:05:52:43.358							->     Q1 = 5.949942e-01 
+ 2013:048:05:52:43.358							->     Q2 = -3.899518e-01 
+ 2013:048:05:52:43.358							->     Q3 = -6.228114e-01 
+ 2013:048:05:52:43.358							->     Q4 = 3.256155e-01 
+									-> RA,Dec,Roll(deg):  264.74968,  -29.15603,   90.79788
+
+ 2013:048:05:52:49.252	00:00:06	 4724158	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:05:52:50.277	00:00:01	 4724162	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:05:54:38.177	00:01:48					-> SCS Slot Change = 128 -> 131
+ 2013:048:05:54:38.177	00:01:48	 4724583	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:048:05:54:38.177			 4724583			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:05:54:38.177			 4724583			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:048:05:54:38.177			 4724583			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14887:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 14887 
+  TARGET = (264.736250,-29.140194,{G359.1+0.9}) 
+  DURATION = (11000.000000) 
+  PRIORITY = 8 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_0064C 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,9900.000000) 
+  PRECEDING = (14645) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:048:05:55:39.001 
+  vcdu = 4724820
+  FMT = 2
+  OBSID =  14887
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 264.7497:-29.1560:90.7979
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:05:55:39.001	00:01:01	 4724820	COAOSQID  	8111700 -> OBSID: [0x4724820] 14887
+ 2013:048:06:13:54.114	00:18:15					-> SCS Slot Change = 131 -> 128
+ 2013:048:09:20:16.001	03:24:37					-> SCS Slot Change = 128 -> 129
+ 2013:048:09:23:16.001	03:27:37	 4773433	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:09:23:16.001	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:048:09:23:16.001	00:00:00	 4773433	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:048:09:23:16.001			 4773433			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:048:09:23:16.001			 4773433			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:048:09:23:16.001			 4773433			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:048:09:23:16.258	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:09:23:20.358	00:00:04	 4773450	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:09:23:20.358							->     Q1 = -5.683934e-01 
+ 2013:048:09:23:20.358							->     Q2 = 3.170571e-01 
+ 2013:048:09:23:20.358							->     Q3 = 7.579894e-01 
+ 2013:048:09:23:20.358							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:048:09:23:26.252	00:00:06	 4773473	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:09:23:27.277	00:00:01	 4773477	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:09:25:15.177	00:01:48					-> SCS Slot Change = 129 -> 132
+ 2013:048:09:25:15.177	00:01:48	 4773898	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:048:09:25:15.177			 4773898			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:09:25:15.177			 4773898			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:048:09:25:15.177			 4773898			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 15610:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=15610
+  Roll Preferences exist for observation.
+    ROLL=(80.160000,10.000000)
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 15610 
+  TARGET = (220.117980,-62.722094,{RCW86}) 
+  DURATION = (10000.0,10000.0,34000.0) 
+  PRIORITY = 5 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_007BC 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (70.500000,0.000000) 
+  SEGMENT = (1,22500.000000) 
+  PRECEDING = (14887) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:048:09:26:16.001 
+  vcdu = 4774135
+  FMT = 2
+  OBSID =  15610
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:09:26:16.001	00:01:01	 4774135	COAOSQID  	8111700 -> OBSID: [0x4774135] 15610
+ 2013:048:09:26:33.937	00:00:18	 4774205	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:048:09:26:33.937			 4774205			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:09:26:33.937			 4774205			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:048:09:26:33.937			 4774205			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:048:09:44:46.457	00:18:13					-> SCS Slot Change = 132 -> 129
+ 2013:048:11:50:00.257	02:23:26	 4807791	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:048:11:50:00.771	00:00:01	 4807793	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:11:50:01.285	00:00:01	 4807795	CTXBON    	7800044 -> TRANSMITTER B ON
+ 2013:048:12:00:17.017							-> DSN EXIT        X_DSS-54
+ 2013:048:12:00:19.741							-> DSN EXIT        X_DSS-65
+ 2013:048:13:20:01.285	01:30:00	 4828868	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:048:13:20:01.542	00:00:00	 4828869	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:14:34:29.601							-> DSN ACQUISITION E_DSS-45
+ 2013:048:14:34:30.464							-> DSN ACQUISITION E_DSS-34
+ 2013:048:15:06:07.108	01:46:06					-> SCS Slot Change = 129 -> 132
+ 2013:048:15:06:07.108	01:46:06	 4853710	COACTSX   	8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+ 2013:048:15:06:07.108	00:00:00	 4853710	CODISASX  	8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:048:15:06:07.108	00:00:00	 4853710	COTERMSX  	8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+ 2013:048:15:32:16.033							-> DSN ACQUISITION E_DSS-65
+ 2013:048:15:32:20.488							-> DSN ACQUISITION E_DSS-54
+ 2013:048:16:01:10.171							-> DSN EXIT        X_DSS-27
+ 2013:048:16:01:58.278							-> DSN EXIT        X_DSS-24
+ 2013:048:16:17:15.814	01:11:09					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:20:15.814	01:14:09	 4871071	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:16:20:15.814	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:048:16:20:15.814	00:00:00	 4871071	3SIMHD    	6502061 -> SIM: Multipart Cmd (8103) cksum: 81; Num cmds:03
+ 2013:048:16:20:15.814			 4871071			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:048:16:20:15.814			 4871071			659EB81 ->   SIM: cf5c -> TS  goto: [cf5c] -> -99616
+ 2013:048:16:20:15.814			 4871071			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:048:16:20:16.071	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:20:20.171	00:00:04	 4871088	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:16:20:20.171							->     Q1 = -5.683934e-01 
+ 2013:048:16:20:20.171							->     Q2 = 3.170571e-01 
+ 2013:048:16:20:20.171							->     Q3 = 7.579894e-01 
+ 2013:048:16:20:20.171							->     Q4 = 4.307894e-02 
+									-> RA,Dec,Roll(deg):  220.12575,  -62.74651,   70.50689
+
+ 2013:048:16:23:15.814	00:02:56					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53940:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:16:23:15.814 
+  vcdu = 4871773
+  FMT = 2
+  OBSID =  53940
+  SIMTA = -99616
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:16:23:15.814	00:02:56	 4871773	COAOSQID  	8111700 -> OBSID: [0x4871773] 53940
+ 2013:048:16:23:29.359	00:00:14					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:23:29.359	00:00:14	 4871826	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:16:23:30.384	00:00:01	 4871830	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:16:25:52.248	00:02:22					-> SCS Slot Change = 129 -> 132
+ 2013:048:16:25:52.248	00:02:22	 4872384	3SIMHD    	6496061 -> SIM: Multipart Cmd (4b03) cksum: 4b; Num cmds:03
+ 2013:048:16:25:52.248			 4872384			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:048:16:25:52.248			 4872384			65F8421 ->   SIM: fc21 -> FA  goto: [fc21] -> -991
+ 2013:048:16:25:52.248			 4872384			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:048:16:27:16.108	00:01:24	 4872711	2S1HVOF   	640A000 == 640a000 sd0500 shield a hv off  
+ 2013:048:16:27:17.108	00:00:01	 4872715	2S2HVOF   	641A000 == 641a000 sd0d00 shield b hv off  
+ 2013:048:16:27:18.108	00:00:01	 4872719	2S1STHV   	640C000 == 640c000 sd0600 (0) shield a hv step  
+ 2013:048:16:27:19.108	00:00:01	 4872723	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:048:16:27:19.108	00:00:00	 4872723		-> Radmon Disable
+ 2013:048:16:27:32.434	00:00:13					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:27:51.108	00:00:32					-> SCS Slot Change = 129 -> 132
+ 2013:048:16:28:49.108	00:01:30					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:28:54.108	00:01:35					-> SCS Slot Change = 129 -> 132
+ 2013:048:16:30:41.442							-> DSN EXIT        X_DSS-34
+ 2013:048:16:30:45.344							-> DSN EXIT        X_DSS-45
+ 2013:048:16:31:49.108	00:04:30					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:31:49.108	00:04:30	 4873776	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:16:31:49.108	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53939:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:16:31:49.108 
+  vcdu = 4873776
+  FMT = 2
+  OBSID =  53940
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 220.1258:-62.7465:70.5069
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:16:31:49.108 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:16:31:49.108	00:00:00	 4873776	COAOSQID  	8111700 -> OBSID: [0x4873776] 53939
+ 2013:048:16:31:49.365	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:16:31:53.465	00:00:04	 4873793	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:16:31:53.465							->     Q1 = 1.692950e-02 
+ 2013:048:16:31:53.465							->     Q2 = -5.370414e-01 
+ 2013:048:16:31:53.465							->     Q3 = -8.433520e-01 
+ 2013:048:16:31:53.465							->     Q4 = 7.568933e-03 
+									-> RA,Dec,Roll(deg):  181.77400,   -1.17037,   64.99558
+
+ 2013:048:16:31:59.359	00:00:06	 4873816	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:16:32:00.384	00:00:01	 4873820	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:16:32:02.434	00:00:02	 4873828	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:048:17:03:03.322	00:31:01	 4881090	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:17:03:03.322	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53938:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:17:03:03.322 
+  vcdu = 4881090
+  FMT = 2
+  OBSID =  53939
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 181.7740:-1.1704:64.9956
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:17:03:03.322 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:17:03:03.322	00:00:00	 4881090	COAOSQID  	8111700 -> OBSID: [0x4881090] 53938
+ 2013:048:17:03:03.579	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:17:03:07.679	00:00:04	 4881107	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:17:03:07.679							->     Q1 = 1.028938e-02 
+ 2013:048:17:03:07.679							->     Q2 = 5.262379e-01 
+ 2013:048:17:03:07.679							->     Q3 = 8.493238e-01 
+ 2013:048:17:03:07.679							->     Q4 = 4.021083e-02 
+									-> RA,Dec,Roll(deg):  175.45983,   -1.42354,   63.50796
+
+ 2013:048:17:03:13.573	00:00:06	 4881130	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:17:03:14.598	00:00:01	 4881134	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:17:50:24.108	00:47:10					-> SCS Slot Change = 129 -> 132
+ 2013:048:17:53:24.108							-> ELECTRON 1 RADIATION ENTRY 0
+ 2013:048:18:55:59.061	01:52:44					-> SCS Slot Change = 132 -> 129
+ 2013:048:18:58:59.061	01:55:45	 4908235	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:18:58:59.061	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53937:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:18:58:59.061 
+  vcdu = 4908235
+  FMT = 2
+  OBSID =  53938
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 175.4598:-1.4235:63.5080
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:18:58:59.061 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:18:58:59.061	00:00:00	 4908235	COAOSQID  	8111700 -> OBSID: [0x4908235] 53937
+ 2013:048:18:58:59.318	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:18:59:03.418	00:00:04	 4908252	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:18:59:03.418							->     Q1 = 8.393434e-02 
+ 2013:048:18:59:03.418							->     Q2 = -6.907072e-01 
+ 2013:048:18:59:03.418							->     Q3 = -6.127873e-01 
+ 2013:048:18:59:03.418							->     Q4 = 3.746602e-01 
+									-> RA,Dec,Roll(deg):  219.20002,   24.50000,   87.99999
+
+ 2013:048:18:59:09.312	00:00:06	 4908275	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:18:59:10.337	00:00:01	 4908279	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:19:23:26.326	00:24:16	 4913961	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:048:20:18:22.464							-> DSN EXIT        X_DSS-54
+ 2013:048:20:18:22.872							-> DSN EXIT        X_DSS-65
+ 2013:048:20:56:43.521	01:33:17	 4935803	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:20:56:43.521	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53936:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:20:56:43.521 
+  vcdu = 4935803
+  FMT = 2
+  OBSID =  53937
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 219.2000:24.5000:88.0000
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:20:56:43.521 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:20:56:43.521	00:00:00	 4935803	COAOSQID  	8111700 -> OBSID: [0x4935803] 53936
+ 2013:048:20:56:43.778	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:20:56:47.878	00:00:04	 4935820	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:20:56:47.878							->     Q1 = -2.473075e-02 
+ 2013:048:20:56:47.878							->     Q2 = -7.639744e-01 
+ 2013:048:20:56:47.878							->     Q3 = -5.362323e-01 
+ 2013:048:20:56:47.878							->     Q4 = 3.580314e-01 
+									-> RA,Dec,Roll(deg):  205.00002,   35.00000,  101.87314
+
+ 2013:048:20:56:53.772	00:00:06	 4935843	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:20:56:54.797	00:00:01	 4935847	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:21:08:47.279							-> DSN ACQUISITION E_DSS-45
+ 2013:048:21:08:47.790							-> DSN ACQUISITION E_DSS-34
+ 2013:048:21:37:04.984	00:40:10	 4945253	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:21:37:04.984	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53935:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:21:37:04.984 
+  vcdu = 4945253
+  FMT = 2
+  OBSID =  53936
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 205.0000:35.0000:101.8731
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:21:37:04.984 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:21:37:04.984	00:00:00	 4945253	COAOSQID  	8111700 -> OBSID: [0x4945253] 53935
+ 2013:048:21:37:05.241	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:21:37:09.341	00:00:04	 4945270	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:21:37:09.341							->     Q1 = 8.393434e-02 
+ 2013:048:21:37:09.341							->     Q2 = -6.907072e-01 
+ 2013:048:21:37:09.341							->     Q3 = -6.127873e-01 
+ 2013:048:21:37:09.341							->     Q4 = 3.746602e-01 
+									-> RA,Dec,Roll(deg):  219.20002,   24.50000,   87.99999
+
+ 2013:048:21:37:15.235	00:00:06	 4945293	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:21:37:16.260	00:00:01	 4945297	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:22:08:36.195							-> DSN ACQUISITION E_DSS-27
+ 2013:048:22:08:38.063							-> DSN ACQUISITION E_DSS-24
+ 2013:048:22:09:19.221							-> DSN EXIT        X_DSS-45
+ 2013:048:22:09:19.623							-> DSN EXIT        X_DSS-34
+ 2013:048:23:00:00.257	01:22:44	 4964669	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:048:23:00:00.771	00:00:01	 4964671	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:048:23:00:01.542	00:00:01	 4964674	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:048:23:37:41.248	00:37:40	 4973492	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:048:23:37:41.248	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53934:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:048:23:37:41.248 
+  vcdu = 4973492
+  FMT = 2
+  OBSID =  53935
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = on
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 219.2000:24.5000:88.0000
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:048:23:37:41.248 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:048:23:37:41.248	00:00:00	 4973492	COAOSQID  	8111700 -> OBSID: [0x4973492] 53934
+ 2013:048:23:37:41.505	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:048:23:37:45.605	00:00:04	 4973509	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:048:23:37:45.605							->     Q1 = 1.028938e-02 
+ 2013:048:23:37:45.605							->     Q2 = 5.262379e-01 
+ 2013:048:23:37:45.605							->     Q3 = 8.493238e-01 
+ 2013:048:23:37:45.605							->     Q4 = 4.021083e-02 
+									-> RA,Dec,Roll(deg):  175.45983,   -1.42354,   63.50796
+
+ 2013:048:23:37:51.499	00:00:06	 4973532	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:048:23:37:52.524	00:00:01	 4973536	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:048:23:37:54.574	00:00:02	 4973544	COENASX   	8446200 -> ENABLE SCS 0x62 (98) 
+ 2013:049:00:07:24.108	00:29:30					-> SCS Slot Change = 129 -> 132
+ 2013:049:00:07:24.108							-> ELECTRON 1 RADIATION EXIT 0
+ 2013:049:00:30:01.542	00:52:07					-> SCS Slot Change = 132 -> 129
+ 2013:049:00:30:01.542	00:52:07	 4985747	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:049:00:30:01.799	00:00:00	 4985748	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:049:01:29:45.187	00:59:43	 4999732	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:049:01:29:45.187	00:00:00					-> SCS Slot Change = 129 -> 132
+
+
+
+======================================================================================================
+OBSID = 53933:
+=======================================================================================================
+
+Command State Vector:--------------
+  gmt = 2013:049:01:29:45.187 
+  vcdu = 4999732
+  FMT = 2
+  OBSID =  53934
+  SIMTA = -99616
+  SIMFA = -991
+  RADMON = ds
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = off
+  SHLD2STEP = 0
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 175.4598:-1.4235:63.5080
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = dis
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+2013:049:01:29:45.187 
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:049:01:29:45.187	00:00:00	 4999732	COAOSQID  	8111700 -> OBSID: [0x4999732] 53933
+ 2013:049:01:29:45.444	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:049:01:29:49.544	00:00:04	 4999749	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:049:01:29:49.544							->     Q1 = -1.915345e-01 
+ 2013:049:01:29:49.544							->     Q2 = -8.898785e-01 
+ 2013:049:01:29:49.544							->     Q3 = -3.197221e-01 
+ 2013:049:01:29:49.544							->     Q4 = 2.630751e-01 
+									-> RA,Dec,Roll(deg):  167.64413,   36.20566,  144.52776
+
+ 2013:049:01:29:55.438	00:00:06	 4999772	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:049:01:29:56.463	00:00:01	 4999776	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:049:02:33:07.248							-> DSN ACQUISITION E_DSS-65
+ 2013:049:02:33:08.451							-> DSN ACQUISITION E_DSS-54
+ 2013:049:02:40:37.970	01:10:41	 5016328	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:049:02:40:42.327	00:00:04	 5016345	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:049:02:40:42.327							->     Q1 = -1.374597e-01 
+ 2013:049:02:40:42.327							->     Q2 = -7.221130e-01 
+ 2013:049:02:40:42.327							->     Q3 = -2.360665e-01 
+ 2013:049:02:40:42.327							->     Q4 = 6.355551e-01 
+									-> RA,Dec,Roll(deg):  213.34026,   79.35308,  115.89410
+
+ 2013:049:02:40:48.221	00:00:06	 5016368	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:049:02:40:49.246	00:00:01	 5016372	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:049:02:51:04.108	00:10:15					-> SCS Slot Change = 129 -> 132
+ 2013:049:02:54:03.108	00:13:14	 5019470		-> Radmon Enable
+ 2013:049:02:54:04.108	00:00:01	 5019474	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:049:02:54:04.108			 5019474			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:049:02:54:04.108			 5019474			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:049:02:54:04.108			 5019474			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:049:02:54:05.108	00:00:01	 5019478	COENASX   	8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+ 2013:049:02:54:05.108	00:00:00	 5019478	2S2STHV   	641C000 == 641c000 sd0e00 (0) shield b hv step  
+ 2013:049:02:54:06.108	00:00:01	 5019482	2S2HVON   	641A020 == 641a020 sd0d01 shield b hv on  
+ 2013:049:02:54:16.108	00:00:10	 5019521	2S2STHV   	641C080 == 641c080 sd0e04 (4) shield b hv step  
+ 2013:049:02:54:26.108	00:00:10	 5019560	2S2STHV   	641C100 == 641c100 sd0e08 (8) shield b hv step  
+
+
+
+======================================================================================================
+OBSID = 15613:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 15613 
+  TARGET = (213.232500,79.367694,{1RXSJ141256.0+79220}) 
+  DURATION = (17000.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = CC_00136 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  ROLL = (116.000000,0.000000) 
+  SEGMENT = (1,18000.000000) 
+  PRECEDING = (T_X70) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:049:02:57:04.108 
+  vcdu = 5020176
+  FMT = 2
+  OBSID =  15613
+  SIMTA = 75624
+  SIMFA = -991
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 213.3403:79.3531:115.8941
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:049:02:57:04.108	00:02:38	 5020176	COAOSQID  	8111700 -> OBSID: [0x5020176] 15613
+ 2013:049:02:59:40.542	00:02:37	 5020787	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:049:02:59:40.542			 5020787			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:049:02:59:40.542			 5020787			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:049:02:59:40.542			 5020787			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:049:03:00:00.000	00:00:19					-> SCS Slot Change = 132 -> 129
+ 2013:049:03:00:00.257	00:00:20	 5020864	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:049:03:00:00.771	00:00:01	 5020866	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:049:03:00:01.285	00:00:01	 5020868	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:049:03:01:08.402	00:01:07					-> SCS Slot Change = 129 -> 132
+ 2013:049:03:01:08.402	00:01:07	 5021130	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:049:03:01:08.402			 5021130			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:049:03:01:08.402			 5021130			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:049:03:01:08.402			 5021130			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:049:03:02:39.129	00:01:31					-> SCS Slot Change = 132 -> 129
+ 2013:049:03:02:39.129	00:01:31	 5021484	CODISASX  	8456200 -> DISABLE SCS 0x62 (98) 
+ 2013:049:04:30:01.285	01:27:22	 5041941	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:049:04:30:01.542	00:00:00	 5041942	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:049:07:50:15.802	03:20:14	 5088827	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:049:07:50:15.802	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:049:07:50:15.802	00:00:00	 5088827	3SIMHD    	6544061 -> SIM: Multipart Cmd (a203) cksum: a2; Num cmds:03
+ 2013:049:07:50:15.802			 5088827			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:049:07:50:15.802			 5088827			655ABA1 ->   SIM: ad5d -> TS  goto: [ad5d] -> 92904
+ 2013:049:07:50:15.802			 5088827			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:049:07:50:16.059	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:049:07:50:20.159	00:00:04	 5088844	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:049:07:50:20.159							->     Q1 = -3.129582e-01 
+ 2013:049:07:50:20.159							->     Q2 = -3.582390e-01 
+ 2013:049:07:50:20.159							->     Q3 = -4.851012e-02 
+ 2013:049:07:50:20.159							->     Q4 = 8.782760e-01 
+									-> RA,Dec,Roll(deg):   10.65901,   41.27156,  316.75072
+
+ 2013:049:07:50:26.053	00:00:06	 5088867	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:049:07:50:27.078	00:00:01	 5088871	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:049:07:52:14.978	00:01:48					-> SCS Slot Change = 129 -> 132
+ 2013:049:07:52:14.978	00:01:48	 5089292	3SIMHD    	6506061 -> SIM: Multipart Cmd (8303) cksum: 83; Num cmds:03
+ 2013:049:07:52:14.978			 5089292			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:049:07:52:14.978			 5089292			65FBD01 ->   SIM: fde8 -> FA  goto: [fde8] -> -536
+ 2013:049:07:52:14.978			 5089292			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14930:
+=======================================================================================================
+Observation Request  COMMENTS:---------------------------
+  BEGIN_COMMENT, ID=14930
+  NOTE: The PRECEDING=(14929,021:00:00:00.000,035:00:00:00.000) parameter has
+  been removed from this OR because there is no OR with an ID=14929
+  in this OR list.
+  Remarks:
+  The combined GTO and GO progaram of 10x5ks ACIS observations should be
+  spaced on ~1 month intervals, avoiding the 2 month sun block. The first 2 HST
+  orbits should occur 3-4 weeks after ONE of these 10 observations (the first
+  with
+  a transient of Lx >1e38 erg/s or <1' of nucleus) and the second 2 orbits should
+  occur several months later. There should be no need for CXC Mission Planners to
+  co-ordinate with the HST schedule, as observations occur frequently enough as
+  long as the one month intervals are maintained.
+  END_COMMENT
+
+Observation Request INFO:----------------------------
+  ID = 14930 
+  TARGET = (10.685000,41.268972,{M31BHXN}) 
+  DURATION = (5000.000000) 
+  PRIORITY = 4 
+  SI = ACIS-I 
+  GRATING = NONE 
+  SI_MODE = TE_00ABA 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (-0.003333,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,5000.000000) 
+  PRECEDING = (15613) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:049:07:53:15.802 
+  vcdu = 5089529
+  FMT = 2
+  OBSID =  14930
+  SIMTA = 92904
+  SIMFA = -536
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 10.6590:41.2716:316.7507
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:049:07:53:15.802	00:01:01	 5089529	COAOSQID  	8111700 -> OBSID: [0x5089529] 14930
+ 2013:049:08:14:32.696	00:21:17					-> SCS Slot Change = 132 -> 129
+ 2013:049:09:42:09.370	01:48:54	 5115026	AONMMODE  	        -> AONMMODE SET PCAD MODE NORMAL MANEUVER
+ 2013:049:09:42:09.370	00:00:00					-> SCS Slot Change = 129 -> 132
+ 2013:049:09:42:09.370	00:00:00	 5115026	3SIMHD    	6436061 -> SIM: Multipart Cmd (1b03) cksum: 1b; Num cmds:03
+ 2013:049:09:42:09.370			 5115026			6440221 ->   SIM: 2011 -> TSC Enable
+ 2013:049:09:42:09.370			 5115026			6549DA1 ->   SIM: a4ed -> TS  goto: [a4ed] -> 75624
+ 2013:049:09:42:09.370			 5115026			6440001 ->   SIM: 2000 -> TSC Disable
+
+ 2013:049:09:42:09.627	00:00:00					-> SCS Slot Change = 132 -> 129
+ 2013:049:09:42:13.727	00:00:04	 5115043	AOUPTARQ  	8132201 -> SET  TARGET QUATERIAN PARAMETERS
+ 2013:049:09:42:13.727							->     Q1 = 5.564392e-01 
+ 2013:049:09:42:13.727							->     Q2 = -4.094762e-01 
+ 2013:049:09:42:13.727							->     Q3 = -6.271099e-01 
+ 2013:049:09:42:13.727							->     Q4 = 3.597749e-01 
+									-> RA,Dec,Roll(deg):  262.34638,  -23.78204,   87.15562
+
+ 2013:049:09:42:19.621	00:00:06	 5115066	AOMANUVR  	        -> AOMANUVR: SET ATTITUDE CMD MODE MANEUVER
+ 2013:049:09:42:20.646	00:00:01	 5115070	COACTSX   	8402600 -> ACTIVATE SCS 0x26 (38) ACA RESET
+ 2013:049:09:44:08.546	00:01:48					-> SCS Slot Change = 129 -> 132
+ 2013:049:09:44:08.546	00:01:48	 5115491	3SIMHD    	6418061 -> SIM: Multipart Cmd (0c03) cksum: 0c; Num cmds:03
+ 2013:049:09:44:08.546			 5115491			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:049:09:44:08.546			 5115491			65FCBC1 ->   SIM: fe5e -> FA  goto: [fe5e] -> -418
+ 2013:049:09:44:08.546			 5115491			6440441 ->   SIM: 2022 -> FA  Disable
+
+
+
+
+======================================================================================================
+OBSID = 14594:
+=======================================================================================================
+Observation Request INFO:----------------------------
+  ID = 14594 
+  TARGET = (262.335000,-23.759667,{NGC6369}) 
+  DURATION = (30000.000000) 
+  PRIORITY = 6 
+  SI = ACIS-S 
+  GRATING = NONE 
+  SI_MODE = TE_004A4 
+  ACA_MODE = DEFAULT 
+  TARGET_OFFSET = (0.002500,-0.004167) 
+  DITHER = (ON,0.002222,0.360000,0.000000,0.002222,0.509100,0.000000) 
+  SEGMENT = (1,27000.000000) 
+  PRECEDING = (14930) 
+  MIN_ACQ = 1 
+  MIN_GUIDE = 1 
+
+Command State Vector:--------------
+  gmt = 2013:049:09:45:09.370 
+  vcdu = 5115729
+  FMT = 2
+  OBSID =  14594
+  SIMTA = 75624
+  SIMFA = -418
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 262.3464:-23.7820:87.1556
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+Selected HRC and S/C Events/Commands:--------------
+ 2013:049:09:45:09.370	00:01:01	 5115729	COAOSQID  	8111700 -> OBSID: [0x5115729] 14594
+ 2013:049:09:45:27.306	00:00:18	 5115799	3SIMHD    	647C061 -> SIM: Multipart Cmd (3e03) cksum: 3e; Num cmds:03
+ 2013:049:09:45:27.306			 5115799			6440661 ->   SIM: 2033 -> FA  Enable
+ 2013:049:09:45:27.306			 5115799			65FC581 ->   SIM: fe2c -> FA  goto: [fe2c] -> -468
+ 2013:049:09:45:27.306			 5115799			6440441 ->   SIM: 2022 -> FA  Disable
+
+ 2013:049:10:25:06.710	00:39:39					-> SCS Slot Change = 132 -> 129
+ 2013:049:11:40:00.257	01:54:33	 5142620	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:049:11:40:00.771	00:00:01	 5142622	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:049:11:40:01.285	00:00:01	 5142624	CTXAON    	7800004 -> TRANSMITTER A ON
+ 2013:049:13:10:01.285	01:30:00	 5163697	CTXAOF    	780000C -> TRANSMITTER A OFF
+ 2013:049:13:10:01.542	00:00:00	 5163698	CTXBOF    	780004C -> TRANSMITTER B OFF
+ 2013:049:18:49:23.384	05:39:22					-> SCS Slot Change = 129 -> 132
+
+
+
+Last Command State Vector:--------------
+  gmt = 2013:049:13:10:01.542 
+  vcdu = 5163698
+  FMT = 2
+  OBSID =  14594
+  SIMTA = 75624
+  SIMFA = -468
+  RADMON = en
+  LETG = out
+  HETG = out
+  XMITA = off
+  XMITB = off
+  DITHER = en
+  DOOR = na
+  PREAMPA = S
+  HVI = off
+  HVS = 1/2
+  SHLD2PWR = on
+  SHLD2STEP = 8
+  RANGESET = 125
+  CBu = 0
+  CBU = 255
+  CBv = 65
+  CBV = 127
+  DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  TARGQUAT = 262.3464:-23.7820:87.1556
+  SCS87 = dis
+  SCS88 = act
+  SCS89 = dis
+  SCS90 = ena
+  SCS91 = term
+  SCS92 = act
+  SCS93 = act
+  SCS105 = na
+
+
+ 2013:049:18:49:23.384							-> LAST Command in Load

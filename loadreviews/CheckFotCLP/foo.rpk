@@ -1,0 +1,1427 @@
+=== CLP-MasterCheck.sh -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A ===
+Command Line: CLP-MasterCheck.sh -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+Tue Dec 23 17:36:52 EST 2014
+2014:357:22:36:52
+=== CLP-MasterCheck.sh -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-030-chk_for_cmd_timing_lt_1sec.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[FAIL]CLP-030-chk_for_cmd_timing_lt_1sec.pl 
+ 1:  2014:365:22:53:29.407	00:00:34	   32546	2S1HVOF   	640A000 == 640a000 sd0500 shield a hv off  VCDU WARN: dvcdu: -16547441
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-031-chk_for_cmds_between_radmon-disable.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[OK]  CLP-031-chk_for_cmds_between_radmon.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-033-chk_for_HV_down_in_radzone.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+### Starting Readline:
+  RAD: Initial Load Starting With 1     RADMON = ds
+  HVI: Initial HVI Load Starting With 0     HVI = off
+  HVS: Initial HVS Load Starting With 0     HVS = 1/2
+  SHLD: Initial SHLDHV Load Starting With 0     SHLD2PWR = off
+### end of init section
+
+HVS EN ramp up at:[0]  2014:358:18:31:02.473
+    2014:358:18:31:02.473	00:00:02	14388115	COENASX   	8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+   Err# 1; found error [@ transition 0] 	Shld=0; HVI=0; ; HVS=1;
+
+SHLD on   at:[0]  2014:358:18:31:03.473
+HVS DS ramp up at:[0]  2014:360:15:30:11.816
+SHLD off   at:[0]  2014:360:15:39:54.816
+SHLD off   at:[0]  2014:360:15:39:55.816
+
+RAD Entry at:[1]  2014:360:18:17:28.816
+RAD Exit  at:[2]  2014:361:03:01:28.816
+HVS EN ramp up at:[2]  2014:361:05:48:09.816
+SHLD on   at:[2]  2014:361:05:48:10.816
+HVS DS ramp up at:[2]  2014:363:07:43:48.058
+SHLD off   at:[2]  2014:363:07:44:22.058
+SHLD off   at:[2]  2014:363:07:44:23.058
+
+RAD Entry at:[3]  2014:363:10:31:05.058
+RAD Exit  at:[4]  2014:363:17:59:05.058
+SHLD on   at:[4]  2014:363:20:43:35.058
+HVS EN ramp up at:[4]  2014:363:20:45:46.058
+HVS DS ramp up at:[4]  2014:365:03:29:32.864
+HVI EN ramp up at:[4]  2014:365:03:30:08.864
+HVI DS ramp up at:[4]  2014:365:22:52:55.407
+SHLD off   at:[4]  2014:365:22:53:29.407
+SHLD off   at:[4]  2014:365:22:53:30.407
+
+RAD Entry at:[5]  2015:001:01:40:12.407
+RAD Exit  at:[6]  2015:001:10:14:12.407
+HVI EN ramp up at:[6]  2015:001:13:00:53.407
+SHLD on   at:[6]  2015:001:13:00:54.407
+HVI DS ramp up at:[6]  2015:003:13:53:57.904
+SHLD off   at:[6]  2015:003:14:13:40.904
+SHLD off   at:[6]  2015:003:14:13:41.904
+
+RAD Entry at:[7]  2015:003:16:41:14.904
+RAD Exit  at:[8]  2015:004:01:19:14.904
+HVI EN ramp up at:[8]  2015:004:04:05:55.904
+SHLD on   at:[8]  2015:004:04:05:56.904
+HVI DS ramp up at:[8]  2015:006:06:11:19.367
+SHLD off   at:[8]  2015:006:06:11:53.367
+SHLD off   at:[8]  2015:006:06:11:54.367
+
+RAD Entry at:[9]  2015:006:08:58:36.367
+RAD Exit  at:[10]  2015:006:16:32:36.367
+SHLD on   at:[10]  2015:006:19:13:06.367
+HVI EN ramp up at:[10]  2015:006:19:19:17.367
+HVI DS ramp up at:[10]  2015:008:21:06:48.138
+SHLD off   at:[10]  2015:008:21:22:31.138
+SHLD off   at:[10]  2015:008:21:22:32.138
+
+RAD Entry at:[11]  2015:008:23:54:05.138
+RAD Exit  at:[12]  2015:009:08:44:05.138
+HVI EN ramp up at:[12]  2015:009:11:30:46.138
+SHLD on   at:[12]  2015:009:11:30:47.138
+HVI DS ramp up at:[12]  2015:011:12:20:01.383
+SHLD off   at:[12]  2015:011:12:20:35.383
+SHLD off   at:[12]  2015:011:12:20:36.383
+
+RAD Entry at:[13]  2015:011:15:07:18.383
+[FAIL] CLP-033-chk_for_HV_down_in_radzone.pl
+ Found 1 HRC HV active after radiation entry:
+Error [1]
+  Initial Load Starting With 1     RADMON = ds
+    Shld=0; HVI=0; ; HVS=1;
+  2014:360:18:17:28.816							-> ELECTRON 1 RADIATION ENTRY 0
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-034-chk_for_bad_cmd_hex.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[OK]   CLP-034-chk_for_bad_cmd_hex.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-036-chk_hv_scs_for_selected_detector.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+### start of init
+  RADMON:initial state    RADMON = ds: (0)
+  PREAMPA:initial state    PREAMPA = S
+  HV(I):initial state    HVI = off
+  HV(S):initial state    HVS = 1/2
+  SCS(87):initial state    SCS87 = dis
+  SCS(88):initial state    SCS88 = act
+  SCS(89):initial state    SCS89 = dis
+  SCS(90):initial state    SCS90 = dis
+  SCS(91):initial state    SCS91 = term
+  SCS(92):initial state    SCS92 = act
+  SCS(93):initial state    SCS93 = act
+### end of init
+
+RADMON 1  at: 2014:358:18:31:00.473 00:00:29 14388108 -> Radmon Enable
+SCS 90 ena HVS ramp up at: 2014:358:18:31:02.473 00:00:02 14388115 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 17107
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16996
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16820
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17562
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 17001
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17538
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17033
+OBS SI: ACIS-S
+SCS 88 act HVS ramp down at: 2014:360:15:30:11.816 00:15:10 15020113 COACTSX  8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:360:15:30:11.816 00:00:00 15020113 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:360:15:30:11.816 00:00:00 15020113 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52228
+RADMON 0  at: 2014:360:15:39:57.816 00:00:00 15022400 -> Radmon Disable
+
+==================================
+OBS ID: 52227
+
+==================================
+OBS ID: 52226
+
+==================================
+OBS ID: 52225
+
+==================================
+OBS ID: 52224
+
+==================================
+OBS ID: 52223
+
+==================================
+OBS ID: 52222
+
+==================================
+OBS ID: 52221
+
+==================================
+OBS ID: 52220
+
+==================================
+OBS ID: 52219
+RADMON 1  at: 2014:361:05:48:07.816 00:03:06 15220995 -> Radmon Enable
+
+==================================
+OBS ID: 17565
+OBS SI: ACIS-S
+SCS 90 ena HVS ramp up at: 2014:361:05:48:09.816 00:00:01 15221003 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 17041
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16444
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16687
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17563
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52218
+SCS 88 act HVS ramp down at: 2014:363:07:43:48.058 00:00:50 15922420 COACTSX  8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:363:07:43:48.058 00:00:00 15922420 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:363:07:43:48.058 00:00:00 15922420 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2014:363:07:44:25.058 00:00:00 15922564 -> Radmon Disable
+
+==================================
+OBS ID: 52217
+
+==================================
+OBS ID: 52216
+
+==================================
+OBS ID: 52215
+
+==================================
+OBS ID: 52214
+
+==================================
+OBS ID: 52213
+RADMON 1  at: 2014:363:20:43:32.058 00:17:38 16104992 -> Radmon Enable
+SCS 90 ena HVS ramp up at: 2014:363:20:45:46.058 00:01:51 16105515 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 16744
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 15966
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 14234
+OBS SI: HRC-I
+SCS 91 term HRC Dither control at: 2014:365:03:29:22.864 00:00:31 16537190 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+HV S off  at: 2014:365:03:29:23.864 00:00:01 16537194 2SPHVOF  6402000 == 6402000 sd0100 spect det hv off 
+HV I off  at: 2014:365:03:29:24.864 00:00:01 16537198 2IMHVOF  6412000 == 6412000 sd0900 imaging det hv off 
+SCS 88 dis HVS ramp down at: 2014:365:03:29:32.864 00:00:04 16537229 CODISASX  8455800 -> DISABLE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:365:03:29:32.864 00:00:00 16537229 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 87 ena HVI ramp down at: 2014:365:03:30:08.864 00:00:02 16537370 COENASX  8445700 -> ENABLE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 ena HVI ramp up at: 2014:365:03:30:08.864 00:00:00 16537370 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 92 act HVI on at: 2014:365:03:30:08.864 00:00:00 16537370 COACTSX  8405C00 -> ACTIVATE SCS 0x5C (92) HRC-I HV On 
+SCS 91 act HRC Dither control at: 2014:365:03:31:29.864 00:01:11 16537686 COACTSX  8405B00 -> ACTIVATE SCS 0x5B (91) HRC Dither Control
+==================================================
+  OBS: 14234/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:365:03:31:29.864; vcdu=16537686
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+
+==================================
+OBS ID: 16973
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16144
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16179
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52212
+SCS 87 act HVI ramp down at: 2014:365:22:52:55.407 00:00:48  32413 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2014:365:22:52:55.407 00:00:00  32413 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:365:22:52:55.407 00:00:00  32413 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2014:365:22:53:32.407 00:00:00  32558 -> Radmon Disable
+
+==================================
+OBS ID: 52211
+
+==================================
+OBS ID: 52210
+
+==================================
+OBS ID: 52209
+
+==================================
+OBS ID: 52208
+
+==================================
+OBS ID: 52207
+
+==================================
+OBS ID: 52206
+RADMON 1  at: 2015:001:13:00:51.407 00:26:41  230954 -> Radmon Enable
+
+==================================
+OBS ID: 16672
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:001:13:00:53.407 00:00:01  230961 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 16275
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 17572
+OBS SI: ACIS-S
+SCS 87 act HVI ramp down at: 2015:003:13:53:57.904 01:23:56  917730 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:003:13:53:57.904 00:00:00  917730 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:003:13:53:57.904 00:00:00  917730 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52205
+RADMON 0  at: 2015:003:14:13:43.904 00:00:00  922358 -> Radmon Disable
+
+==================================
+OBS ID: 52204
+
+==================================
+OBS ID: 52203
+
+==================================
+OBS ID: 52202
+
+==================================
+OBS ID: 52201
+RADMON 1  at: 2015:004:04:05:53.904 00:05:53  1117207 -> Radmon Enable
+SCS 89 ena HVI ramp up at: 2015:004:04:05:55.904 00:00:01  1117215 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 17573
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16274
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16686
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16611
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17093
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17039
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16985
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17505
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52200
+SCS 87 act HVI ramp down at: 2015:006:06:11:19.367 00:00:48  1820916 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:006:06:11:19.367 00:00:00  1820916 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:006:06:11:19.367 00:00:00  1820916 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2015:006:06:11:56.367 00:00:00  1821061 -> Radmon Disable
+
+==================================
+OBS ID: 52199
+
+==================================
+OBS ID: 52198
+
+==================================
+OBS ID: 52197
+
+==================================
+OBS ID: 52196
+
+==================================
+OBS ID: 52195
+RADMON 1  at: 2015:006:19:13:03.367 00:03:33  2003956 -> Radmon Enable
+
+==================================
+OBS ID: 17441
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:006:19:19:17.367 00:00:37  2005416 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 87 act HVI ramp down at: 2015:008:21:06:48.138 08:21:47  2704931 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:008:21:06:48.138 00:00:00  2704931 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:008:21:06:48.138 00:00:00  2704931 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52194
+RADMON 0  at: 2015:008:21:22:34.138 00:00:00  2708623 -> Radmon Disable
+
+==================================
+OBS ID: 52193
+
+==================================
+OBS ID: 52192
+
+==================================
+OBS ID: 52191
+
+==================================
+OBS ID: 52190
+
+==================================
+OBS ID: 52189
+RADMON 1  at: 2015:009:11:30:44.138 00:11:53  2907218 -> Radmon Enable
+
+==================================
+OBS ID: 16478
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:009:11:30:46.138 00:00:01  2907226 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 17084
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17096
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17574
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17145
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52188
+SCS 87 act HVI ramp down at: 2015:011:12:20:01.383 00:00:49  3593100 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:011:12:20:01.383 00:00:00  3593100 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:011:12:20:01.383 00:00:00  3593100 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2015:011:12:20:38.383 00:00:00  3593244 -> Radmon Disable
+
+==================================
+OBS ID: 52187
+[OK]   CLP-036-chk_hv_scs_for_selected_detector.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-037-chk-format_commands.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+0: =======================================
+0: 
+fmt_value = 2
+fmt_vcdu         = 14388580
+fifo reset  vcdu = 14388582 (2)
+fifo enable vcdu = 14388586 (6)
+			
+1: =======================================
+1: 
+fmt_value = 4
+fmt_vcdu         = 15214242
+fifo reset  vcdu = 15214244 (2)
+fifo enable vcdu = 15214248 (6)
+			
+2: =======================================
+2: 
+fmt_value = 2
+fmt_vcdu         = 15215248
+fifo reset  vcdu = 15215250 (2)
+fifo enable vcdu = 15215254 (6)
+			
+3: =======================================
+3: 
+fmt_value = 4
+fmt_vcdu         = 15398384
+fifo reset  vcdu = 15398386 (2)
+fifo enable vcdu = 15398390 (6)
+			
+4: =======================================
+4: 
+fmt_value = 2
+fmt_vcdu         = 15399390
+fifo reset  vcdu = 15399392 (2)
+fifo enable vcdu = 15399396 (6)
+			
+5: =======================================
+5: 
+fmt_value = 1
+fmt_vcdu         = 16537062
+fifo reset  vcdu = 16537064 (2)
+fifo enable vcdu = 16537068 (6)
+			
+6: =======================================
+6: 
+fmt_value = 2
+fmt_vcdu         = 16579982
+fifo reset  vcdu = 16579983 (1)
+fifo enable vcdu = 16579987 (5)
+			
+7: =======================================
+7: 
+fmt_value = 4
+fmt_vcdu         = 223697
+fifo reset  vcdu = 223699 (2)
+fifo enable vcdu = 223702 (5)
+			
+8: =======================================
+8: 
+fmt_value = 2
+fmt_vcdu         = 224703
+fifo reset  vcdu = 224705 (2)
+fifo enable vcdu = 224708 (5)
+			
+9: =======================================
+9: 
+fmt_value = 4
+fmt_vcdu         = 740764
+fifo reset  vcdu = 740766 (2)
+fifo enable vcdu = 740770 (6)
+			
+10: =======================================
+10: 
+fmt_value = 2
+fmt_vcdu         = 741770
+fifo reset  vcdu = 741772 (2)
+fifo enable vcdu = 741776 (6)
+			
+11: =======================================
+11: 
+fmt_value = 4
+fmt_vcdu         = 2002112
+fifo reset  vcdu = 2002114 (2)
+fifo enable vcdu = 2002117 (5)
+			
+12: =======================================
+12: 
+fmt_value = 2
+fmt_vcdu         = 2003118
+fifo reset  vcdu = 2003120 (2)
+fifo enable vcdu = 2003124 (6)
+			
+13: =======================================
+13: 
+fmt_value = 4
+fmt_vcdu         = 2903423
+fifo reset  vcdu = 2903425 (2)
+fifo enable vcdu = 2903429 (6)
+			
+14: =======================================
+14: 
+fmt_value = 2
+fmt_vcdu         = 2904429
+fifo reset  vcdu = 2904431 (2)
+fifo enable vcdu = 2904435 (6)
+			
+[OK]   CLP-037-chk-format_commands.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+Initial State [vcdu=15933263]
+Initial State [Dither=en]
+Initial State [scs91=term]
+HRC Dither enable at: 2014:358:18:53:15.920 00:00:01 14393319 AOENDITH  8034301 -> DITHER ENABLE
+SCS 91 term HRC Dither control at: 2014:360:15:30:11.816 00:00:00 15020113 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2014:363:07:43:48.058 00:00:00 15922420 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2014:365:03:29:22.864 00:00:31 16537190 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 act HRC Dither control at: 2014:365:03:31:29.864 00:01:11 16537686 COACTSX  8405B00 -> ACTIVATE SCS 0x5B (91) HRC Dither Control
+HRC Dither enable at: 2014:365:03:38:58.197 00:00:01 16539435 AOENDITH  8034301 -> DITHER ENABLE
+
+  hrccmd: [91=act] [D=en]:(10136.25):  2014:365:06:32:07.697 01:02:06 16579980 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+
+
+  hrccmd: [91=act] [D=en]:(10137):  2014:365:06:32:08.697 00:00:00 16579983 2FIFOAOF  648A000 == 648a000 sd4500 data fifo reset VCDU WARN: dvcdu: 3
+
+
+  hrccmd: [91=act] [D=en]:(10138):  2014:365:06:32:09.697 00:00:01 16579987 2FIFOAON  648A020 == 648a020 sd4501 data fifo enable 
+
+HRC Dither enable at: 2014:365:07:05:08.838 00:00:01 16587711 AOENDITH  8034301 -> DITHER ENABLE
+SCS 91 term HRC Dither control at: 2014:365:22:52:55.407 00:00:00  32413 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2015:003:13:53:57.904 00:00:00  917730 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2015:006:06:11:19.367 00:00:00  1820916 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2015:008:21:06:48.138 00:00:00  2704931 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+SCS 91 term HRC Dither control at: 2015:011:12:20:01.383 00:00:00  3593100 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+[OK]   CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-039-chk-pmt-on-and-up.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+Initial  VCDU [vcdu=15933263]
+Initial State [RADMON=ds]
+Initial State [SHLD2PWR=off]
+Initial State [SHLD2STEP=0]
+First command start: 2014:358:18:30:01.473
+
+Radmon Enable:              2014:358:18:31:00.473 00:00:29 14388108 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2014:358:18:31:02.473 00:00:00 14388115 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2014:358:18:31:03.473 00:00:01 14388119 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on 
+ HRC shield B step 0 -> 4:  2014:358:18:31:13.473 00:00:10 14388158 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2014:358:18:31:23.473 00:00:10 14388197 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.41 sec)(89 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2014:360:15:39:55.816 00:00:01 15022392 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2014:360:15:39:57.816 00:00:01 15022400 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+Radmon Disable:             2014:360:15:39:57.816 00:00:00 15022400 -> Radmon Disable
+
+Radmon Enable:              2014:361:05:48:07.816 00:03:06 15220995 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2014:361:05:48:09.816 00:00:00 15221003 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2014:361:05:48:10.816 00:00:01 15221006 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on VCDU WARN: dvcdu: 3
+ HRC shield B step 0 -> 4:  2014:361:05:48:20.816 00:00:10 15221045 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2014:361:05:48:30.816 00:00:10 15221085 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.90 sec)(90 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2014:363:07:44:23.058 00:00:01 15922557 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2014:363:07:44:25.058 00:00:01 15922564 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step VCDU WARN: dvcdu: 3
+Radmon Disable:             2014:363:07:44:25.058 00:00:00 15922564 -> Radmon Disable
+
+Radmon Enable:              2014:363:20:43:32.058 00:17:38 16104992 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2014:363:20:43:34.058 00:00:01 16105000 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2014:363:20:43:35.058 00:00:01 16105003 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on VCDU WARN: dvcdu: 3
+ HRC shield B step 0 -> 4:  2014:363:20:43:45.058 00:00:10 16105042 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2014:363:20:43:55.058 00:00:10 16105082 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.90 sec)(90 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2014:365:22:53:30.407 00:00:01  32550 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2014:365:22:53:32.407 00:00:01  32558 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+Radmon Disable:             2014:365:22:53:32.407 00:00:00  32558 -> Radmon Disable
+
+Radmon Enable:              2015:001:13:00:51.407 00:26:41  230954 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2015:001:13:00:53.407 00:00:00  230961 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2015:001:13:00:54.407 00:00:01  230965 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on 
+ HRC shield B step 0 -> 4:  2015:001:13:01:04.407 00:00:10  231004 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2015:001:13:01:14.407 00:00:10  231043 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.41 sec)(89 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2015:003:14:13:41.904 00:00:01  922351 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2015:003:14:13:43.904 00:00:01  922358 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step VCDU WARN: dvcdu: 3
+Radmon Disable:             2015:003:14:13:43.904 00:00:00  922358 -> Radmon Disable
+
+Radmon Enable:              2015:004:04:05:53.904 00:05:53  1117207 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2015:004:04:05:55.904 00:00:00  1117215 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2015:004:04:05:56.904 00:00:01  1117219 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on 
+ HRC shield B step 0 -> 4:  2015:004:04:06:06.904 00:00:10  1117258 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2015:004:04:06:16.904 00:00:10  1117297 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.90 sec)(90 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2015:006:06:11:54.367 00:00:01  1821053 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2015:006:06:11:56.367 00:00:01  1821061 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+Radmon Disable:             2015:006:06:11:56.367 00:00:00  1821061 -> Radmon Disable
+
+Radmon Enable:              2015:006:19:13:03.367 00:03:33  2003956 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2015:006:19:13:05.367 00:00:01  2003964 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2015:006:19:13:06.367 00:00:01  2003968 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on 
+ HRC shield B step 0 -> 4:  2015:006:19:13:16.367 00:00:10  2004007 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2015:006:19:13:26.367 00:00:10  2004046 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.90 sec)(90 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2015:008:21:22:32.138 00:00:01  2708615 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2015:008:21:22:34.138 00:00:01  2708623 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+Radmon Disable:             2015:008:21:22:34.138 00:00:00  2708623 -> Radmon Disable
+
+Radmon Enable:              2015:009:11:30:44.138 00:11:53  2907218 -> Radmon Enable
+ HRC shield B step 0 -> 0:  2015:009:11:30:46.138 00:00:00  2907226 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+ HRC shield B pwr   on:     2015:009:11:30:47.138 00:00:01  2907230 2S2HVON  641A020 == 641a020 sd0d01 shield b hv on 
+ HRC shield B step 0 -> 4:  2015:009:11:30:57.138 00:00:10  2907269 2S2STHV  641C080 == 641c080 sd0e04 (4) shield b hv step 
+ HRC shield B step 4 -> 8:  2015:009:11:31:07.138 00:00:10  2907308 2S2STHV  641C100 == 641c100 sd0e08 (8) shield b hv step 
+     shield B step (8):     (@max=8) after (43.90 sec)(90 < 200 vcdu) after radmon ena
+
+ HRC shield B pwr  off:     2015:011:12:20:36.383 00:00:01  3593236 2S2HVOF  641A000 == 641a000 sd0d00 shield b hv off 
+ HRC shield B step 8 -> 0:  2015:011:12:20:38.383 00:00:01  3593244 2S2STHV  641C000 == 641c000 sd0e00 (0) shield b hv step 
+Radmon Disable:             2015:011:12:20:38.383 00:00:00  3593244 -> Radmon Disable
+
+[OK]   CLP-039-chk-pmt-on-and-up.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-040-chk_dither_par.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+### start of init
+  RADMON:initial state    RADMON = ds: (0)
+  PREAMPA:initial state    PREAMPA = S
+  HV(I):initial state    HVI = off
+  HV(S):initial state    HVS = 1/2
+### start of init
+  DITHER_PAR:   DITHER_PAR = 0.000000:0.000000:0.002222:0.002222:0.509102:0.360002
+  SCS(87):initial state    SCS87 = dis
+  SCS(88):initial state    SCS88 = act
+  SCS(89):initial state    SCS89 = dis
+  SCS(90):initial state    SCS90 = dis
+  SCS(91):initial state    SCS91 = term
+  SCS(92):initial state    SCS92 = act
+  SCS(93):initial state    SCS93 = act
+### end of init
+
+RADMON 1  at: 2014:358:18:31:00.473 00:00:29 14388108 -> Radmon Enable
+SCS 90 ena HVS ramp up at: 2014:358:18:31:02.473 00:00:02 14388115 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 17107
+OBS SI: ACIS-S
+nr=383; L= 2014:358:18:53:14.920	00:20:02	14393315	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=383; L= 2014:358:18:53:14.920	00:20:02	14393315	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=383; nr+1; L= 2014:358:18:53:14.920							->   ANGP = 0.000000e+00 rad (0.000000e+00 deg)
+
+Dither Parameters: 
+ ANGP  =  0.000000e+00 rad (0.000000e+00 deg)
+ ANGY  =  0.000000e+00 rad (0.000000e+00 deg)
+ COEFP =  3.878000e-05 rad (2.221939e-03 deg)
+ COEFY =  3.878000e-05 rad (2.221939e-03 deg)
+ RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec)
+ RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec)
+  scs{91} is term when Dither is Enabled @ 2014:358:18:53:15.920 vcdu=14393319
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 16996
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16820
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17562
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 17001
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17538
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17033
+OBS SI: ACIS-S
+SCS 88 act HVS ramp down at: 2014:360:15:30:11.816 00:15:10 15020113 COACTSX  8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:360:15:30:11.816 00:00:00 15020113 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:360:15:30:11.816 00:00:00 15020113 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52228
+RADMON 0  at: 2014:360:15:39:57.816 00:00:00 15022400 -> Radmon Disable
+
+==================================
+OBS ID: 52227
+
+==================================
+OBS ID: 52226
+
+==================================
+OBS ID: 52225
+
+==================================
+OBS ID: 52224
+
+==================================
+OBS ID: 52223
+
+==================================
+OBS ID: 52222
+
+==================================
+OBS ID: 52221
+
+==================================
+OBS ID: 52220
+
+==================================
+OBS ID: 52219
+RADMON 1  at: 2014:361:05:48:07.816 00:03:06 15220995 -> Radmon Enable
+
+==================================
+OBS ID: 17565
+OBS SI: ACIS-S
+SCS 90 ena HVS ramp up at: 2014:361:05:48:09.816 00:00:01 15221003 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 17041
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16444
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16687
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17563
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52218
+SCS 88 act HVS ramp down at: 2014:363:07:43:48.058 00:00:50 15922420 COACTSX  8405800 -> ACTIVATE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:363:07:43:48.058 00:00:00 15922420 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:363:07:43:48.058 00:00:00 15922420 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2014:363:07:44:25.058 00:00:00 15922564 -> Radmon Disable
+
+==================================
+OBS ID: 52217
+
+==================================
+OBS ID: 52216
+
+==================================
+OBS ID: 52215
+
+==================================
+OBS ID: 52214
+
+==================================
+OBS ID: 52213
+RADMON 1  at: 2014:363:20:43:32.058 00:17:38 16104992 -> Radmon Enable
+SCS 90 ena HVS ramp up at: 2014:363:20:45:46.058 00:01:51 16105515 COENASX  8445A00 -> ENABLE SCS 0x5A (90) HRC-S HV Ramp Up
+
+==================================
+OBS ID: 16744
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 15966
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 14234
+OBS SI: HRC-I
+SCS 91 term HRC Dither control at: 2014:365:03:29:22.864 00:00:31 16537190 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+HV S off  at: 2014:365:03:29:23.864 00:00:01 16537194 2SPHVOF  6402000 == 6402000 sd0100 spect det hv off 
+HV I off  at: 2014:365:03:29:24.864 00:00:01 16537198 2IMHVOF  6412000 == 6412000 sd0900 imaging det hv off 
+SCS 88 dis HVS ramp down at: 2014:365:03:29:32.864 00:00:04 16537229 CODISASX  8455800 -> DISABLE SCS 0x58 (88) HRC-S HV Ramp Down
+SCS 90 dis HVS ramp up at: 2014:365:03:29:32.864 00:00:00 16537229 CODISASX  8455A00 -> DISABLE SCS 0x5A (90) HRC-S HV Ramp Up
+SCS 87 ena HVI ramp down at: 2014:365:03:30:08.864 00:00:02 16537370 COENASX  8445700 -> ENABLE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 ena HVI ramp up at: 2014:365:03:30:08.864 00:00:00 16537370 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 92 act HVI on at: 2014:365:03:30:08.864 00:00:00 16537370 COACTSX  8405C00 -> ACTIVATE SCS 0x5C (92) HRC-I HV On 
+SCS 91 act HRC Dither control at: 2014:365:03:31:29.864 00:01:11 16537686 COACTSX  8405B00 -> ACTIVATE SCS 0x5B (91) HRC Dither Control
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 14234/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:365:03:31:29.864; vcdu=16537686
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  on
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: ena
+
+nr=2734; L= 2014:365:03:38:57.197	00:07:27	16539431	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=2734; L= 2014:365:03:38:57.197	00:07:27	16539431	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=2734; nr+1; L= 2014:365:03:38:57.197							->   ANGP = 0.000000e+00 rad (0.000000e+00 deg)
+
+Dither Parameters: 
+ ANGP  =  0.000000e+00 rad (0.000000e+00 deg)
+ ANGY  =  0.000000e+00 rad (0.000000e+00 deg)
+ COEFP =  9.696999e-05 rad (5.555993e-03 deg)
+ COEFY =  9.696999e-05 rad (5.555993e-03 deg)
+ RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec)
+ RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec)
+  scs{91} is act when Dither is Enabled @ 2014:365:03:38:58.197 vcdu=16539435
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+
+==================================
+OBS ID: 16973
+OBS SI: ACIS-S
+nr=2846; L= 2014:365:07:05:07.838	00:27:08	16587707	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=2846; L= 2014:365:07:05:07.838	00:27:08	16587707	AODITPAR  	8134401 -> SET DITHER PARAMETERS
+nr=2846; nr+1; L= 2014:365:07:05:07.838							->   ANGP = 0.000000e+00 rad (0.000000e+00 deg)
+
+Dither Parameters: 
+ ANGP  =  0.000000e+00 rad (0.000000e+00 deg)
+ ANGY  =  0.000000e+00 rad (0.000000e+00 deg)
+ COEFP =  3.878000e-05 rad (2.221939e-03 deg)
+ COEFY =  3.878000e-05 rad (2.221939e-03 deg)
+ RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec)
+ RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec)
+  scs{91} is act when Dither is Enabled @ 2014:365:07:05:08.838 vcdu=16587711
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+
+==================================
+OBS ID: 16144
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16179
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52212
+SCS 87 act HVI ramp down at: 2014:365:22:52:55.407 00:00:48  32413 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2014:365:22:52:55.407 00:00:00  32413 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2014:365:22:52:55.407 00:00:00  32413 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2014:365:22:53:32.407 00:00:00  32558 -> Radmon Disable
+
+==================================
+OBS ID: 52211
+
+==================================
+OBS ID: 52210
+
+==================================
+OBS ID: 52209
+
+==================================
+OBS ID: 52208
+
+==================================
+OBS ID: 52207
+
+==================================
+OBS ID: 52206
+RADMON 1  at: 2015:001:13:00:51.407 00:26:41  230954 -> Radmon Enable
+
+==================================
+OBS ID: 16672
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:001:13:00:53.407 00:00:01  230961 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 16275
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 17572
+OBS SI: ACIS-S
+SCS 87 act HVI ramp down at: 2015:003:13:53:57.904 01:23:56  917730 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:003:13:53:57.904 00:00:00  917730 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:003:13:53:57.904 00:00:00  917730 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52205
+RADMON 0  at: 2015:003:14:13:43.904 00:00:00  922358 -> Radmon Disable
+
+==================================
+OBS ID: 52204
+
+==================================
+OBS ID: 52203
+
+==================================
+OBS ID: 52202
+
+==================================
+OBS ID: 52201
+RADMON 1  at: 2015:004:04:05:53.904 00:05:53  1117207 -> Radmon Enable
+SCS 89 ena HVI ramp up at: 2015:004:04:05:55.904 00:00:01  1117215 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 17573
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16274
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16686
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16611
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17093
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17039
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16985
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17505
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52200
+SCS 87 act HVI ramp down at: 2015:006:06:11:19.367 00:00:48  1820916 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:006:06:11:19.367 00:00:00  1820916 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:006:06:11:19.367 00:00:00  1820916 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2015:006:06:11:56.367 00:00:00  1821061 -> Radmon Disable
+
+==================================
+OBS ID: 52199
+
+==================================
+OBS ID: 52198
+
+==================================
+OBS ID: 52197
+
+==================================
+OBS ID: 52196
+
+==================================
+OBS ID: 52195
+RADMON 1  at: 2015:006:19:13:03.367 00:03:33  2003956 -> Radmon Enable
+
+==================================
+OBS ID: 17441
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:006:19:19:17.367 00:00:37  2005416 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 87 act HVI ramp down at: 2015:008:21:06:48.138 08:21:47  2704931 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:008:21:06:48.138 00:00:00  2704931 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:008:21:06:48.138 00:00:00  2704931 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+
+==================================
+OBS ID: 52194
+RADMON 0  at: 2015:008:21:22:34.138 00:00:00  2708623 -> Radmon Disable
+
+==================================
+OBS ID: 52193
+
+==================================
+OBS ID: 52192
+
+==================================
+OBS ID: 52191
+
+==================================
+OBS ID: 52190
+
+==================================
+OBS ID: 52189
+RADMON 1  at: 2015:009:11:30:44.138 00:11:53  2907218 -> Radmon Enable
+
+==================================
+OBS ID: 16478
+OBS SI: ACIS-S
+SCS 89 ena HVI ramp up at: 2015:009:11:30:46.138 00:00:01  2907226 COENASX  8445900 -> ENABLE SCS 0x59 (89) HRC-I HV Ramp Up
+
+==================================
+OBS ID: 17084
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17096
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17574
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17145
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52188
+SCS 87 act HVI ramp down at: 2015:011:12:20:01.383 00:00:49  3593100 COACTSX  8405700 -> ACTIVATE SCS 0x57 (87) HRC-I HV Ramp Down
+SCS 89 dis HVI ramp up at: 2015:011:12:20:01.383 00:00:00  3593100 CODISASX  8455900 -> DISABLE SCS 0x59 (89) HRC-I HV Ramp Up
+SCS 91 term HRC Dither control at: 2015:011:12:20:01.383 00:00:00  3593100 COTERMSX  8415B00 -> TERMINATE SCS 0x5B (91) HRC Dither Control
+RADMON 0  at: 2015:011:12:20:38.383 00:00:00  3593244 -> Radmon Disable
+
+==================================
+OBS ID: 52187
+[OK]   CLP-040-chk_dither_par.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-041-chk_mechanism_cmds.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:365:03:29:37.864 00:00:02 16537249 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:365:03:29:38.864 00:00:01 16537252 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:365:03:29:58.864 00:00:01 16537330 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:365:03:29:59.864 00:00:01 16537334 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:365:03:30:00.864 00:00:01 16537338 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:365:03:30:01.864 00:00:01 16537342 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:365:03:30:02.864 00:00:01 16537346 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:365:03:30:03.864 00:00:01 16537350 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:365:03:30:04.864 00:00:01 16537354 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+[OK]   CLP-041-chk_mechanism_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-042-chk_fmt.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+  FORMAT: initial state    FMT = 2
+FORMAT HRC SET NIL  at: 2014:358:18:33:00.973 00:01:38 14388578 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2014:358:18:33:01.473 00:00:00 14388580 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 17107; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16996; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16820; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17562; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 17001; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17538; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17033; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52228; Current fmt: 2
+
+==================================
+OBS ID: 52227; Current fmt: 2
+
+==================================
+OBS ID: 52226; Current fmt: 2
+
+==================================
+OBS ID: 52225; Current fmt: 2
+
+==================================
+OBS ID: 52224; Current fmt: 2
+
+==================================
+OBS ID: 52223; Current fmt: 2
+
+==================================
+OBS ID: 52222; Current fmt: 2
+
+==================================
+OBS ID: 52221; Current fmt: 2
+
+==================================
+OBS ID: 52220; Current fmt: 2
+
+==================================
+OBS ID: 52219; Current fmt: 2
+FORMAT HRC SET NIL  at: 2014:361:05:19:16.967 01:04:16 15214240 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2014:361:05:19:17.467 00:00:00 15214242 CSELFMT4  7C40063 -> FORMAT 4
+FORMAT HRC SET NIL  at: 2014:361:05:23:34.767 00:03:43 15215246 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2014:361:05:23:35.267 00:00:01 15215248 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 17565; Current fmt: 2
+OBS SI: ACIS-S
+FORMAT HRC SET NIL  at: 2014:361:18:25:43.316 00:02:48 15398382 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2014:361:18:25:43.816 00:00:01 15398384 CSELFMT4  7C40063 -> FORMAT 4
+
+==================================
+OBS ID: 17041; Current fmt: 4
+OBS SI: ACIS-S
+FORMAT HRC SET NIL  at: 2014:361:18:30:01.116 00:03:43 15399388 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2014:361:18:30:01.616 00:00:01 15399390 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 16444; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16687; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17563; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52218; Current fmt: 2
+
+==================================
+OBS ID: 52217; Current fmt: 2
+
+==================================
+OBS ID: 52216; Current fmt: 2
+
+==================================
+OBS ID: 52215; Current fmt: 2
+
+==================================
+OBS ID: 52214; Current fmt: 2
+
+==================================
+OBS ID: 52213; Current fmt: 2
+
+==================================
+OBS ID: 16744; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 15966; Current fmt: 2
+OBS SI: ACIS-S
+FORMAT HRC SET 1  at: 2014:365:03:28:49.564 00:02:48 16537060 2OBSVASL  6434000 == 6434000 sd1a00 observing mode select 
+FORMAT S/C SET 1  at: 2014:365:03:28:50.064 00:00:01 16537062 CSELFMT1  7C40003 -> FORMAT 1
+
+==================================
+OBS ID: 14234; Current fmt: 1
+OBS SI: HRC-I
+   START OBS: fmth=1;  fmts=1 at: 2014:365:03:38:58.197 00:00:01 16539435 AOENDITH  8034301 -> DITHER ENABLE
+FORMAT HRC SET NIL  at: 2014:365:06:32:07.697 01:02:06 16579980 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2014:365:06:32:08.197 00:00:00 16579982 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 16973; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16144; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16179; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52212; Current fmt: 2
+
+==================================
+OBS ID: 52211; Current fmt: 2
+
+==================================
+OBS ID: 52210; Current fmt: 2
+
+==================================
+OBS ID: 52209; Current fmt: 2
+
+==================================
+OBS ID: 52208; Current fmt: 2
+
+==================================
+OBS ID: 52207; Current fmt: 2
+
+==================================
+OBS ID: 52206; Current fmt: 2
+FORMAT HRC SET NIL  at: 2015:001:12:29:51.281 02:45:40  223695 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2015:001:12:29:51.781 00:00:00  223697 CSELFMT4  7C40063 -> FORMAT 4
+FORMAT HRC SET NIL  at: 2015:001:12:34:09.081 00:03:43  224701 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2015:001:12:34:09.581 00:00:01  224703 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 16672; Current fmt: 2
+OBS SI: ACIS-S
+FORMAT HRC SET NIL  at: 2015:003:01:18:09.907 00:01:03  740762 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2015:003:01:18:10.407 00:00:01  740764 CSELFMT4  7C40063 -> FORMAT 4
+
+==================================
+OBS ID: 16275; Current fmt: 4
+OBS SI: ACIS-I
+FORMAT HRC SET NIL  at: 2015:003:01:22:27.707 00:03:43  741768 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2015:003:01:22:28.207 00:00:01  741770 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 17572; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52205; Current fmt: 2
+
+==================================
+OBS ID: 52204; Current fmt: 2
+
+==================================
+OBS ID: 52203; Current fmt: 2
+
+==================================
+OBS ID: 52202; Current fmt: 2
+
+==================================
+OBS ID: 52201; Current fmt: 2
+
+==================================
+OBS ID: 17573; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16274; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 16686; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16611; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17093; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17039; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 16985; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17505; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52200; Current fmt: 2
+
+==================================
+OBS ID: 52199; Current fmt: 2
+
+==================================
+OBS ID: 52198; Current fmt: 2
+
+==================================
+OBS ID: 52197; Current fmt: 2
+
+==================================
+OBS ID: 52196; Current fmt: 2
+
+==================================
+OBS ID: 52195; Current fmt: 2
+FORMAT HRC SET NIL  at: 2015:006:19:05:10.165 02:51:33  2002110 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2015:006:19:05:10.665 00:00:00  2002112 CSELFMT4  7C40063 -> FORMAT 4
+FORMAT HRC SET NIL  at: 2015:006:19:09:27.965 00:03:43  2003116 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2015:006:19:09:28.465 00:00:01  2003118 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 17441; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 52194; Current fmt: 2
+
+==================================
+OBS ID: 52193; Current fmt: 2
+
+==================================
+OBS ID: 52192; Current fmt: 2
+
+==================================
+OBS ID: 52191; Current fmt: 2
+
+==================================
+OBS ID: 52190; Current fmt: 2
+
+==================================
+OBS ID: 52189; Current fmt: 2
+FORMAT HRC SET NIL  at: 2015:009:11:14:31.274 03:26:04  2903421 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 4  at: 2015:009:11:14:31.774 00:00:00  2903423 CSELFMT4  7C40063 -> FORMAT 4
+FORMAT HRC SET NIL  at: 2015:009:11:18:49.074 00:03:43  2904427 2NXILASL  6434020 == 6434020 sd1a01 next in line mode select 
+FORMAT S/C SET 2  at: 2015:009:11:18:49.574 00:00:01  2904429 CSELFMT2  7C40023 -> FORMAT 2
+
+==================================
+OBS ID: 16478; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17084; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17096; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17574; Current fmt: 2
+OBS SI: ACIS-S
+
+==================================
+OBS ID: 17145; Current fmt: 2
+OBS SI: ACIS-I
+
+==================================
+OBS ID: 52188; Current fmt: 2
+
+==================================
+OBS ID: 52187; Current fmt: 2
+[OK]   CLP-042-chk_fmt.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-043-chk_discrete_hv_cmds_cmds.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[OK]   CLP-043-chk_discrete_hv_cmds_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-044-chk_hrc_cmds_in_vehicle_loads.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[OK]   CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-045-chk_hrc_scs_in_vehicle_loads.pl -d 1 /d0/hrc/occ/mp/2014:358:A-DEC2414A
+[OK]   CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+
+2 errors found in load review

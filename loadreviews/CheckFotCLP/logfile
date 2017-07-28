@@ -1,0 +1,1850 @@
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2014:256:A-SEP1314A ===
+Command Line: CLP-MasterCheck.sh /d0/hrc/occ/mp/2014:256:A-SEP1314A
+Fri Sep 12 20:26:34 EDT 2014
+2014:256:00:26:34
+=== CLP-MasterCheck.sh /d0/hrc/occ/mp/2014:256:A-SEP1314A ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-030-chk_for_cmd_timing_lt_1sec.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]  CLP-030-chk_for_cmd_timing_lt_1sec.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-031-chk_for_cmds_between_radmon-disable.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]  CLP-031-chk_for_cmds_between_radmon.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-033-chk_for_HV_down_in_radzone.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-033-chk_for_HV_down_in_radzone.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-034-chk_for_bad_cmd_hex.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-034-chk_for_bad_cmd_hex.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-036-chk_hv_scs_for_selected_detector.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+==================================================
+  OBS: 16376/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:01:49:34.610; vcdu=14328158
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16377/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:03:17:25.757; vcdu=14348728
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16378/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:03:42:35.757; vcdu=14354621
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16379/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:07:45.757; vcdu=14360513
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16380/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:32:55.757; vcdu=14366406
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16381/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:58:05.757; vcdu=14372299
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16382/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:05:23:15.757; vcdu=14378191
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16383/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:05:48:25.757; vcdu=14384084
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16384/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:06:13:35.757; vcdu=14389977
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16385/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:06:38:45.757; vcdu=14395869
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16386/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:03:55.757; vcdu=14401762
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16387/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:29:05.757; vcdu=14407655
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16388/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:54:15.757; vcdu=14413547
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16389/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:08:19:25.757; vcdu=14419440
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16390/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:08:44:35.757; vcdu=14425333
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16391/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:09:09:45.757; vcdu=14431226
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16392/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:09:34:55.757; vcdu=14437118
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16393/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:00:05.757; vcdu=14443011
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16394/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:25:15.757; vcdu=14448904
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16395/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:50:25.757; vcdu=14454796
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16396/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:11:15:35.757; vcdu=14460689
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+==================================================
+  OBS: 16397/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:11:34:48.757; vcdu=14465188
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16398/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:12:40:05.004; vcdu=14480471
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16399/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:05:15.004; vcdu=14486364
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16400/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:30:25.004; vcdu=14492257
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16401/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:55:35.004; vcdu=14498149
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16402/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:14:20:45.004; vcdu=14504042
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16403/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:14:45:55.004; vcdu=14509935
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:15:11:05.004; vcdu=14515827
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16405/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:15:36:15.004; vcdu=14521720
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16406/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:01:25.004; vcdu=14527613
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16407/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:26:35.004; vcdu=14533506
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16408/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:51:45.004; vcdu=14539398
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16409/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:17:16:55.004; vcdu=14545291
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16410/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:17:42:05.004; vcdu=14551184
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16411/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:07:15.004; vcdu=14557076
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16412/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:32:25.004; vcdu=14562969
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16413/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:57:35.004; vcdu=14568862
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16414/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:19:22:45.004; vcdu=14574754
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16416/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:19:47:55.004; vcdu=14580647
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16415/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:20:13:05.004; vcdu=14586540
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+==================================================
+  OBS: 16417/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:20:38:15.004; vcdu=14592432
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+[OK]   CLP-036-chk_hv_scs_for_selected_detector.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-037-chk-format_commands.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-037-chk-format_commands.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-038-chk-hrccmds_nsec_after_dither_ena.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-038-chk-hrccmds_nsec_after_dither_ena.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-039-chk-pmt-on-and-up.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[FAIL] CLP-039-chk-pmt-on-and-up.pl
+ Found 2 configuration errors:
+Error [0]
+ Shield HV is on when radmon is enabled: @ vcdu = 13463589
+
+Error [1]
+ Shield HV step is not 0 when radmon is enabled: @ vcdu = 13463589
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-040-chk_dither_par.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+  scs{91} is term when Dither is Enabled @ 2014:256:12:25:17.970 vcdu=13465498
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16376/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:01:49:34.610; vcdu=14328158
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+  scs{91} is act when Dither is Enabled @ 2014:259:02:12:24.757 vcdu=14333505
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  scs91 is active AND dither is enabled - Checking Dither parameters:
+   angp  (0.000000e+00) OK
+   angy  (0.000000e+00) OK
+   coefp (5.555993e-03) OK
+   coefy (5.555993e-03) OK
+   ratep (4.684017e-01) OK
+   ratey (3.312012e-01) OK
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16377/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:03:17:25.757; vcdu=14348728
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16378/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:03:42:35.757; vcdu=14354621
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16379/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:07:45.757; vcdu=14360513
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16380/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:32:55.757; vcdu=14366406
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16381/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:04:58:05.757; vcdu=14372299
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16382/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:05:23:15.757; vcdu=14378191
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16383/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:05:48:25.757; vcdu=14384084
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16384/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:06:13:35.757; vcdu=14389977
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16385/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:06:38:45.757; vcdu=14395869
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16386/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:03:55.757; vcdu=14401762
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16387/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:29:05.757; vcdu=14407655
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16388/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:07:54:15.757; vcdu=14413547
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16389/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:08:19:25.757; vcdu=14419440
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16390/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:08:44:35.757; vcdu=14425333
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16391/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:09:09:45.757; vcdu=14431226
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16392/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:09:34:55.757; vcdu=14437118
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16393/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:00:05.757; vcdu=14443011
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16394/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:25:15.757; vcdu=14448904
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16395/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:10:50:25.757; vcdu=14454796
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16396/HRC-I
+
+  SCS 91 HRC Dither control:  act @ 2014:259:11:15:35.757; vcdu=14460689
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  off
+  SCS 93 HVS on:  term
+  SCS 90 HVS ramp up: dis
+  SCS 88 HVS ramp down: dis
+
+  HV I:  up
+  SCS 92 HVI on: act
+  SCS 89 HVI ramp up: ena
+  SCS 87 HVI ramp down: act
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16397/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:11:34:48.757; vcdu=14465188
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16398/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:12:40:05.004; vcdu=14480471
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16399/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:05:15.004; vcdu=14486364
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16400/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:30:25.004; vcdu=14492257
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16401/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:13:55:35.004; vcdu=14498149
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16402/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:14:20:45.004; vcdu=14504042
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16403/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:14:45:55.004; vcdu=14509935
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16404/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:15:11:05.004; vcdu=14515827
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16405/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:15:36:15.004; vcdu=14521720
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16406/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:01:25.004; vcdu=14527613
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16407/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:26:35.004; vcdu=14533506
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16408/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:16:51:45.004; vcdu=14539398
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16409/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:17:16:55.004; vcdu=14545291
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16410/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:17:42:05.004; vcdu=14551184
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16411/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:07:15.004; vcdu=14557076
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16412/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:32:25.004; vcdu=14562969
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16413/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:18:57:35.004; vcdu=14568862
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16414/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:19:22:45.004; vcdu=14574754
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16416/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:19:47:55.004; vcdu=14580647
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16415/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:20:13:05.004; vcdu=14586540
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=
+  OBS: 16417/HRC-S
+
+  SCS 91 HRC Dither control:  act @ 2014:259:20:38:15.004; vcdu=14592432
+  Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  9.696999e-05 rad (5.555993e-03 deg) 
+   COEFY =  9.696999e-05 rad (5.555993e-03 deg) 
+   RATEP =  8.175120e-03 rad/sec (4.684017e-01 deg/sec) 
+   RATEY =  5.780529e-03 rad/sec (3.312012e-01 deg/sec) 
+
+  HV S:  on
+  SCS 93 HVS on:  act
+  SCS 90 HVS ramp up: ena
+  SCS 88 HVS ramp down: ena
+
+  HV I:  off
+  SCS 92 HVI on: term
+  SCS 89 HVI ramp up: dis
+  SCS 87 HVI ramp down: dis
+
+  scs{91} is act when Dither is Enabled @ 2014:259:21:10:13.487 vcdu=14599919
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+[OK]   CLP-040-chk_dither_par.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-041-chk_mechanism_cmds.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:11:32:49.757 00:00:02 14464724 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:11:32:50.757 00:00:01 14464728 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:11:33:10.757 00:00:01 14464806 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:11:33:11.757 00:00:01 14464810 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:11:33:12.757 00:00:01 14464814 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:11:33:13.757 00:00:01 14464818 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:11:33:14.757 00:00:01 14464822 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:11:33:15.757 00:00:01 14464826 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:11:33:16.757 00:00:01 14464829 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:12:39:26.004 00:00:02 14480319 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:12:39:27.004 00:00:01 14480323 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:12:39:47.004 00:00:01 14480401 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:12:39:48.004 00:00:01 14480405 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:12:39:49.004 00:00:01 14480409 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:12:39:50.004 00:00:01 14480413 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:12:39:51.004 00:00:01 14480417 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:12:39:52.004 00:00:01 14480421 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:12:39:53.004 00:00:01 14480425 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:13:04:36.004 00:00:02 14486212 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:13:04:37.004 00:00:01 14486216 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:13:04:57.004 00:00:01 14486294 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:13:04:58.004 00:00:01 14486298 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:13:04:59.004 00:00:01 14486302 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:13:05:00.004 00:00:01 14486306 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:13:05:01.004 00:00:01 14486309 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:13:05:02.004 00:00:01 14486313 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:13:05:03.004 00:00:01 14486317 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:13:29:46.004 00:00:02 14492105 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:13:29:47.004 00:00:01 14492108 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:13:30:07.004 00:00:01 14492186 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:13:30:08.004 00:00:01 14492190 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:13:30:09.004 00:00:01 14492194 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:13:30:10.004 00:00:01 14492198 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:13:30:11.004 00:00:01 14492202 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:13:30:12.004 00:00:01 14492206 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:13:30:13.004 00:00:01 14492210 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:13:54:56.004 00:00:02 14497997 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:13:54:57.004 00:00:01 14498001 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:13:55:17.004 00:00:01 14498079 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:13:55:18.004 00:00:01 14498083 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:13:55:19.004 00:00:01 14498087 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:13:55:20.004 00:00:01 14498091 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:13:55:21.004 00:00:01 14498095 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:13:55:22.004 00:00:01 14498099 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:13:55:23.004 00:00:01 14498103 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:14:20:06.004 00:00:02 14503890 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:14:20:07.004 00:00:01 14503894 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:14:20:27.004 00:00:01 14503972 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:14:20:28.004 00:00:01 14503976 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:14:20:29.004 00:00:01 14503980 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:14:20:30.004 00:00:01 14503984 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:14:20:31.004 00:00:01 14503987 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:14:20:32.004 00:00:01 14503991 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:14:20:33.004 00:00:01 14503995 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:14:45:16.004 00:00:02 14509783 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:14:45:17.004 00:00:01 14509786 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:14:45:37.004 00:00:01 14509865 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:14:45:38.004 00:00:01 14509868 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:14:45:39.004 00:00:01 14509872 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:14:45:40.004 00:00:01 14509876 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:14:45:41.004 00:00:01 14509880 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:14:45:42.004 00:00:01 14509884 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:14:45:43.004 00:00:01 14509888 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:15:10:26.004 00:00:02 14515675 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:15:10:27.004 00:00:01 14515679 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:15:10:47.004 00:00:01 14515757 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:15:10:48.004 00:00:01 14515761 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:15:10:49.004 00:00:01 14515765 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:15:10:50.004 00:00:01 14515769 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:15:10:51.004 00:00:01 14515773 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:15:10:52.004 00:00:01 14515777 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:15:10:53.004 00:00:01 14515781 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:15:35:36.004 00:00:02 14521568 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:15:35:37.004 00:00:01 14521572 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:15:35:57.004 00:00:01 14521650 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:15:35:58.004 00:00:01 14521654 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:15:35:59.004 00:00:01 14521658 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:15:36:00.004 00:00:01 14521662 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:15:36:01.004 00:00:01 14521666 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:15:36:02.004 00:00:01 14521669 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:15:36:03.004 00:00:01 14521673 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:16:00:46.004 00:00:02 14527461 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:16:00:47.004 00:00:01 14527465 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:16:01:07.004 00:00:01 14527543 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:16:01:08.004 00:00:01 14527546 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:16:01:09.004 00:00:01 14527550 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:16:01:10.004 00:00:01 14527554 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:16:01:11.004 00:00:01 14527558 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:16:01:12.004 00:00:01 14527562 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:16:01:13.004 00:00:01 14527566 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:16:25:56.004 00:00:02 14533353 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:16:25:57.004 00:00:01 14533357 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:16:26:17.004 00:00:01 14533435 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:16:26:18.004 00:00:01 14533439 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:16:26:19.004 00:00:01 14533443 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:16:26:20.004 00:00:01 14533447 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:16:26:21.004 00:00:01 14533451 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:16:26:22.004 00:00:01 14533455 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:16:26:23.004 00:00:01 14533459 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:16:51:06.004 00:00:02 14539246 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:16:51:07.004 00:00:01 14539250 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:16:51:27.004 00:00:01 14539328 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:16:51:28.004 00:00:01 14539332 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:16:51:29.004 00:00:01 14539336 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:16:51:30.004 00:00:01 14539340 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:16:51:31.004 00:00:01 14539344 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:16:51:32.004 00:00:01 14539347 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:16:51:33.004 00:00:01 14539351 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:17:16:16.004 00:00:02 14545139 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:17:16:17.004 00:00:01 14545143 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:17:16:37.004 00:00:01 14545221 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:17:16:38.004 00:00:01 14545225 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:17:16:39.004 00:00:01 14545228 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:17:16:40.004 00:00:01 14545232 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:17:16:41.004 00:00:01 14545236 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:17:16:42.004 00:00:01 14545240 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:17:16:43.004 00:00:01 14545244 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:17:41:26.004 00:00:02 14551031 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:17:41:27.004 00:00:01 14551035 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:17:41:47.004 00:00:01 14551113 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:17:41:48.004 00:00:01 14551117 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:17:41:49.004 00:00:01 14551121 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:17:41:50.004 00:00:01 14551125 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:17:41:51.004 00:00:01 14551129 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:17:41:52.004 00:00:01 14551133 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:17:41:53.004 00:00:01 14551137 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:18:06:36.004 00:00:02 14556924 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:18:06:37.004 00:00:01 14556928 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:18:06:57.004 00:00:01 14557006 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:18:06:58.004 00:00:01 14557010 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:18:06:59.004 00:00:01 14557014 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:18:07:00.004 00:00:01 14557018 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:18:07:01.004 00:00:01 14557022 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:18:07:02.004 00:00:01 14557026 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:18:07:03.004 00:00:01 14557029 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:18:31:46.004 00:00:02 14562817 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:18:31:47.004 00:00:01 14562821 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:18:32:07.004 00:00:01 14562899 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:18:32:08.004 00:00:01 14562903 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:18:32:09.004 00:00:01 14562906 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:18:32:10.004 00:00:01 14562910 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:18:32:11.004 00:00:01 14562914 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:18:32:12.004 00:00:01 14562918 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:18:32:13.004 00:00:01 14562922 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:18:56:56.004 00:00:02 14568709 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:18:56:57.004 00:00:01 14568713 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:18:57:17.004 00:00:01 14568791 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:18:57:18.004 00:00:01 14568795 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:18:57:19.004 00:00:01 14568799 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:18:57:20.004 00:00:01 14568803 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:18:57:21.004 00:00:01 14568807 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:18:57:22.004 00:00:01 14568811 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:18:57:23.004 00:00:01 14568815 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:19:22:06.004 00:00:02 14574602 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:19:22:07.004 00:00:01 14574606 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:19:22:27.004 00:00:01 14574684 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:19:22:28.004 00:00:01 14574688 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:19:22:29.004 00:00:01 14574692 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:19:22:30.004 00:00:01 14574696 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:19:22:31.004 00:00:01 14574700 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:19:22:32.004 00:00:01 14574704 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:19:22:33.004 00:00:01 14574707 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:19:47:16.004 00:00:02 14580495 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:19:47:17.004 00:00:01 14580499 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:19:47:37.004 00:00:01 14580577 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:19:47:38.004 00:00:01 14580581 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:19:47:39.004 00:00:01 14580585 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:19:47:40.004 00:00:01 14580588 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable VCDU WARN: dvcdu: 3
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:19:47:41.004 00:00:01 14580592 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:19:47:42.004 00:00:01 14580596 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:19:47:43.004 00:00:01 14580600 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:20:12:26.004 00:00:02 14586387 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:20:12:27.004 00:00:01 14586391 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:20:12:47.004 00:00:01 14586469 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:20:12:48.004 00:00:01 14586473 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:20:12:49.004 00:00:01 14586477 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:20:12:50.004 00:00:01 14586481 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:20:12:51.004 00:00:01 14586485 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:20:12:52.004 00:00:01 14586489 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:20:12:53.004 00:00:01 14586493 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags 
+Warn: Found Mech Cmd [2PSHBALD] in line:  2014:259:20:37:36.004 00:00:02 14592280 2PSHBALD  6430000 == 6430000 sd1800 (0) mot ctrl pos word hi byte load 
+Warn: Found Mech Cmd [2PSLBALD] in line:  2014:259:20:37:37.004 00:00:01 14592284 2PSLBALD  6432000 == 6432000 sd1900 (0) mot ctrl pos word lo byte load 
+Warn: Found Mech Cmd [2SMOIAEN] in line:  2014:259:20:37:57.004 00:00:01 14592362 2SMOIAEN  6492020 == 6492020 sd4901 selected mtr overcurrent prot enable 
+Warn: Found Mech Cmd [2SMOTAEN] in line:  2014:259:20:37:58.004 00:00:01 14592366 2SMOTAEN  6494020 == 6494020 sd4a01 selected mtr overtemp prot enable 
+Warn: Found Mech Cmd [2CHPLAEN] in line:  2014:259:20:37:59.004 00:00:01 14592370 2CHPLAEN  64A0020 == 64a0020 sd5001 clos/home primary limit sw enable 
+Warn: Found Mech Cmd [2CHSLAEN] in line:  2014:259:20:38:00.004 00:00:01 14592374 2CHSLAEN  64A2020 == 64a2020 sd5101 clos/home secondary lim sw enable 
+Warn: Found Mech Cmd [2OMPLAEN] in line:  2014:259:20:38:01.004 00:00:01 14592378 2OMPLAEN  64A4020 == 64a4020 sd5201 open/max primary limit sw enable 
+Warn: Found Mech Cmd [2OMSLAEN] in line:  2014:259:20:38:02.004 00:00:01 14592382 2OMSLAEN  64A6020 == 64a6020 sd5301 open/max secondary lim sw enable 
+Warn: Found Mech Cmd [2STFLAEN] in line:  2014:259:20:38:03.004 00:00:01 14592385 2STFLAEN  64A8020 == 64a8020 sd5401 enable stop flags VCDU WARN: dvcdu: 3
+[OK]   CLP-041-chk_mechanism_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-042-chk_fmt.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-042-chk_fmt.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-043-chk_discrete_hv_cmds_cmds.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-043-chk_discrete_hv_cmds_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-044-chk_hrc_cmds_in_vehicle_loads.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-044-chk_hrc_cmds_in_vehicle_loads.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CLP-045-chk_hrc_scs_in_vehicle_loads.pl /d0/hrc/occ/mp/2014:256:A-SEP1314A
+[OK]   CLP-045-chk_hrc_scs_in_vehicle_loads.pl
+
+2 errors found in load review

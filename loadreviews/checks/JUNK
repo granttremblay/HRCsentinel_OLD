@@ -1,0 +1,173 @@
+Fri Jun 23 05:20:04 EDT 2017
+2017:174:09:20:04
+=== runChecks.py /d0/hrc/occ/mp/2017:177:B-JUN2617B ===
+Command Line: ./runChecks.py /d0/hrc/occ/mp/2017:177:B-JUN2617B
+=== runChecks.py /d0/hrc/occ/mp/2017:177:B-JUN2617B ===
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-030-cmd_timing_lt_1sec.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]  ./CHK-030-cmd_timing_lt_1sec.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-031-cmds_during_radmon-disable.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]  ./CHK-031-cmds_during_radmon-disable.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-033-HV_down_in_radzone.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-033-HV_down_in_radzone.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-034-bad_cmd_hex.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-034-bad_cmd_hex.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-036-hv_scs_for_selected_detector.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-036-hv_scs_for_selected_detector.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-037-format_commands.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-037-format_commands.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-038-hrccmds_nsec_after_dither_ena.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-038-hrccmds_nsec_after_dither_ena.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-039-pmt-on-and-up.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-039-pmt-on-and-up.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-040-dither_par.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+  scs{91} is term when Dither is Enabled @ 2017:179:00:35:11.585 vcdu=11181702
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:179:15:42:50.698 vcdu=11394225
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:179:16:30:45.201 vcdu=11405443
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:06:12:25.557 vcdu=11597834
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:21:37:59.698 vcdu=11814553
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:180:22:17:31.873 vcdu=11823810
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:181:15:20:43.880 vcdu=12063389
+  Current Dither Parameters:
+   ANGP  =  3.490659e-02 rad (2.000008e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.102800e-04 rad (1.777780e-02 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  2.373700e-03 rad/sec (1.360035e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:06:27:16.744 vcdu=12275654
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:07:14:57.310 vcdu=12286817
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:182:20:36:26.744 vcdu=12474483
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  1.939000e-05 rad (1.110969e-03 deg) 
+   COEFY =  1.939000e-05 rad (1.110969e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+  scs{91} is term when Dither is Enabled @ 2017:183:03:43:25.870 vcdu=12574460
+  Current Dither Parameters:
+   ANGP  =  0.000000e+00 rad (0.000000e+00 deg) 
+   ANGY  =  0.000000e+00 rad (0.000000e+00 deg) 
+   COEFP =  3.878000e-05 rad (2.221939e-03 deg) 
+   COEFY =  3.878000e-05 rad (2.221939e-03 deg) 
+   RATEP =  8.885469e-03 rad/sec (5.091018e-01 deg/sec) 
+   RATEY =  6.283189e-03 rad/sec (3.600016e-01 deg/sec) 
+
+  scs91 is NOT active and dither is enabled
+[OK]   ./CHK-040-dither_par.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-041-mechanism_cmds.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-041-mechanism_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-042-fmt.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-042-fmt.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-043-discrete_hv_cmds_cmds.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-043-discrete_hv_cmds_cmds.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-044-hrc_cmds_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-044-hrc_cmds_in_vehicle_loads.pl
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+CHK-045-hrc_scs_in_vehicle_loads.pl /d0/hrc/occ/mp/2017:177:B-JUN2617B
+[OK]   ./CHK-045-hrc_scs_in_vehicle_loads.pl
+
+0 errors found in load review
