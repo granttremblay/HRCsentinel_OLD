@@ -16,6 +16,8 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
+from scipy.interpolate import spline
+
 def fetchTelemetry(msid, start, now, filter_bad=True):
     '''
     Fetch the telemetry from the Ska archive for the given MSID.
@@ -25,7 +27,7 @@ def fetchTelemetry(msid, start, now, filter_bad=True):
     Returns an instance of class MSID
     '''
 
-    telemetry = fetch.MSID(msid, start, now, filter_bad = filter_bad, stat = None)
+    telemetry = fetch.MSID(msid, start, now, filter_bad = filter_bad, stat = 'daily')
 
     return telemetry
 
@@ -57,7 +59,6 @@ def scaleTelemetry(mainbus_voltage_telemetry, mainbus_current_telemetry):
     mainbus_current_amps = mainbus_current_telemetry.vals
     # mainbus_current_amps = 0.0682 * mainbus_current_telemetry.vals + -8.65
 
-    print mainbus_voltage_telemetry.unit
     return mainbus_voltage_volts, mainbus_current_amps
 
 
@@ -138,9 +139,11 @@ def plotter(times, y, xlim=None, ylim=None, xlabel="Mission Year",
 def main():
 
     mainbus_voltage_msid = "2PRBSVL"
+    mainbus_voltage_msid = "2P24VAVL"
     mainbus_current_msid = "2PRBSCR"
 
-    missiondays = 6070  # Go back roughly 18 years
+
+    missiondays = 6200  # Go back roughly 18 years
     now = Chandra.Time.DateTime().secs
     start = now - missiondays * 24.0 * 3600.0
 
@@ -151,9 +154,17 @@ def main():
 
     watts = mainbus_voltage_telemetry.vals * mainbus_current_telemetry.vals
 
-    #plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals)
-    #plot_cxctime(mainbus_current_telemetry.times, mainbus_current_amps)
-    plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
+    plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals, fmt='')
+    #plot_cxctime(mainbus_current_telemetry.times, mainbus_current_amps, fmt='')
+    #plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
+
+
+    #xnew = np.linspace(mainbus_current_telemetry.times.min(),mainbus_current_telemetry.times.max(),300)
+
+    #power_smooth = spline(mainbus_current_telemetry.times,watts,xnew)
+
+    #plot_cxctime(xnew,power_smooth)
+
 
     #plotter(times, watts)
 
