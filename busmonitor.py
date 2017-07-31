@@ -138,7 +138,7 @@ def plotter(times, y, xlim=None, ylim=None, xlabel="Mission Year",
 
 def main():
 
-    mainbus_voltage_msid = "2PRBSVL"
+    #mainbus_voltage_msid = "2PRBSVL"
     mainbus_voltage_msid = "2P24VAVL"
     mainbus_current_msid = "2PRBSCR"
 
@@ -154,9 +154,9 @@ def main():
 
     watts = mainbus_voltage_telemetry.vals * mainbus_current_telemetry.vals
 
-    plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals, fmt='')
+    #plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals, fmt='')
     #plot_cxctime(mainbus_current_telemetry.times, mainbus_current_amps, fmt='')
-    #plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
+    plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
 
 
     #xnew = np.linspace(mainbus_current_telemetry.times.min(),mainbus_current_telemetry.times.max(),300)
