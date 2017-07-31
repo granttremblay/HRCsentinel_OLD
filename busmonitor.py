@@ -61,8 +61,25 @@ def scaleTelemetry(mainbus_voltage_telemetry, mainbus_current_telemetry):
     return mainbus_voltage_volts, mainbus_current_amps
 
 
-def plotter(x, y, xlim=None, ylim=None, xlabel="Set your X-label!",
-            ylabel="Set your Y-label!", title="Set your Title!", file="temp.pdf",
+def cxctime2plotdate(times):
+    """
+    Convert input CXC time (sec) to the time base required for the matplotlib
+    plot_date function (days since start of year 1).
+
+    :param times: iterable list of times
+    :rtype: plot_date times
+    """
+
+    # Find the plotdate of first time and use a relative offset from there
+    t0 = Chandra.Time.DateTime(times[0]).unix
+    plotdate0 = epoch2num(t0)
+
+    return (np.asarray(times) - times[0]) / 86400. + plotdate0
+
+
+
+def plotter(times, y, xlim=None, ylim=None, xlabel="Mission Year",
+            ylabel="Main Bus Power (W)", title="28 Volt Bus", file="temp.pdf",
             save=False):
     '''Make a pretty plot'''
 
@@ -74,6 +91,45 @@ def plotter(x, y, xlim=None, ylim=None, xlabel="Set your X-label!",
     plt.rcParams['axes.labelsize'] = 12
     plt.rcParams['xtick.labelsize'] = 12
     plt.rcParams['ytick.labelsize'] = 12
+
+    pyplot.style.use('ggplot')
+
+    # Use best-practice labels
+    pyplot.rcParams['font.size'] = 12
+    pyplot.rcParams['axes.labelsize'] = 12
+    pyplot.rcParams['xtick.labelsize'] = 12
+    pyplot.rcParams['ytick.labelsize'] = 12
+
+    fig, ax = plt.subplots()
+
+    # if fig is None:
+    #     fig = pyplot.gcf()
+    #
+    # if ax is None:
+    #     ax = fig.gca()
+    #
+    # if yerr is not None or xerr is not None:
+    #     ax.errorbar(cxctime2plotdate(times), y, yerr=yerr, xerr=xerr, fmt=fmt, **kwargs)
+    #     ax.xaxis_date(tz)
+    # else:
+    #     ax.plot_date(cxctime2plotdate(times), y, fmt=fmt, **kwargs)
+    # ticklocs = set_time_ticks(ax)
+    # fig.autofmt_xdate()
+    #
+    # if state_codes is not None:
+    #     counts, codes = zip(*state_codes)
+    #     ax.yaxis.set_major_locator(FixedLocator(counts))
+    #     ax.yaxis.set_major_formatter(FixedFormatter(codes))
+    #
+    # # If plotting interactively then show the figure and enable interactive resizing
+    # if interactive and hasattr(fig, 'show'):
+    #     fig.canvas.draw()
+    #     ax.callbacks.connect('xlim_changed', remake_ticks)
+    #
+    # return ticklocs, fig, ax
+
+
+
 
     fig, ax = plt.subplots()
     plt.plot(x, y)
@@ -97,8 +153,9 @@ def main():
 
     #plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals)
     #plot_cxctime(mainbus_current_telemetry.times, mainbus_current_amps)
-    plot_cxctime(mainbus_current_telemetry.times, watts)
+    plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
 
+    #plotter(times, watts)
 
 if __name__ == '__main__':
     start_time = time.time()
