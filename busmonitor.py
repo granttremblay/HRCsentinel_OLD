@@ -139,8 +139,13 @@ def plotter(times, y, xlim=None, ylim=None, xlabel="Mission Year",
 def main():
 
     mainbus_voltage_msid = "2PRBSVL"
-    bus24_voltage_msid = "2P24VAVL"
+    #bus24_voltage_msid = "2P24VAVL"
     mainbus_current_msid = "2PRBSCR"
+
+    #mainbus_voltage_msid = "1DP28BVO"
+    #mainbus_current_msid = "1DP28BCU"
+
+    #mainbus_current_msid = "2PRBSCR"
 
 
     missiondays = 6200  # Go back roughly 18 years
@@ -149,7 +154,7 @@ def main():
 
     mainbus_voltage_telemetry = fetchTelemetry(mainbus_voltage_msid, start, now)
     mainbus_current_telemetry = fetchTelemetry(mainbus_current_msid, start, now)
-    bus24_voltage_telemetry = fetchTelemetry(bus24_voltage_msid, start, now)
+    #bus24_voltage_telemetry = fetchTelemetry(bus24_voltage_msid, start, now)
 
     mainbus_voltage_volts, mainbus_current_amps = scaleTelemetry(mainbus_voltage_telemetry, mainbus_current_telemetry)
 
@@ -157,7 +162,7 @@ def main():
 
     plot_cxctime(mainbus_voltage_telemetry.times, mainbus_voltage_telemetry.vals, fmt='')
     plot_cxctime(mainbus_current_telemetry.times, mainbus_current_amps, fmt='')
-    plot_cxctime(mainbus_current_telemetry.times, bus24_voltage_telemetry.vals, fmt='')
+    #plot_cxctime(mainbus_current_telemetry.times, bus24_voltage_telemetry.vals, fmt='')
     plot_cxctime(mainbus_current_telemetry.times, watts, fmt='')
 
 
